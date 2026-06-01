@@ -1,0 +1,28 @@
+# CSS Background Color Property MCQ
+
+**Question ID:** `66502a757adf49367655a162`
+
+**Question ID:** `66502a757adf49367655a162`
+
+> ✅ Solved
+
+## Question
+
+Which CSS property is used to change the background color?
+
+## Answer choices
+
+- ✅ **A. background-color** — Correct answer
+- ⬜ **B.** font-color
+- ⬜ **C.** text-background
+- ⬜ **D.** color-background
+
+## Submission
+
+- **Correct answer:** background-color
+- **Submitted at:** 2026-06-01T17:01:31.079Z
+- **Correct submission:** True
+
+## Explanation
+
+_Not available._
