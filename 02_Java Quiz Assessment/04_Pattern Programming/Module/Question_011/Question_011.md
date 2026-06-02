@@ -1,0 +1,39 @@
+# Generate Hollow Triangle
+
+**Question ID:** `6466500c23c8b32c52e6c98b`
+
+## Description
+
+Write a program to generate a hollow equilateral triangle pattern with the number of rows equal to the input number. Each row contains '*' symbols at the start, end and at the bottom of the triangle, separated by a space. Spaces are added before the '*' symbols to align the triangle in the center.
+
+## Input Format
+
+A single integer 'n' (1 ≤ n ≤ 100) - the number of rows in the triangle.
+
+## Output Format
+
+n lines each containing n - row_number spaces followed by '*' symbols separated by a space at the start, end and at the bottom of the triangle.
+
+## Sample Cases
+
+### Sample Case 1
+
+**Input**
+```text
+5
+```
+
+**Output**
+```text
+*
+* *
+* *
+* *
+* * * * *
+```
+
+_5 sample case(s) omitted because the captured values were empty or looked like links/encoded data._
+
+---
+
+**Submitted at:** 2026-06-02 19:41:25Z
