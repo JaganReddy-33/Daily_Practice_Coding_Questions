@@ -16,7 +16,7 @@ When changing the background color using the CSS element selector, what happens?
 ## Submission
 
 - **Correct answer:** It will not change the background color of the submit button.
-- **Submitted at:** 2026-06-03T11:03:46.779Z
+- **Submitted at:** 2026-06-03T11:03:56.815Z
 - **Correct submission:** True
 
 ## Explanation
