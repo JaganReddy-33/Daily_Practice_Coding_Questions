@@ -5,7 +5,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         int num = scanner.nextInt();
         // Your code goes here
-        if(num%2 == 0 && num%3 == 0){
+        if(num%2==0 && num%3==0){
             System.out.print("Yes");
         } else {
             System.out.print("No");
