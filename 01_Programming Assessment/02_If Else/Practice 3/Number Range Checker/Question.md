@@ -2,15 +2,15 @@
 
 ## Description
 
-Determine if a given number is less than 25 or greater than 150.
+Check if a given number is between 30 and 50 (inclusive).
 
 ## Input Format
 
-A single integer num (-1000 <= num <= 1000) representing the number to be checked.
+A single integer num (-100 <= num <= 100) representing the number to be checked.
 
 ## Output Format
 
-Print 'Yes' if the number is less than 25 or greater than 150, otherwise print 'No'.
+Print 'Yes' if the number is between 30 and 50 (inclusive), otherwise print 'No'.
 
 ## Sample Cases
 
@@ -18,7 +18,7 @@ Print 'Yes' if the number is less than 25 or greater than 150, otherwise print '
 
 **Input**
 ```text
-20
+37
 ```
 
 **Output**
@@ -30,7 +30,7 @@ Yes
 
 **Input**
 ```text
-100
+20
 ```
 
 **Output**
@@ -42,4 +42,4 @@ _5 sample case(s) omitted because the captured values were empty or looked like 
 
 ---
 
-**Submitted at:** 2026-06-07 15:48:28Z
+**Submitted at:** 2026-06-07 15:47:58Z
