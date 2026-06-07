@@ -5,7 +5,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         int num = scanner.nextInt();
         // Your code goes here
-        if(num < 25 || num > 150){
+        if(num>30 && num<50){
             System.out.print("Yes");
         } else {
             System.out.print("No");
