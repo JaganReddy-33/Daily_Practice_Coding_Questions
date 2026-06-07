@@ -2,15 +2,15 @@
 
 ## Description
 
-Check if a given number is between 30 and 50 (inclusive).
+Determine if a given number is less than 25 or greater than 150.
 
 ## Input Format
 
-A single integer num (-100 <= num <= 100) representing the number to be checked.
+A single integer num (-1000 <= num <= 1000) representing the number to be checked.
 
 ## Output Format
 
-Print 'Yes' if the number is between 30 and 50 (inclusive), otherwise print 'No'.
+Print 'Yes' if the number is less than 25 or greater than 150, otherwise print 'No'.
 
 ## Sample Cases
 
@@ -18,7 +18,7 @@ Print 'Yes' if the number is between 30 and 50 (inclusive), otherwise print 'No'
 
 **Input**
 ```text
-37
+20
 ```
 
 **Output**
@@ -31,7 +31,7 @@ Yes
 
 **Input**
 ```text
-20
+100
 ```
 
 **Output**
@@ -44,12 +44,12 @@ No
 
 **Input**
 ```text
-5e12:3a3d041fdc636ad3a2e02884521ecfb0:a785e09ec6d518d9d63f8eb6639e523e
+5e504b:c6ca699ddbd0f4194c2d6fdabb31eca6:0e39bc7459f029abed50b2a6d73247d7
 ```
 
 **Output**
 ```text
-9db561:538ca1735a85dcbb52e9315047bb7bd2:72b0b85c85c063355823a48c0231a3a9
+930cbb:44d625821a7cc4eb46ca5d26ea639656:57bf4712af28a8fa6574a4518e01352e
 ```
 
 
@@ -57,12 +57,12 @@ No
 
 **Input**
 ```text
-044b:65def86e97ab4f3d85f7c614187ccf50:a78d9c9e9c5a77eb7fea3f6ba0a56986
+4719:fd9ce26c44667e22f6b3deb4e273c986:d8df1d9c161e12f671f5d764ff9d63cf
 ```
 
 **Output**
 ```text
-bcec89:60c3e264242d7e598b2135aaa464baaa:90ce7141e76048ccfd88188c64d96628
+b711:f4c032892db583adaa2d4ac333518c04:a22e5dc6b603cf5c0868d967eb51f19a
 ```
 
 
@@ -70,12 +70,12 @@ bcec89:60c3e264242d7e598b2135aaa464baaa:90ce7141e76048ccfd88188c64d96628
 
 **Input**
 ```text
-dbd4:2d21a0b3a31ba55f2d98174eb9815f8b:e018919d1dba445ce390195a8fb82e14
+8df7bc:7ae139c6fdf58341a3e382d42fe2dd0a:303a6b00bba5900e5ac4bb7e5f640f7e
 ```
 
 **Output**
 ```text
-c5e0:c69475e3a62bb959f7a95e7af87bf1a2:8a19422573a13820c27df40a881a9a29
+3eec:c56c387c37e7bd6a3d753de9c8fefe89:254df8e21ecb60ca50d183152b069347
 ```
 
 
@@ -83,12 +83,12 @@ c5e0:c69475e3a62bb959f7a95e7af87bf1a2:8a19422573a13820c27df40a881a9a29
 
 **Input**
 ```text
-871d07:ab566c5e0607095c764e476e11d50d24:09c357be77092e079a6c227d2f73fb05
+d83cf94cd9:a7b6115185505250b953b87900ee71f6:18964fe712a05a27f22646a3c001ff58
 ```
 
 **Output**
 ```text
-d352:3e89ed19bc48c5fc17adbf48c815bb7a:e9d92ae2d61e800acfa0c029fc41615a
+7d5a18:628fa0cf425da96a310b623234d1cbe5:ef550b4e0bd2ecbd5c033cfe8fe39ba5
 ```
 
 
@@ -96,11 +96,11 @@ d352:3e89ed19bc48c5fc17adbf48c815bb7a:e9d92ae2d61e800acfa0c029fc41615a
 
 **Input**
 ```text
-ff48:4105fad45d329526accb61c3b4c17488:52abb194bf5bcd9b4fb0ee352a01a318
+6f19c8da:171368169ad9bb808218e20169ca0295:f51651e8cf5d589638cbc356c5d476f3
 ```
 
 **Output**
 ```text
-e03df5:f171ecb227190c132ee19b46a42c7cd0:a5c0a4efce82f790d61e25b5afa093bb
+72a4dd:7216fca7d70d7c44cc1e440191125de5:4c6336fc4d67afef11ded745b89eea62
 ```
 
