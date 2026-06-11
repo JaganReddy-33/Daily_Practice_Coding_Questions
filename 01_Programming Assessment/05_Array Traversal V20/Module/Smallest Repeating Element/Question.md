@@ -2,17 +2,19 @@
 
 ## Description
 
-Find the smallest repeating element in a descending sorted array.
+Find the smallest repeating element in a sorted array.
 
 ## Input Format
 
-The first line contains an integer 'n' (2 <= n <= 100), representing the size of the array.
+The input consists of two lines: -
 
-The second line contains 'n' space-separated integers, representing the elements of the array in descending order.
+The first line contains a single integer, N, representing the size of the array (1 ≤ N ≤ 10^5).
+
+The second line contains N space-separated integers, A[1], A[2], ..., A[N], representing the elements of the sorted array (-10^9 ≤ A[i] ≤ 10^9).
 
 ## Output Format
 
-Print the smallest repeating element in the array.
+Print a single integer, the smallest repeating element in the array. If there are no repeating elements, print -1.
 
 ## Sample Cases
 
@@ -20,30 +22,30 @@ Print the smallest repeating element in the array.
 
 **Input**
 ```text
-5
-10 7 5 5 3
+8
+1 2 3 3 4 4 4 5
 ```
 
 **Output**
 ```text
-5
+3
 ```
 
 ### Sample Case 2
 
 **Input**
 ```text
-5
-9 8 7 6 6
+6
+1 2 3 4 5 6
 ```
 
 **Output**
 ```text
-6
+-1
 ```
 
 _5 sample case(s) omitted because the captured values were empty or looked like links/encoded data._
 
 ---
 
-**Submitted at:** 2026-06-11 16:38:45Z
+**Submitted at:** 2026-06-11 16:38:14Z
