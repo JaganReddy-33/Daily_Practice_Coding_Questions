@@ -2,25 +2,31 @@ import java.util.Scanner;
 
 public class Main {
 
-    public static void smallestRepeatingEle(int[] arr){
-        
-        for(int i=arr.length-1; i>0; i--){
-            if(arr[i-1] == arr[i]){
-                System.out.print(arr[i]);;
-                return;
+    public static void smallRepeatingElement(int[] arr){
+        int smallestVal = Integer.MAX_VALUE;
+        for(int i=0; i<arr.length-1; i++){
+            if(arr[i] == arr[i+1]){
+                if(arr[i] < smallestVal){
+                    smallestVal = arr[i];
+                }
             }
+        }
+        if(smallestVal == Integer.MAX_VALUE){
+            System.out.print(-1);
+        } else {
+            System.out.print(smallestVal);
         }
     }
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int n = scanner.nextInt();
-        int[] arr = new int[n];
-        for(int i=0; i<n; i++){
-            arr[i] =scanner.nextInt();
+        int N = scanner.nextInt();
+        int[] arr = new int[N];
+        for(int i=0; i<N; i++){
+            arr[i]=scanner.nextInt();
         }
 
-        smallestRepeatingEle(arr);
-       
+        smallRepeatingElement(arr);
+        
     }
 }
