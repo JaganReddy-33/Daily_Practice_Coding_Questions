@@ -4,19 +4,19 @@
 
 ## Question
 
-What is the correct way to apply a border of 2 pixels solid black using inline CSS?
+Which property is used to control the spacing between lines of text in inline CSS?
 
 ## Answer choices
 
-- ⬜ **A.** border: 2px solid black;
-- ⬜ **B.** border-width: 2px; border-style: solid; border-color: black;
-- ⬜ **C.** border: 2 solid black;
-- ✅ **D. style="border: 2px solid black;"** — Correct answer
+- ✅ **A. line-height** — Correct answer
+- ⬜ **B.** spacing
+- ⬜ **C.** text-spacing
+- ⬜ **D.** style="line-height: ...;"
 
 ## Submission
 
-- **Correct answer:** style="border: 2px solid black;"
-- **Submitted at:** 2026-06-16T14:14:33.924Z
+- **Correct answer:** line-height
+- **Submitted at:** 2026-06-16T14:15:08.423Z
 - **Correct submission:** True
 
 ## Explanation
