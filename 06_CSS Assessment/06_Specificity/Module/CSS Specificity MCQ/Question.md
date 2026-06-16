@@ -4,19 +4,19 @@
 
 ## Question
 
-What is the specificity of the following CSS rule: .container > div?
+How does the use of !important affect the CSS cascade?
 
 ## Answer choices
 
-- ⬜ **A.** 0, 1, 0, 1
-- ⬜ **B.** 0, 1, 1, 0
-- ✅ **C. 0, 0, 1, 1** — Correct answer
-- ⬜ **D.** 0, 0, 1, 0
+- ✅ **A. It breaks the cascade** — Correct answer
+- ⬜ **B.** It strengthens the cascade
+- ⬜ **C.** It weakens the cascade
+- ⬜ **D.** It has no effect on the cascade
 
 ## Submission
 
-- **Correct answer:** 0, 0, 1, 1
-- **Submitted at:** 2026-06-16T14:01:37.626Z
+- **Correct answer:** It breaks the cascade
+- **Submitted at:** 2026-06-16T14:01:54.053Z
 - **Correct submission:** True
 
 ## Explanation
