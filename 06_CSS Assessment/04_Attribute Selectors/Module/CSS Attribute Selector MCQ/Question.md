@@ -4,19 +4,19 @@
 
 ## Question
 
-What does the following CSS selector target: [class^="btn-"]?
+Which attribute selector targets elements with an attribute value starting with a specified string?
 
 ## Answer choices
 
-- ⬜ **A.** All elements with the class 'btn-'
-- ✅ **B. All elements with class names starting with 'btn-'** — Correct answer
-- ⬜ **C.** All elements with class names containing 'btn-'
-- ⬜ **D.** All buttons with the class name 'btn-'
+- ⬜ **A.** =
+- ⬜ **B.** ~=
+- ✅ **C. ^=** — Correct answer
+- ⬜ **D.** |=
 
 ## Submission
 
-- **Correct answer:** All elements with class names starting with 'btn-'
-- **Submitted at:** 2026-06-16T13:38:56.212Z
+- **Correct answer:** ^=
+- **Submitted at:** 2026-06-16T13:40:08.952Z
 - **Correct submission:** True
 
 ## Explanation
