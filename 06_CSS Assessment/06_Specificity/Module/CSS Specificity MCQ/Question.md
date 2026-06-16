@@ -4,19 +4,19 @@
 
 ## Question
 
-What is the specificity of the universal selector (*)?
+Which of the following CSS rules has higher specificity?
 
 ## Answer choices
 
-- ⬜ **A.** 1, 0, 0, 0
-- ✅ **B. 0, 0, 0, 0** — Correct answer
-- ⬜ **C.** 0, 0, 0, 1
-- ⬜ **D.** 0, 0, 1, 0
+- ⬜ **A.** div.container
+- ⬜ **B.** .container p
+- ⬜ **C.** p.container
+- ✅ **D. #container p** — Correct answer
 
 ## Submission
 
-- **Correct answer:** 0, 0, 0, 0
-- **Submitted at:** 2026-06-16T13:58:25.886Z
+- **Correct answer:** #container p
+- **Submitted at:** 2026-06-16T13:58:48.330Z
 - **Correct submission:** True
 
 ## Explanation
