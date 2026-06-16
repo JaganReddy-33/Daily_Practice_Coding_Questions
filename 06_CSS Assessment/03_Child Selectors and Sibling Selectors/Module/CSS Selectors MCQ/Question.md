@@ -4,19 +4,19 @@
 
 ## Question
 
-In CSS, what does the descendant combinator do?
+<p>What does the following CSS selector target: div ~ p &gt; a?</p>
 
 ## Answer choices
 
-- ✅ **A. Selects all descendants of a specified element** — Correct answer
-- ⬜ **B.** Selects only direct children of a specified element
-- ⬜ **C.** Selects elements that are siblings of a specified element and appear after it
-- ⬜ **D.** Selects elements that are siblings of a specified element regardless of their position
+- ⬜ **A.** <p>All elements inside <code>&lt;p&gt;</code> elements that are siblings of a <code>&lt;div&gt;</code>.</p>
+- ⬜ **B.** <p>All elements that are direct children of <code>&lt;a&gt;</code> elements, which are descendants of a <code>&lt;p&gt;</code>.</p>
+- ✅ **C. <p>All <code>&lt;a&gt;</code> elements that are direct children of <code>&lt;p&gt;</code> elements, which are siblings of <code>&lt;div&gt;</code> elements.</p>** — Correct answer
+- ⬜ **D.** <p>All elements inside <code>&lt;div&gt;</code> elements that are siblings of <code>&lt;p&gt;</code>.</p>
 
 ## Submission
 
-- **Correct answer:** Selects all descendants of a specified element
-- **Submitted at:** 2026-06-16T13:36:00.117Z
+- **Correct answer:** <p>All <code>&lt;a&gt;</code> elements that are direct children of <code>&lt;p&gt;</code> elements, which are siblings of <code>&lt;div&gt;</code> elements.</p>
+- **Submitted at:** 2026-06-16T13:36:56.358Z
 - **Correct submission:** True
 
 ## Explanation
