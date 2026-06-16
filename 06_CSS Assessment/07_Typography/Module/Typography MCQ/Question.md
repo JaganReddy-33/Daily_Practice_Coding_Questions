@@ -4,19 +4,19 @@
 
 ## Question
 
-How can you add underline, overline, or line-through to text in CSS?
+<p>Which HTML tag can be used to add underline to text?</p>
 
 ## Answer choices
 
-- ⬜ **A.** Using the text-style property
-- ⬜ **B.** Using the font-decoration property
-- ✅ **C. Using the text-decoration property** — Correct answer
-- ⬜ **D.** Using the font-style property
+- ⬜ **A.** <p>&lt;ul&gt;</p>
+- ⬜ **B.** <p>&lt;em&gt;</p>
+- ✅ **C. <p>&lt;ins&gt;</p>** — Correct answer
+- ⬜ **D.** <p>&lt;del&gt;</p>
 
 ## Submission
 
-- **Correct answer:** Using the text-decoration property
-- **Submitted at:** 2026-06-16T14:07:34.508Z
+- **Correct answer:** <p>&lt;ins&gt;</p>
+- **Submitted at:** 2026-06-16T14:08:21.630Z
 - **Correct submission:** True
 
 ## Explanation
