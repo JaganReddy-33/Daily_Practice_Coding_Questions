@@ -4,19 +4,19 @@
 
 ## Question
 
-Which property is used to control the spacing between lines of text in inline CSS?
+How do you set the text to be italicized using inline CSS?
 
 ## Answer choices
 
-- ✅ **A. line-height** — Correct answer
-- ⬜ **B.** spacing
-- ⬜ **C.** text-spacing
-- ⬜ **D.** style="line-height: ...;"
+- ⬜ **A.** text-style: italic;
+- ✅ **B. font-style: italic;** — Correct answer
+- ⬜ **C.** italic: true;
+- ⬜ **D.** style="font-style: italic;"
 
 ## Submission
 
-- **Correct answer:** line-height
-- **Submitted at:** 2026-06-16T14:15:08.423Z
+- **Correct answer:** font-style: italic;
+- **Submitted at:** 2026-06-16T14:15:30.883Z
 - **Correct submission:** True
 
 ## Explanation
