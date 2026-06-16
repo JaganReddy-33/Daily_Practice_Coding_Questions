@@ -4,19 +4,19 @@
 
 ## Question
 
-How does specificity affect the application of CSS rules?
+What is the specificity of the following CSS rule: .container > div?
 
 ## Answer choices
 
-- ✅ **A. The more specific rules always override less specific ones** — Correct answer
-- ⬜ **B.** Specificity is irrelevant in CSS
-- ⬜ **C.** Specificity determines the order in which rules are applied
-- ⬜ **D.** Specificity only applies to inline styles
+- ⬜ **A.** 0, 1, 0, 1
+- ⬜ **B.** 0, 1, 1, 0
+- ✅ **C. 0, 0, 1, 1** — Correct answer
+- ⬜ **D.** 0, 0, 1, 0
 
 ## Submission
 
-- **Correct answer:** The more specific rules always override less specific ones
-- **Submitted at:** 2026-06-16T14:01:18.304Z
+- **Correct answer:** 0, 0, 1, 1
+- **Submitted at:** 2026-06-16T14:01:37.626Z
 - **Correct submission:** True
 
 ## Explanation
