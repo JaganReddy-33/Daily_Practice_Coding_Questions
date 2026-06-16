@@ -4,19 +4,19 @@
 
 ## Question
 
-Which of the following CSS rules has higher specificity?
+What is the specificity of the !important keyword in CSS?
 
 ## Answer choices
 
-- ⬜ **A.** div.container
-- ⬜ **B.** .container p
-- ⬜ **C.** p.container
-- ✅ **D. #container p** — Correct answer
+- ✅ **A. It increases the specificity of a rule to the maximum possible value** — Correct answer
+- ⬜ **B.** It decreases the specificity of a rule to the minimum possible value
+- ⬜ **C.** It has no effect on specificity
+- ⬜ **D.** It makes the rule less important compared to other rules
 
 ## Submission
 
-- **Correct answer:** #container p
-- **Submitted at:** 2026-06-16T13:58:48.330Z
+- **Correct answer:** It increases the specificity of a rule to the maximum possible value
+- **Submitted at:** 2026-06-16T13:59:21.474Z
 - **Correct submission:** True
 
 ## Explanation
