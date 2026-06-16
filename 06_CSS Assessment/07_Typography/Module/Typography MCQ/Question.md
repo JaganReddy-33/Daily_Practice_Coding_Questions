@@ -4,19 +4,19 @@
 
 ## Question
 
-How do you set the text to be italicized using inline CSS?
+How do you set the text to be underlined using inline CSS?
 
 ## Answer choices
 
-- ⬜ **A.** text-style: italic;
-- ✅ **B. font-style: italic;** — Correct answer
-- ⬜ **C.** italic: true;
-- ⬜ **D.** style="font-style: italic;"
+- ⬜ **A.** decoration: underline;
+- ✅ **B. text-decoration: underline;** — Correct answer
+- ⬜ **C.** underline: true;
+- ⬜ **D.** style="text-decoration: underline;"
 
 ## Submission
 
-- **Correct answer:** font-style: italic;
-- **Submitted at:** 2026-06-16T14:15:30.883Z
+- **Correct answer:** text-decoration: underline;
+- **Submitted at:** 2026-06-16T14:15:40.443Z
 - **Correct submission:** True
 
 ## Explanation
