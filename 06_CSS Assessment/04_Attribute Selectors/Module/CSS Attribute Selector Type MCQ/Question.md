@@ -4,7 +4,7 @@
 
 ## Question
 
-Which attribute selector type is used when targeting elements with attributes that contain specific words, separated by spaces?
+If you want to target an <a> element with an href attribute containing 'example.com', which attribute selector type would you use?
 
 ## Answer choices
 
@@ -16,7 +16,7 @@ Which attribute selector type is used when targeting elements with attributes th
 ## Submission
 
 - **Correct answer:** Partial value attribute selector
-- **Submitted at:** 2026-06-16T13:45:29.676Z
+- **Submitted at:** 2026-06-16T13:45:51.812Z
 - **Correct submission:** True
 
 ## Explanation
