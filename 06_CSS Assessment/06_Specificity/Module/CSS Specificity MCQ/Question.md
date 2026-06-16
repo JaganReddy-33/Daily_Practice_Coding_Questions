@@ -4,19 +4,19 @@
 
 ## Question
 
-Which of the following CSS selectors has higher specificity?
+How can the !important keyword affect CSS specificity?
 
 ## Answer choices
 
-- ⬜ **A.** #container .box p
-- ✅ **B. #container p.box** — Correct answer
-- ⬜ **C.** .box p#container
-- ⬜ **D.** #container .box
+- ⬜ **A.** It decreases the specificity of a rule
+- ✅ **B. It increases the specificity of a rule** — Correct answer
+- ⬜ **C.** It overrides inline styles
+- ⬜ **D.** It has no effect on specificity
 
 ## Submission
 
-- **Correct answer:** #container p.box
-- **Submitted at:** 2026-06-16T14:00:34.168Z
+- **Correct answer:** It increases the specificity of a rule
+- **Submitted at:** 2026-06-16T14:00:52.068Z
 - **Correct submission:** True
 
 ## Explanation
