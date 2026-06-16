@@ -4,19 +4,19 @@
 
 ## Question
 
-Which CSS property is used to change the color of a text decoration?
+How can you change the thickness of a text decoration line in CSS?
 
 ## Answer choices
 
-- ✅ **A. text-decoration-color** — Correct answer
-- ⬜ **B.** text-decoration-line
-- ⬜ **C.** text-decoration-style
-- ⬜ **D.** decoration-color
+- ✅ **A. Using the text-decoration-thickness property** — Correct answer
+- ⬜ **B.** Using the text-decoration-width property
+- ⬜ **C.** Using the border-width property
+- ⬜ **D.** Using the line-width property
 
 ## Submission
 
-- **Correct answer:** text-decoration-color
-- **Submitted at:** 2026-06-16T14:10:58.519Z
+- **Correct answer:** Using the text-decoration-thickness property
+- **Submitted at:** 2026-06-16T14:12:08.165Z
 - **Correct submission:** True
 
 ## Explanation
