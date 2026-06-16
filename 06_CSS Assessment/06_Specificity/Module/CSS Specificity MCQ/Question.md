@@ -4,19 +4,19 @@
 
 ## Question
 
-Which of the following CSS selectors has higher specificity?
+In CSS specificity, which component has the least influence?
 
 ## Answer choices
 
-- ✅ **A. #content p** — Correct answer
-- ⬜ **B.** .content p
-- ⬜ **C.** p.content
-- ⬜ **D.** div p
+- ⬜ **A.** ID selectors
+- ⬜ **B.** Class selectors
+- ⬜ **C.** Element selectors
+- ✅ **D. Universal selectors** — Correct answer
 
 ## Submission
 
-- **Correct answer:** #content p
-- **Submitted at:** 2026-06-16T13:59:33.264Z
+- **Correct answer:** Universal selectors
+- **Submitted at:** 2026-06-16T13:59:42.307Z
 - **Correct submission:** True
 
 ## Explanation
