@@ -4,19 +4,19 @@
 
 ## Question
 
-<p>In CSS, how would you select all <code>&lt;p&gt;</code> elements that are direct children of a <code>&lt;div&gt;</code>?</p>
+<p>Which CSS combinator is used to select an element that is a direct child of another element?</p>
 
 ## Answer choices
 
-- ✅ **A. <p>div &gt; p</p>** — Correct answer
-- ⬜ **B.** <p>div + p</p>
-- ⬜ **C.** <p>div ~ p</p>
-- ⬜ **D.** <p>div p</p>
+- ✅ **A. <p>&gt;</p>** — Correct answer
+- ⬜ **B.** <p>~</p>
+- ⬜ **C.** <p>+</p>
+- ⬜ **D.** <p>None of the above</p>
 
 ## Submission
 
-- **Correct answer:** <p>div &gt; p</p>
-- **Submitted at:** 2026-06-16T13:34:49.373Z
+- **Correct answer:** <p>&gt;</p>
+- **Submitted at:** 2026-06-16T13:35:13.982Z
 - **Correct submission:** True
 
 ## Explanation
