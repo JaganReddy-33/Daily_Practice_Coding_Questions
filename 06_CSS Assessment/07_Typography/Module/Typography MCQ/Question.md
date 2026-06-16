@@ -4,19 +4,19 @@
 
 ## Question
 
-Which of the following property sets the alignment of the last line of a text block?
+How can you change the thickness of a text decoration line in CSS?
 
 ## Answer choices
 
-- ⬜ **A.** overflow-wrap
-- ✅ **B. text-align-last** — Correct answer
-- ⬜ **C.** text-transform
-- ⬜ **D.** text-indent
+- ✅ **A. Using the text-decoration-thickness property** — Correct answer
+- ⬜ **B.** Using the text-decoration-width property
+- ⬜ **C.** Using the border-width property
+- ⬜ **D.** Using the line-width property
 
 ## Submission
 
-- **Correct answer:** text-align-last
-- **Submitted at:** 2026-06-16T14:11:25.704Z
+- **Correct answer:** Using the text-decoration-thickness property
+- **Submitted at:** 2026-06-16T14:12:08.165Z
 - **Correct submission:** True
 
 ## Explanation
