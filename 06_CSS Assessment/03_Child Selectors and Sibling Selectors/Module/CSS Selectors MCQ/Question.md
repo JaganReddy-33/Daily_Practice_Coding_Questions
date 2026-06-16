@@ -4,19 +4,19 @@
 
 ## Question
 
-<p>The CSS selector h2 + p selects:</p>
+<p>What does the CSS selector div &gt; p target?</p>
 
 ## Answer choices
 
-- ⬜ **A.** <p>All <code>&lt;p&gt;</code> elements that come after <code>&lt;h2&gt;</code> elements</p>
-- ⬜ **B.** <p>All <code>&lt;p&gt;</code> elements that come before <code>&lt;h2&gt;</code> elements</p>
-- ✅ **C. <p>All <code>&lt;p&gt;</code> elements that are immediate siblings of <code>&lt;h2&gt;</code> elements</p>** — Correct answer
-- ⬜ **D.** <p>All <code>&lt;p&gt;</code> elements that are descendants of <code>&lt;h2&gt;</code> elements</p>
+- ⬜ **A.** <p>All <code>&lt;p&gt;</code> elements that are descendants of <code>&lt;div&gt;</code> elements</p>
+- ✅ **B. <p>All <code>&lt;p&gt;</code> elements that are direct children of <code>&lt;div&gt;</code> elements</p>** — Correct answer
+- ⬜ **C.** <p>All <code>&lt;p&gt;</code> elements that are descendants of <code>&lt;div&gt;</code> elements</p>
+- ⬜ **D.** <p>All <code>&lt;p&gt;</code> elements that are siblings of <code>&lt;div&gt;</code> elements</p>
 
 ## Submission
 
-- **Correct answer:** <p>All <code>&lt;p&gt;</code> elements that are immediate siblings of <code>&lt;h2&gt;</code> elements</p>
-- **Submitted at:** 2026-06-16T13:33:09.198Z
+- **Correct answer:** <p>All <code>&lt;p&gt;</code> elements that are direct children of <code>&lt;div&gt;</code> elements</p>
+- **Submitted at:** 2026-06-16T13:33:26.140Z
 - **Correct submission:** True
 
 ## Explanation
