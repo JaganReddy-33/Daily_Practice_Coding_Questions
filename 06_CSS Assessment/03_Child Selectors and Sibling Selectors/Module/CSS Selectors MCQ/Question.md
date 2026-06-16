@@ -4,19 +4,19 @@
 
 ## Question
 
-<p>What does the CSS selector ul &gt; li target?</p>
+<p>Which of the following CSS selectors targets all <code>&lt;p&gt;</code> elements immediately following an <code>&lt;h1&gt;</code> element?</p>
 
 ## Answer choices
 
-- ⬜ **A.** <p>All <code>&lt;li&gt;</code> elements within <code>&lt;ul&gt;</code> elements</p>
-- ⬜ **B.** <p>All <code>&lt;ul&gt;</code> elements within <code>&lt;li&gt;</code> elements</p>
-- ✅ **C. <p>All <code>&lt;li&gt;</code> elements directly nested within <code>&lt;ul&gt;</code> elements</p>** — Correct answer
-- ⬜ **D.** <p>All <code>&lt;ul&gt;</code> elements directly nested within <code>&lt;li&gt;</code> elements</p>
+- ⬜ **A.** <p>h1 + p</p>
+- ✅ **B. <p>h1 ~ p</p>** — Correct answer
+- ⬜ **C.** <p>h1 &gt; p</p>
+- ⬜ **D.** <p>h1 p</p>
 
 ## Submission
 
-- **Correct answer:** <p>All <code>&lt;li&gt;</code> elements directly nested within <code>&lt;ul&gt;</code> elements</p>
-- **Submitted at:** 2026-06-16T13:28:21.435Z
+- **Correct answer:** <p>h1 ~ p</p>
+- **Submitted at:** 2026-06-16T13:29:41.695Z
 - **Correct submission:** True
 
 ## Explanation
