@@ -4,19 +4,19 @@
 
 ## Question
 
-What is the specificity of the !important keyword in CSS?
+Which of the following CSS selectors has higher specificity?
 
 ## Answer choices
 
-- ✅ **A. It increases the specificity of a rule to the maximum possible value** — Correct answer
-- ⬜ **B.** It decreases the specificity of a rule to the minimum possible value
-- ⬜ **C.** It has no effect on specificity
-- ⬜ **D.** It makes the rule less important compared to other rules
+- ✅ **A. #content p** — Correct answer
+- ⬜ **B.** .content p
+- ⬜ **C.** p.content
+- ⬜ **D.** div p
 
 ## Submission
 
-- **Correct answer:** It increases the specificity of a rule to the maximum possible value
-- **Submitted at:** 2026-06-16T13:59:21.474Z
+- **Correct answer:** #content p
+- **Submitted at:** 2026-06-16T13:59:33.264Z
 - **Correct submission:** True
 
 ## Explanation
