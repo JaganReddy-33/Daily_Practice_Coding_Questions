@@ -4,19 +4,19 @@
 
 ## Question
 
-How do you set the text to be underlined using inline CSS?
+Which CSS property is used to specify the font family for an element?
 
 ## Answer choices
 
-- ⬜ **A.** decoration: underline;
-- ✅ **B. text-decoration: underline;** — Correct answer
-- ⬜ **C.** underline: true;
-- ⬜ **D.** style="text-decoration: underline;"
+- ⬜ **A.** font-style
+- ⬜ **B.** font-weight
+- ✅ **C. font-family** — Correct answer
+- ⬜ **D.** font-size
 
 ## Submission
 
-- **Correct answer:** text-decoration: underline;
-- **Submitted at:** 2026-06-16T14:15:40.443Z
+- **Correct answer:** font-family
+- **Submitted at:** 2026-06-16T14:02:49.242Z
 - **Correct submission:** True
 
 ## Explanation
