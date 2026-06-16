@@ -4,19 +4,19 @@
 
 ## Question
 
-To make text italicized, which CSS property is used?
+Which CSS property controls the spacing between lines of text?
 
 ## Answer choices
 
-- ✅ **A. font-style** — Correct answer
-- ⬜ **B.** font-weight
-- ⬜ **C.** text-decoration
-- ⬜ **D.** font-size
+- ⬜ **A.** line-spacing
+- ⬜ **B.** text-spacing
+- ✅ **C. line-height** — Correct answer
+- ⬜ **D.** letter-spacing
 
 ## Submission
 
-- **Correct answer:** font-style
-- **Submitted at:** 2026-06-16T14:03:34.410Z
+- **Correct answer:** line-height
+- **Submitted at:** 2026-06-16T14:06:20.900Z
 - **Correct submission:** True
 
 ## Explanation
