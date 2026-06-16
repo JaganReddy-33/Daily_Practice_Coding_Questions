@@ -4,19 +4,19 @@
 
 ## Question
 
-In CSS specificity, which component has the least influence?
+What is the specificity of the following CSS rule: body p.content #main?
 
 ## Answer choices
 
-- ⬜ **A.** ID selectors
-- ⬜ **B.** Class selectors
-- ⬜ **C.** Element selectors
-- ✅ **D. Universal selectors** — Correct answer
+- ⬜ **A.** 0, 2, 2, 1
+- ⬜ **B.** 0, 1, 2, 1
+- ⬜ **C.** 0, 2, 1, 1
+- ✅ **D. 0, 1, 1, 2** — Correct answer
 
 ## Submission
 
-- **Correct answer:** Universal selectors
-- **Submitted at:** 2026-06-16T13:59:42.307Z
+- **Correct answer:** 0, 1, 1, 2
+- **Submitted at:** 2026-06-16T14:00:08.194Z
 - **Correct submission:** True
 
 ## Explanation
