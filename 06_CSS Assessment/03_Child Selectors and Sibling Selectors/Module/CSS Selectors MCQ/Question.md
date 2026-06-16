@@ -4,19 +4,19 @@
 
 ## Question
 
-<p>What does the following CSS selector target: div ~ p &gt; a?</p>
+<p>What does the CSS selector ul &gt; li target?</p>
 
 ## Answer choices
 
-- ⬜ **A.** <p>All elements inside <code>&lt;p&gt;</code> elements that are siblings of a <code>&lt;div&gt;</code>.</p>
-- ⬜ **B.** <p>All elements that are direct children of <code>&lt;a&gt;</code> elements, which are descendants of a <code>&lt;p&gt;</code>.</p>
-- ✅ **C. <p>All <code>&lt;a&gt;</code> elements that are direct children of <code>&lt;p&gt;</code> elements, which are siblings of <code>&lt;div&gt;</code> elements.</p>** — Correct answer
-- ⬜ **D.** <p>All elements inside <code>&lt;div&gt;</code> elements that are siblings of <code>&lt;p&gt;</code>.</p>
+- ⬜ **A.** <p>All <code>&lt;li&gt;</code> elements within <code>&lt;ul&gt;</code> elements</p>
+- ⬜ **B.** <p>All <code>&lt;ul&gt;</code> elements within <code>&lt;li&gt;</code> elements</p>
+- ✅ **C. <p>All <code>&lt;li&gt;</code> elements directly nested within <code>&lt;ul&gt;</code> elements</p>** — Correct answer
+- ⬜ **D.** <p>All <code>&lt;ul&gt;</code> elements directly nested within <code>&lt;li&gt;</code> elements</p>
 
 ## Submission
 
-- **Correct answer:** <p>All <code>&lt;a&gt;</code> elements that are direct children of <code>&lt;p&gt;</code> elements, which are siblings of <code>&lt;div&gt;</code> elements.</p>
-- **Submitted at:** 2026-06-16T13:36:56.358Z
+- **Correct answer:** <p>All <code>&lt;li&gt;</code> elements directly nested within <code>&lt;ul&gt;</code> elements</p>
+- **Submitted at:** 2026-06-16T13:28:21.435Z
 - **Correct submission:** True
 
 ## Explanation
