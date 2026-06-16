@@ -4,19 +4,19 @@
 
 ## Question
 
-Which CSS property is used to change the color of a text decoration?
+Which of the following property sets the alignment of the last line of a text block?
 
 ## Answer choices
 
-- ✅ **A. text-decoration-color** — Correct answer
-- ⬜ **B.** text-decoration-line
-- ⬜ **C.** text-decoration-style
-- ⬜ **D.** decoration-color
+- ⬜ **A.** overflow-wrap
+- ✅ **B. text-align-last** — Correct answer
+- ⬜ **C.** text-transform
+- ⬜ **D.** text-indent
 
 ## Submission
 
-- **Correct answer:** text-decoration-color
-- **Submitted at:** 2026-06-16T14:10:58.519Z
+- **Correct answer:** text-align-last
+- **Submitted at:** 2026-06-16T14:11:25.704Z
 - **Correct submission:** True
 
 ## Explanation
