@@ -4,19 +4,19 @@
 
 ## Question
 
-<p>How can you add overline to text in HTML?</p>
+What is the correct way to apply a border of 2 pixels solid black using inline CSS?
 
 ## Answer choices
 
-- ⬜ **A.** <p>&lt;strike&gt;</p>
-- ⬜ **B.** <p>&lt;u&gt;</p>
-- ⬜ **C.** <p>&lt;overline&gt;</p>
-- ✅ **D. <p>&lt;span style="text-decoration: overline;"&gt;</p>** — Correct answer
+- ⬜ **A.** border: 2px solid black;
+- ⬜ **B.** border-width: 2px; border-style: solid; border-color: black;
+- ⬜ **C.** border: 2 solid black;
+- ✅ **D. style="border: 2px solid black;"** — Correct answer
 
 ## Submission
 
-- **Correct answer:** <p>&lt;span style="text-decoration: overline;"&gt;</p>
-- **Submitted at:** 2026-06-16T14:14:06.041Z
+- **Correct answer:** style="border: 2px solid black;"
+- **Submitted at:** 2026-06-16T14:14:33.924Z
 - **Correct submission:** True
 
 ## Explanation
