@@ -4,19 +4,19 @@
 
 ## Question
 
-How can you align text to the center of an element in CSS?
+<p>How can you add overline to text in HTML?</p>
 
 ## Answer choices
 
-- ✅ **A. text-align: center;** — Correct answer
-- ⬜ **B.** text-align: right;
-- ⬜ **C.** text-align: left;
-- ⬜ **D.** text-align: justify;
+- ⬜ **A.** <p>&lt;strike&gt;</p>
+- ⬜ **B.** <p>&lt;u&gt;</p>
+- ⬜ **C.** <p>&lt;overline&gt;</p>
+- ✅ **D. <p>&lt;span style="text-decoration: overline;"&gt;</p>** — Correct answer
 
 ## Submission
 
-- **Correct answer:** text-align: center;
-- **Submitted at:** 2026-06-16T14:13:45.663Z
+- **Correct answer:** <p>&lt;span style="text-decoration: overline;"&gt;</p>
+- **Submitted at:** 2026-06-16T14:14:06.041Z
 - **Correct submission:** True
 
 ## Explanation
