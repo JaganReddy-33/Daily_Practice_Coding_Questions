@@ -4,19 +4,19 @@
 
 ## Question
 
-How can inline styles affect specificity?
+Which of the following CSS selectors has higher specificity?
 
 ## Answer choices
 
-- ⬜ **A.** They have the lowest specificity
-- ✅ **B. They have the highest specificity** — Correct answer
-- ⬜ **C.** They have the same specificity as ID selectors
-- ⬜ **D.** They have the same specificity as class selectors
+- ⬜ **A.** .container > div
+- ⬜ **B.** div.container
+- ⬜ **C.** #container div
+- ✅ **D. div#container.info** — Correct answer
 
 ## Submission
 
-- **Correct answer:** They have the highest specificity
-- **Submitted at:** 2026-06-16T13:57:30.870Z
+- **Correct answer:** div#container.info
+- **Submitted at:** 2026-06-16T13:57:56.333Z
 - **Correct submission:** True
 
 ## Explanation
