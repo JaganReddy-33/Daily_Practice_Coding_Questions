@@ -4,19 +4,19 @@
 
 ## Question
 
-What does CSS specificity determine?
+How is CSS specificity calculated?
 
 ## Answer choices
 
-- ⬜ **A.** The size of elements in CSS
-- ⬜ **B.** The order of elements in the HTML markup
-- ✅ **C. Which CSS rule takes precedence when multiple rules apply to the same element** — Correct answer
-- ⬜ **D.** The color of elements in CSS
+- ⬜ **A.** By the number of properties in a CSS rule
+- ⬜ **B.** By the number of selectors in a CSS rule
+- ⬜ **C.** By the number of elements affected by a CSS rule
+- ✅ **D. By assigning weights to different types of selectors in a CSS rule** — Correct answer
 
 ## Submission
 
-- **Correct answer:** Which CSS rule takes precedence when multiple rules apply to the same element
-- **Submitted at:** 2026-06-16T13:55:44.194Z
+- **Correct answer:** By assigning weights to different types of selectors in a CSS rule
+- **Submitted at:** 2026-06-16T13:56:05.147Z
 - **Correct submission:** True
 
 ## Explanation
