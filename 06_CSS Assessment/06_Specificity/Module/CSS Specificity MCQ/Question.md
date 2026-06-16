@@ -4,19 +4,19 @@
 
 ## Question
 
-Which of the following is true regarding inline styles and specificity?
+What does CSS specificity determine?
 
 ## Answer choices
 
-- ✅ **A. Inline styles have higher specificity than ID selectors** — Correct answer
-- ⬜ **B.** Inline styles have lower specificity than ID selectors
-- ⬜ **C.** Inline styles have equal specificity to ID selectors
-- ⬜ **D.** Inline styles have higher specificity than class selectors
+- ⬜ **A.** The size of elements in CSS
+- ⬜ **B.** The order of elements in the HTML markup
+- ✅ **C. Which CSS rule takes precedence when multiple rules apply to the same element** — Correct answer
+- ⬜ **D.** The color of elements in CSS
 
 ## Submission
 
-- **Correct answer:** Inline styles have higher specificity than ID selectors
-- **Submitted at:** 2026-06-16T14:02:38.487Z
+- **Correct answer:** Which CSS rule takes precedence when multiple rules apply to the same element
+- **Submitted at:** 2026-06-16T13:55:44.194Z
 - **Correct submission:** True
 
 ## Explanation
