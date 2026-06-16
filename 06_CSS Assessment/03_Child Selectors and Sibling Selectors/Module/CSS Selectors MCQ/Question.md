@@ -4,19 +4,19 @@
 
 ## Question
 
-<p>Which CSS combinator is used to select an element that is a direct child of another element?</p>
+<p>Which of the following selectors will match all elements inside a <code>&lt;div&gt;</code>?</p>
 
 ## Answer choices
 
-- ✅ **A. <p>&gt;</p>** — Correct answer
-- ⬜ **B.** <p>~</p>
-- ⬜ **C.** <p>+</p>
-- ⬜ **D.** <p>None of the above</p>
+- ⬜ **A.** <p>div &gt; a</p>
+- ⬜ **B.** <p>div + a</p>
+- ⬜ **C.** <p>div ~ a</p>
+- ✅ **D. <p>div a</p>** — Correct answer
 
 ## Submission
 
-- **Correct answer:** <p>&gt;</p>
-- **Submitted at:** 2026-06-16T13:35:13.982Z
+- **Correct answer:** <p>div a</p>
+- **Submitted at:** 2026-06-16T13:35:36.048Z
 - **Correct submission:** True
 
 ## Explanation
