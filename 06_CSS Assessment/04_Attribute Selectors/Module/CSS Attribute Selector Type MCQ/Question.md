@@ -4,19 +4,19 @@
 
 ## Question
 
-<p>Which type of attribute selector would be used to target an <code>&lt;input&gt;</code> element with a <code>type</code> attribute exactly equal to 'submit'?</p>
+Which attribute selector type is used when targeting elements with attributes that contain specific words, separated by spaces?
 
 ## Answer choices
 
-- ⬜ **A.** <p>Simple attribute selector</p>
-- ✅ **B. <p>Exact value attribute selector</p>** — Correct answer
-- ⬜ **C.** <p>Partial value attribute selector</p>
-- ⬜ **D.** <p>Grouped attribute selector</p>
+- ⬜ **A.** Simple attribute selector
+- ⬜ **B.** Exact value attribute selector
+- ✅ **C. Partial value attribute selector** — Correct answer
+- ⬜ **D.** Grouped attribute selector
 
 ## Submission
 
-- **Correct answer:** <p>Exact value attribute selector</p>
-- **Submitted at:** 2026-06-16T13:44:48.530Z
+- **Correct answer:** Partial value attribute selector
+- **Submitted at:** 2026-06-16T13:45:29.676Z
 - **Correct submission:** True
 
 ## Explanation
