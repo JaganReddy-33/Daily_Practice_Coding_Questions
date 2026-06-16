@@ -4,19 +4,19 @@
 
 ## Question
 
-Which of the following CSS selectors has higher specificity?
+What happens when two CSS rules have the same specificity?
 
 ## Answer choices
 
-- ⬜ **A.** .container > div
-- ⬜ **B.** div.container
-- ⬜ **C.** #container div
-- ✅ **D. div#container.info** — Correct answer
+- ✅ **A. The rule written last in the stylesheet takes precedence** — Correct answer
+- ⬜ **B.** The rule with the highest specificity takes precedence
+- ⬜ **C.** The browser applies both rules randomly
+- ⬜ **D.** The rule with the lowest specificity takes precedence
 
 ## Submission
 
-- **Correct answer:** div#container.info
-- **Submitted at:** 2026-06-16T13:57:56.333Z
+- **Correct answer:** The rule written last in the stylesheet takes precedence
+- **Submitted at:** 2026-06-16T13:58:09.471Z
 - **Correct submission:** True
 
 ## Explanation
