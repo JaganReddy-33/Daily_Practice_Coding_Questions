@@ -4,19 +4,19 @@
 
 ## Question
 
-What does the following CSS selector target: [type="submit"]?
+What does the following CSS selector target: [class^="btn-"]?
 
 ## Answer choices
 
-- ✅ **A. All elements with the attribute type equal to 'submit'** — Correct answer
-- ⬜ **B.** All submit buttons
-- ⬜ **C.** All elements with the class 'submit'
-- ⬜ **D.** All elements with the attribute name equal to 'submit'
+- ⬜ **A.** All elements with the class 'btn-'
+- ✅ **B. All elements with class names starting with 'btn-'** — Correct answer
+- ⬜ **C.** All elements with class names containing 'btn-'
+- ⬜ **D.** All buttons with the class name 'btn-'
 
 ## Submission
 
-- **Correct answer:** All elements with the attribute type equal to 'submit'
-- **Submitted at:** 2026-06-16T13:38:29.269Z
+- **Correct answer:** All elements with class names starting with 'btn-'
+- **Submitted at:** 2026-06-16T13:38:56.212Z
 - **Correct submission:** True
 
 ## Explanation
