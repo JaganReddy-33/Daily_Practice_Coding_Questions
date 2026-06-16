@@ -4,19 +4,19 @@
 
 ## Question
 
-<p>In CSS, how would you select all <code>&lt;p&gt;</code> elements that are siblings of a <code>&lt;div&gt;</code>?</p>
+<p>Which CSS combinator is used to select elements that are siblings of a specified element and appear after it?</p>
 
 ## Answer choices
 
-- ⬜ **A.** <p>div &gt; p</p>
-- ⬜ **B.** <p>div + p</p>
-- ✅ **C. <p>div ~ p</p>** — Correct answer
-- ⬜ **D.** <p>div p</p>
+- ⬜ **A.** <p>&gt;</p>
+- ⬜ **B.** <p>~</p>
+- ✅ **C. <p>+</p>** — Correct answer
+- ⬜ **D.** <p>None of the above</p>
 
 ## Submission
 
-- **Correct answer:** <p>div ~ p</p>
-- **Submitted at:** 2026-06-16T13:34:12.877Z
+- **Correct answer:** <p>+</p>
+- **Submitted at:** 2026-06-16T13:34:26.630Z
 - **Correct submission:** True
 
 ## Explanation
