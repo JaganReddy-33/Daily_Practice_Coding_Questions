@@ -4,19 +4,19 @@
 
 ## Question
 
-Which attribute selector type is used to target elements with attributes containing a specific value?
+<p>Which type of attribute selector would be used to target an <code>&lt;input&gt;</code> element with a <code>type</code> attribute exactly equal to 'submit'?</p>
 
 ## Answer choices
 
-- ✅ **A. Simple attribute selector** — Correct answer
-- ⬜ **B.** Exact value attribute selector
-- ⬜ **C.** Partial value attribute selector
-- ⬜ **D.** Grouped attribute selector
+- ⬜ **A.** <p>Simple attribute selector</p>
+- ✅ **B. <p>Exact value attribute selector</p>** — Correct answer
+- ⬜ **C.** <p>Partial value attribute selector</p>
+- ⬜ **D.** <p>Grouped attribute selector</p>
 
 ## Submission
 
-- **Correct answer:** Simple attribute selector
-- **Submitted at:** 2026-06-16T13:44:19.693Z
+- **Correct answer:** <p>Exact value attribute selector</p>
+- **Submitted at:** 2026-06-16T13:44:48.530Z
 - **Correct submission:** True
 
 ## Explanation
