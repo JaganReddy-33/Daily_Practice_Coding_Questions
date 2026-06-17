@@ -4,19 +4,19 @@
 
 ## Question
 
-<p>Which combinator is used to select elements that are immediate children of a specified element?</p>
+<p>Which combinator is used to select elements that are siblings of a specified element and appear after it?</p>
 
 ## Answer choices
 
-- ✅ **A. <p>&gt;</p>** — Correct answer
+- ⬜ **A.** <p>&gt;</p>
 - ⬜ **B.** <p>~</p>
-- ⬜ **C.** <p>+</p>
+- ✅ **C. <p>+</p>** — Correct answer
 - ⬜ **D.** <p>None of the above</p>
 
 ## Submission
 
-- **Correct answer:** <p>&gt;</p>
-- **Submitted at:** 2026-06-17T13:31:06.871Z
+- **Correct answer:** <p>+</p>
+- **Submitted at:** 2026-06-17T13:31:39.815Z
 - **Correct submission:** True
 
 ## Explanation
