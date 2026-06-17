@@ -4,19 +4,19 @@
 
 ## Question
 
-<p>Which of the following CSS selectors targets all <code>&lt;p&gt;</code> elements immediately following an <code>&lt;h1&gt;</code> element?</p>
+<p>Which combinator is used to select elements that are descendants of a specified element?</p>
 
 ## Answer choices
 
-- ⬜ **A.** <p>h1 + p</p>
-- ✅ **B. <p>h1 ~ p</p>** — Correct answer
-- ⬜ **C.** <p>h1 &gt; p</p>
-- ⬜ **D.** <p>h1 p</p>
+- ⬜ **A.** <p>&gt;</p>
+- ⬜ **B.** <p>~</p>
+- ⬜ **C.** <p>+</p>
+- ✅ **D. <p>None of the above</p>** — Correct answer
 
 ## Submission
 
-- **Correct answer:** <p>h1 ~ p</p>
-- **Submitted at:** 2026-06-16T13:29:41.695Z
+- **Correct answer:** <p>None of the above</p>
+- **Submitted at:** 2026-06-17T13:30:48.321Z
 - **Correct submission:** True
 
 ## Explanation
