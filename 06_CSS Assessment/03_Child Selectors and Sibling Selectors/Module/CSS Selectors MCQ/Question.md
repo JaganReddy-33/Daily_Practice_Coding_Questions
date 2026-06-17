@@ -4,19 +4,19 @@
 
 ## Question
 
-<p>Which combinator is used to select elements that are siblings of a specified element and appear after it?</p>
+<p>Which combinator is used to select elements that are siblings of a specified element and appear both before and after it?</p>
 
 ## Answer choices
 
 - ⬜ **A.** <p>&gt;</p>
-- ⬜ **B.** <p>~</p>
-- ✅ **C. <p>+</p>** — Correct answer
+- ✅ **B. <p>~</p>** — Correct answer
+- ⬜ **C.** <p>+</p>
 - ⬜ **D.** <p>None of the above</p>
 
 ## Submission
 
-- **Correct answer:** <p>+</p>
-- **Submitted at:** 2026-06-17T13:31:39.815Z
+- **Correct answer:** <p>~</p>
+- **Submitted at:** 2026-06-17T13:31:51.594Z
 - **Correct submission:** True
 
 ## Explanation
