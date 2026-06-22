@@ -2,15 +2,15 @@
 
 ## Description
 
-<p>Write a program to print numbers present in each index in an array.</p>
+<p>Take the size of an array and its elements as input from the user and print the elements of the array.</p>
 
 ## Input Format
 
-<p>First line contains a single integer N. Next line contains N space separated integer values.</p>
+<p>The function interacts with the user through standard input (console).</p>
 
 ## Output Format
 
-<p>Print space separated integer values stored in each index in the array.</p>
+<p>Print the array elements on a single line, each element separated by a space.</p>
 
 ## Sample Cases
 
@@ -18,13 +18,13 @@
 
 **Input**
 ```text
-5
-1 4 6 3 10
+4
+2 4 5 6
 ```
 
 **Output**
 ```text
-1 4 6 3 10
+2 4 5 6
 ```
 
 
@@ -32,13 +32,13 @@
 
 **Input**
 ```text
-4
-20 30 40 50
+5
+11 22 33 44 55
 ```
 
 **Output**
 ```text
-20 30 40 50
+11 22 33 44 55
 ```
 
 
@@ -46,12 +46,12 @@
 
 **Input**
 ```text
-07a4ebf9569a457b3e3361:ed5be1d001df32d492fd8f892b7a4359:e35d2883e6ae939b9164b39b88e3eab2
+fd29a636c1200da5f49e1fd1d01f4327:f514cbce44466465ad7ab0aa498a17f5:862afea92a4a24ae6bec2e7a3a1c86de
 ```
 
 **Output**
 ```text
-2117e159967fd15e74:deccff20738bb3323678a8734a534d5a:77beade619ea81a4114a60956f2dff73
+64221c8a92ad3fcf9c824ae6db41:8e55c2b0494e4ad069f0f027e7127159:141b2bc43c361160ad8cab7758086d92
 ```
 
 
@@ -59,12 +59,12 @@
 
 **Input**
 ```text
-33ba6f6ff1ba110b721c:a42cc3a050f97408333d70f687fe165f:d9a57a166a206118a54eb31e37c2784f
+1ef4411f815ae4:46762ca8e7509821a5f846cacab77094:5e28f8fab996f8ea0c527de013da285c
 ```
 
 **Output**
 ```text
-ca8d2baadfbf0cb3:2c74e22df062ee2c25a02f54c6d139e4:6fb00f19d9d76947f3f4c2ad0e07634b
+1bf426372f:3092065acd3a6b148c5cf7e1d5d1a00f:bbcda9fdf9ec2a5e7a90982faf6f3248
 ```
 
 
@@ -72,12 +72,12 @@ ca8d2baadfbf0cb3:2c74e22df062ee2c25a02f54c6d139e4:6fb00f19d9d76947f3f4c2ad0e0763
 
 **Input**
 ```text
-b9dcd567bfd8dfe025:f90706f7d5bd6139978bf41cd472dba2:fefb97ff084c07a884bbf369f58adf9c
+e5c5d5dafa46a9fe1683ae59e6d25a2d35736c0a79856dd202:437d88ef0df775549c4fe8c784e287f4:9d44f0a67956e670789f0483364fdf14
 ```
 
 **Output**
 ```text
-faa03a7af07afe:c8fff71b5e7061437a48e169a67338ce:717e8eae6830aac27cc3c6776bf5bdb2
+42a9a70ffe0eca98a149dd4276dc48fbb342ebc911f033:06d3ecc5071eac9249af51d4a710840c:517cb5f1079d06101411cd6c7dc970a9
 ```
 
 
@@ -85,12 +85,12 @@ faa03a7af07afe:c8fff71b5e7061437a48e169a67338ce:717e8eae6830aac27cc3c6776bf5bdb2
 
 **Input**
 ```text
-b02fd5592ae7a0535e3b4a73c2:19c0136446e774c94569a2c3b5888081:3bc8ceb530576c87a7249affe5d22e66
+390074793c1f382ae57631a0:4f4db050f208eab7ec357ea914aca021:fe9563efda9fefc0d01282db66b5a57b
 ```
 
 **Output**
 ```text
-d30b7bc7bd6e10774fd652:beb83cf0a4be60c20300ec60bb7ff2b2:24e459f821197b2402e01d264057eec4
+5adde54e62907ce7dde9:e150617a5522e7c5deb57acb32b1c1dd:6feceed623cdbb185f49605e91c97c2b
 ```
 
 
@@ -98,11 +98,11 @@ d30b7bc7bd6e10774fd652:beb83cf0a4be60c20300ec60bb7ff2b2:24e459f821197b2402e01d26
 
 **Input**
 ```text
-8ec31b6b1db0c2739673388c7b23c053:873b12482df49e81e35ac822a34c1007:c70485f13960000e2d166f39c13e69cd
+09551fd37277d053289e88d1d296250b1f8f6708ba137e195178072e11277f:3093fcb4339172ac3797a0afe11ad0fa:b04d3c08d1b7aaf4d30be38cd63911ab
 ```
 
 **Output**
 ```text
-c9ac220c8643ae79e2bf37b9eb23:2a54beddb2ec19047746d0bbfb2e66b7:c66dcb2750af78de16cecb57519c4eb3
+8b8d8d4ee27bcb136d29a69c8becb6f8deca598c220e16605f125a53:58ffa4b842b509baef180a94ba206bee:4ccf46c1244bea7a4b77b46707924ad1
 ```
 
