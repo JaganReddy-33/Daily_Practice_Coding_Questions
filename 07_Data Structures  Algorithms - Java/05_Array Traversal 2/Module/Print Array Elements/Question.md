@@ -2,15 +2,15 @@
 
 ## Description
 
-Take the size of an array and its elements as input from the user and print the elements of the array.
+Write a program to print numbers present in each index in an array.
 
 ## Input Format
 
-The function interacts with the user through standard input (console).
+First line contains a single integer N. Next line contains N space separated integer values.
 
 ## Output Format
 
-Print the array elements on a single line, each element separated by a space.
+Print space separated integer values stored in each index in the array.
 
 ## Sample Cases
 
@@ -18,30 +18,30 @@ Print the array elements on a single line, each element separated by a space.
 
 **Input**
 ```text
-4
-2 4 5 6
+5
+1 4 6 3 10
 ```
 
 **Output**
 ```text
-2 4 5 6
+1 4 6 3 10
 ```
 
 ### Sample Case 2
 
 **Input**
 ```text
-5
-11 22 33 44 55
+4
+20 30 40 50
 ```
 
 **Output**
 ```text
-11 22 33 44 55
+20 30 40 50
 ```
 
 _5 sample case(s) omitted because the captured values were empty or looked like links/encoded data._
 
 ---
 
-**Submitted at:** 2026-06-22 11:37:00Z
+**Submitted at:** 2026-06-22 11:36:45Z
