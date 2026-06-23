@@ -2,15 +2,15 @@
 
 ## Description
 
-<p>Find the smallest repeating element in a sorted array.</p>
+<p>Find the smallest repeating element in a descending sorted array.</p>
 
 ## Input Format
 
-<p>The input consists of two lines: - </p><p>The first line contains a single integer, N, representing the size of the array (1 ≤ N ≤ 10^5). </p><p>The second line contains N space-separated integers, A[1], A[2], ..., A[N], representing the elements of the sorted array (-10^9 ≤ A[i] ≤ 10^9).</p>
+<p>The first line contains an integer 'n' (2 &lt;= n &lt;= 100), representing the size of the array.</p><p>The second line contains 'n' space-separated integers, representing the elements of the array in descending order.</p>
 
 ## Output Format
 
-<p>Print a single integer, the smallest repeating element in the array. If there are no repeating elements, print -1.</p>
+<p>Print the smallest repeating element in the array.</p>
 
 ## Sample Cases
 
@@ -18,13 +18,13 @@
 
 **Input**
 ```text
-8
-1 2 3 3 4 4 4 5
+5
+10 7 5 5 3
 ```
 
 **Output**
 ```text
-3
+5
 ```
 
 
@@ -32,13 +32,13 @@
 
 **Input**
 ```text
-6
-1 2 3 4 5 6
+5
+9 8 7 6 6
 ```
 
 **Output**
 ```text
--1
+6
 ```
 
 
@@ -46,12 +46,12 @@
 
 **Input**
 ```text
-2c757a3f68f6d3308631a8e10e93f71a35:cd0502de91aff3ea155047151be9410f:01cd7614d9c1318af11bc69f358a4e9a
+6ceb1903fcd8326438fb84a9:657900d0971b60e962d794db540b612d:a57c5ca17e3c42a548c17bb5d126e843
 ```
 
 **Output**
 ```text
-48:ef82f168ae70ad768e4eda5738b1ad52:b163dd5c9eea78351ba3efc25478717e
+29:e198d95f1c91e1a8cc299c7da7ee7fe0:e7c144b143a0c949ba92a0d388cb8573
 ```
 
 
@@ -59,12 +59,12 @@
 
 **Input**
 ```text
-d902009fcb270710d6549b855e:fcebbbce2f7c50f7e512c2d6ced92a49:302298f6779596a220a85fb3425e75f5
+01c95f50680c479c1983a9:bdc3bb4a0bea110f37effd4aaf2d2a40:6dc461c3a6ec00fae5186ba7ce140f67
 ```
 
 **Output**
 ```text
-a07c:9290ef15f57a66f37b57765fe587eec1:dae65a493b0dcb9d1a04e555728046a8
+9f:d59b0265e8f32f1a95b597f7b3a980c3:bdf42a3dceb91a7468054691450ee720
 ```
 
 
@@ -72,12 +72,12 @@ a07c:9290ef15f57a66f37b57765fe587eec1:dae65a493b0dcb9d1a04e555728046a8
 
 **Input**
 ```text
-446513bea10cf421867397acb7c7:789dcc30487fe9ba30b86f406ca9a8a6:5cfb6c7603d7a2f478beec364596e4c0
+4d7ff083ea77fff4400428b4a3bc5cf2094b13549f:d1df6f4a2ba166b24c5167e9d2c15503:d9a479926bac457e530ab88c3d1a4d2d
 ```
 
 **Output**
 ```text
-458d:430c601331565b6ada4a1e7cb48ab7ff:e6c8a46ed12c01b012a15f0e3258f08f
+6d:ed78fcc7520fd4435f8c1d554ea94368:0f05e57fb1a1060929e8586dbfb64ff0
 ```
 
 
@@ -85,12 +85,12 @@ a07c:9290ef15f57a66f37b57765fe587eec1:dae65a493b0dcb9d1a04e555728046a8
 
 **Input**
 ```text
-ab89ff5654597831124d36aacfdcfb3202f8a758ec8091d3497a57498281450d:7fd7a20d4ac7d3e7de8ac30f3efe4dc5:6bfd1e1acce0cf45ea2a68d8ac1c99de
+7c8812f40506cfa5b6a12074b507e4bdb47feaaa270653:f6c71303fb68de25ca33074268b5a89c:008bbb7ee9b7845af2c1a978ffb57a09
 ```
 
 **Output**
 ```text
-4788:f214219cf541a597e577bc2d015daa64:cd31b2819c1f0a797a92cb3d548b887d
+f82d:a8a1c2a625bc3560f655126cf74b13f5:556acb1e4101e638b463a4fe63b0e3c3
 ```
 
 
@@ -98,11 +98,11 @@ ab89ff5654597831124d36aacfdcfb3202f8a758ec8091d3497a57498281450d:7fd7a20d4ac7d3e
 
 **Input**
 ```text
-acdc075378:751f05840e8310f1c467efbbf768c13b:1666bcc399da542c098506b87dbd4b49
+4a848b946a38406c55a56ef8954a05c9:3689e6ef494723a49ed927ca22389f5b:67292afad39685fc04ea71a6c3b4e494
 ```
 
 **Output**
 ```text
-d32f:a01406b8b12faff59e1db72984d88652:10e5de1b7eca09d84cdd21d10984510e
+9c:2e91c900e8961776e142f9392d9ba094:d1346a090103097d9fbe16adf7a7e012
 ```
 
