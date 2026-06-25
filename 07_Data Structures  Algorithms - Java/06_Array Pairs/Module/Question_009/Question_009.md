@@ -1,14 +1,14 @@
-# Pairs with First Value Smaller
+# Pairs with Sum as Prime Number
 
-**Question ID:** `649d2d8c41ac0ba1923fd068`
+**Question ID:** `649d306341ac0ba19240bff2`
 
 ## Description
 
-Print all pairs of numbers from a given array where the first value is strictly smaller than the second value.
+Print all pairs of numbers from a given array where the sum of the pair is a prime number.
 
 ## Input Format
 
-The input consists of a single line containing the length of the array, followed by a second line containing space-separated integers.
+The input consists of a single line containing space-separated integers.
 
 ## Output Format
 
@@ -21,16 +21,14 @@ Print each pair of numbers on a new line, separated by a space.
 **Input**
 ```text
 5
-3 1 5 4 2
+2 3 5 7 9
 ```
 
 **Output**
 ```text
-3 5
-3 4
-1 5
-1 4
-1 2
+2 3
+2 5
+2 9
 ```
 
 ### Sample Case 2
@@ -44,7 +42,6 @@ Print each pair of numbers on a new line, separated by a space.
 **Output**
 ```text
 1 2
-1 3
 2 3
 ```
 
@@ -52,4 +49,4 @@ _5 sample case(s) omitted because the captured values were empty or looked like 
 
 ---
 
-**Submitted at:** 2026-06-25 11:56:50Z
+**Submitted at:** 2026-06-25 11:56:35Z
