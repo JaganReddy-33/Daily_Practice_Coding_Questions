@@ -1,14 +1,14 @@
-# Pairs with Second Value Larger
+# Pairs with First Value Smaller
 
-**Question ID:** `649d2ebd41ac0ba192403286`
+**Question ID:** `649d2d8c41ac0ba1923fd068`
 
 ## Description
 
-Print all pairs of numbers from a given array where the second value is strictly larger than the first value.
+Print all pairs of numbers from a given array where the first value is strictly smaller than the second value.
 
 ## Input Format
 
-The input consists of a single line containing space-separated integers.
+The input consists of a single line containing the length of the array, followed by a second line containing space-separated integers.
 
 ## Output Format
 
@@ -21,16 +21,16 @@ Print each pair of numbers on a new line, separated by a space.
 **Input**
 ```text
 5
-4 9 2 7 5
+3 1 5 4 2
 ```
 
 **Output**
 ```text
-4 9
-4 7
-4 5
-2 7
-2 5
+3 5
+3 4
+1 5
+1 4
+1 2
 ```
 
 ### Sample Case 2
@@ -52,4 +52,4 @@ _5 sample case(s) omitted because the captured values were empty or looked like 
 
 ---
 
-**Submitted at:** 2026-06-25 11:57:04Z
+**Submitted at:** 2026-06-25 11:56:50Z
