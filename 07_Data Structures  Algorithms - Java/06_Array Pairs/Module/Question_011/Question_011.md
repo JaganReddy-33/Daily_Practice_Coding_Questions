@@ -1,14 +1,14 @@
-# Pairs with Prime Number Elements
+# Pairs with Second Value Larger
 
-**Question ID:** `649d318841ac0ba192410a57`
+**Question ID:** `649d2ebd41ac0ba192403286`
 
 ## Description
 
-Print all pairs of numbers from a given array where at least one of the elements is a prime number.
+Print all pairs of numbers from a given array where the second value is strictly larger than the first value.
 
 ## Input Format
 
-The input consists of two lines. The first line contains the size of the array. The second line contains space-separated integers.
+The input consists of a single line containing space-separated integers.
 
 ## Output Format
 
@@ -21,21 +21,16 @@ Print each pair of numbers on a new line, separated by a space.
 **Input**
 ```text
 5
-2 3 5 7 9
+4 9 2 7 5
 ```
 
 **Output**
 ```text
-2 3
-2 5
+4 9
+4 7
+4 5
 2 7
-2 9
-3 5
-3 7
-3 9
-5 7
-5 9
-7 9
+2 5
 ```
 
 ### Sample Case 2
@@ -57,4 +52,4 @@ _5 sample case(s) omitted because the captured values were empty or looked like 
 
 ---
 
-**Submitted at:** 2026-06-25 11:57:19Z
+**Submitted at:** 2026-06-25 11:57:04Z
