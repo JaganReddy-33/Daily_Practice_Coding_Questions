@@ -1,12 +1,11 @@
-
 import java.util.Scanner;
 
 public class Main {
 
-    public static void PairwithDiff(int[] arr, int k){
+    public static void pairValues(int[] arr){
         for(int i=0; i<arr.length; i++){
             for(int j=i+1; j<arr.length; j++){
-                if(Math.abs(arr[i]-arr[j]) == k){
+                if(arr[i]>arr[j]){
                     System.out.println(arr[i]+" "+arr[j]);
                 }
             }
@@ -20,9 +19,6 @@ public class Main {
         for(int i=0; i<arr.length; i++){
             arr[i]=scanner.nextInt();
         }
-        int k =scanner.nextInt();
-
-        PairwithDiff(arr, k);
-       
+        pairValues(arr);
     }
 }

@@ -1,18 +1,14 @@
-# Pairs with Difference K
+# Pairs with Second Value Smaller than First Value
 
-**Question ID:** `649d2b10ce7bf5aeb3f3c8b8`
+**Question ID:** `649d3272ce7bf5aeb3f6740c`
 
 ## Description
 
-Find pairs of numbers in an array with a given target difference.
+Print all pairs of numbers from a given array where the second value is strictly smaller than the first value.
 
 ## Input Format
 
-The first line contains N the length of the array.
-
-The second line contains space-separated integers representing the array elements.
-
-The third line contains a single integer, 'k', representing the target difference.
+The input consists of two lines. The first line contains the size of the array. The second line contains space-separated integers.
 
 ## Output Format
 
@@ -26,13 +22,14 @@ Print each pair of numbers on a new line, separated by a space.
 ```text
 5
 3 1 5 4 2
-2
 ```
 
 **Output**
 ```text
 3 1
-3 5
+3 2
+5 4
+5 2
 4 2
 ```
 
@@ -40,21 +37,18 @@ Print each pair of numbers on a new line, separated by a space.
 
 **Input**
 ```text
-6
-8 12 5 9 15 6
 3
+4 2 3
 ```
 
 **Output**
 ```text
-8 5
-12 9
-12 15
-9 6
+4 2
+4 3
 ```
 
-_3 sample case(s) omitted because the captured values were empty or looked like links/encoded data._
+_4 sample case(s) omitted because the captured values were empty or looked like links/encoded data._
 
 ---
 
-**Submitted at:** 2026-06-25 11:57:49Z
+**Submitted at:** 2026-06-25 11:57:34Z
