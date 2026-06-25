@@ -1,20 +1,18 @@
-# Minimum Product of Pairs in an Array
+# Pair with Minimum Sum
 
-**Question ID:** `6485e7441b7101653b30800b`
+**Question ID:** `649ecd968bb483aa7cae35e5`
 
 ## Description
 
-Write a program that finds the minimum product among all the pairs of elements in a given array of integers.
+Print the pair of numbers from the input array whose sum is minimum.
 
 ## Input Format
 
-The first line contains a single integer, N, representing the size of the array.
-
-The second line contains N space-separated integers, representing the elements of the array.
+A single line containing space-separated integers, representing the elements of the array.
 
 ## Output Format
 
-Print the minimum product among all the pairs of elements in the array.
+Print the pair of numbers on a single line in the same order as array, separated by a space.
 
 ## Sample Cases
 
@@ -23,29 +21,29 @@ Print the minimum product among all the pairs of elements in the array.
 **Input**
 ```text
 6
-5 9 2 8 3 7
+2 4 6 3 8 9
 ```
 
 **Output**
 ```text
-6
+2 3
 ```
 
 ### Sample Case 2
 
 **Input**
 ```text
-7
-10 5 8 2 6 1 4
+4
+1 2 3 4
 ```
 
 **Output**
 ```text
-2
+1 2
 ```
 
 _5 sample case(s) omitted because the captured values were empty or looked like links/encoded data._
 
 ---
 
-**Submitted at:** 2026-06-25 11:58:19Z
+**Submitted at:** 2026-06-25 11:58:04Z
