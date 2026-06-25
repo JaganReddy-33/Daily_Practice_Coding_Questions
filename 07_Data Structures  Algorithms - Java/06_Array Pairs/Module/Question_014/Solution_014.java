@@ -1,39 +1,28 @@
+
 import java.util.Scanner;
 
 public class Main {
 
-    public static void pairWithMinSum(int[] arr){
-        int min1 = Integer.MAX_VALUE;
-        int min2 = Integer.MAX_VALUE;
-        int idx1 = -1;
-        int idx2 = -1;
+    public static void PairwithDiff(int[] arr, int k){
         for(int i=0; i<arr.length; i++){
-            if(arr[i] < min1){
-                min2 = min1;
-                min1 = arr[i];
-                idx2 = idx1;
-                idx1 = i;
-            } else if(arr[i]< min2){
-                min2 = arr[i];
-                idx2 = i;
+            for(int j=i+1; j<arr.length; j++){
+                if(Math.abs(arr[i]-arr[j]) == k){
+                    System.out.println(arr[i]+" "+arr[j]);
+                }
             }
-        }
-        if(idx1 < idx2){
-            System.out.println(arr[idx1]+" "+arr[idx2]);
-        } else {
-            System.out.println(arr[idx2]+" "+arr[idx1]);
         }
     }
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int N = scanner.nextInt();
-        int[] arr =new int[N];
-        for(int i=0; i<N; i++){
+        int n = scanner.nextInt();
+        int[] arr = new int[n];
+        for(int i=0; i<arr.length; i++){
             arr[i]=scanner.nextInt();
         }
+        int k =scanner.nextInt();
 
-        pairWithMinSum(arr);
-        
+        PairwithDiff(arr, k);
+       
     }
 }
