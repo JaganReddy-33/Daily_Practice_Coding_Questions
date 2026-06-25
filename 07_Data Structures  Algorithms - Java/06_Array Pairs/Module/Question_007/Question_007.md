@@ -1,10 +1,10 @@
-# Counting Pairs
+# Pairs with Sum Less than k
 
-**Question ID:** `649eaf5a3194660f0325d9f1`
+**Question ID:** `649eb0403194660f0326220d`
 
 ## Description
 
-Count the number of all possible pairs that can be formed from the given array.
+Print all pairs of numbers from the input array whose sum is less than the target value k.
 
 ## Input Format
 
@@ -12,9 +12,11 @@ The first line contains an integer N, representing the size of the array.
 
 The second line contains N space-separated integers, representing the elements of the array.
 
+The third line contains a single integer k, representing the target value.
+
 ## Output Format
 
-A single line containing the count of all possible pairs.
+Print each pair of numbers on a new line, separated by a space.
 
 ## Sample Cases
 
@@ -22,30 +24,41 @@ A single line containing the count of all possible pairs.
 
 **Input**
 ```text
-5
-1 2 3 4 5
+6
+2 4 6 3 8 9
+10
 ```
 
 **Output**
 ```text
-10
+2 4
+2 6
+2 3
+4 3
+6 3
 ```
 
 ### Sample Case 2
 
 **Input**
 ```text
-3
--1 0 1
+5
+1 2 3 4 5
+7
 ```
 
 **Output**
 ```text
-3
+1 2
+1 3
+1 4
+1 5
+2 3
+2 4
 ```
 
 _5 sample case(s) omitted because the captured values were empty or looked like links/encoded data._
 
 ---
 
-**Submitted at:** 2026-06-25 11:56:20Z
+**Submitted at:** 2026-06-25 08:00:34Z

@@ -2,14 +2,14 @@ import java.util.Scanner;
 
 public class Main {
 
-    public static void countingPairs(int[] arr){
-        int count = 0;
+    public static void PairSumLessthanK(int[] arr, int k){
         for(int i=0; i<arr.length; i++){
             for(int j=i+1; j<arr.length; j++){
-                count++;
+                if(arr[i]+arr[j] < k){
+                    System.out.println(arr[i]+" "+arr[j]);
+                }
             }
         }
-        System.out.print(count);
     }
 
     public static void main(String[] args) {
@@ -19,8 +19,9 @@ public class Main {
         for(int i=0; i<N; i++){
             arr[i]=scanner.nextInt();
         }
+        int k =scanner.nextInt();
 
-        countingPairs(arr);
+        PairSumLessthanK(arr, k);
        
     }
 }
