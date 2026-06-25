@@ -1,10 +1,10 @@
-# Pairs with Second Value Smaller than First Value
+# Pairs with Prime Number Elements
 
-**Question ID:** `649d3272ce7bf5aeb3f6740c`
+**Question ID:** `649d318841ac0ba192410a57`
 
 ## Description
 
-Print all pairs of numbers from a given array where the second value is strictly smaller than the first value.
+Print all pairs of numbers from a given array where at least one of the elements is a prime number.
 
 ## Input Format
 
@@ -21,16 +21,21 @@ Print each pair of numbers on a new line, separated by a space.
 **Input**
 ```text
 5
-3 1 5 4 2
+2 3 5 7 9
 ```
 
 **Output**
 ```text
-3 1
-3 2
-5 4
-5 2
-4 2
+2 3
+2 5
+2 7
+2 9
+3 5
+3 7
+3 9
+5 7
+5 9
+7 9
 ```
 
 ### Sample Case 2
@@ -38,17 +43,18 @@ Print each pair of numbers on a new line, separated by a space.
 **Input**
 ```text
 3
-4 2 3
+1 2 3
 ```
 
 **Output**
 ```text
-4 2
-4 3
+1 2
+1 3
+2 3
 ```
 
-_4 sample case(s) omitted because the captured values were empty or looked like links/encoded data._
+_5 sample case(s) omitted because the captured values were empty or looked like links/encoded data._
 
 ---
 
-**Submitted at:** 2026-06-25 11:57:34Z
+**Submitted at:** 2026-06-25 11:57:19Z
