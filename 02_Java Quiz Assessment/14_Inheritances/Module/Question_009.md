@@ -1,0 +1,28 @@
+# Inheritance Methods
+
+**Question ID:** `64b8d98bb2f39bfdfea511fa`
+
+**Question ID:** `64b8d98bb2f39bfdfea511fa`
+
+> ✅ Solved
+
+## Question
+
+Which of the following methods will be present in inheritance?
+
+## Answer choices
+
+- ⬜ **A.** Inherited methods
+- ⬜ **B.** Overridden methods
+- ⬜ **C.** Specialized methods
+- ✅ **D. All of the above** — Correct answer
+
+## Submission
+
+- **Correct answer:** All of the above
+- **Submitted at:** 2026-06-26T14:29:31.283Z
+- **Correct submission:** True
+
+## Explanation
+
+_Not available._
