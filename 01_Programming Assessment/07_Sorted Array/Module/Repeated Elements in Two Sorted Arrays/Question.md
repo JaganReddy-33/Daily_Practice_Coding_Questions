@@ -2,7 +2,7 @@
 
 ## Description
 
-Find the repeated elements in two sorted arrays.
+Find and print the elements that are repeated in both given sorted arrays.
 
 ## Input Format
 
@@ -10,15 +10,15 @@ The input consists of four lines:
 
 An integer N (1 ≤ N ≤ 10^5), representing the number of elements in array A.
 
-N space-separated integers, denoting the elements of array A in descending order.
+N space-separated integers, denoting the elements of array A
 
-An integer M (1 ≤ M ≤ 10^5), representing the number of elements in array B in ascending order.
+An integer M (1 ≤ M ≤ 10^5), representing the number of elements in array B
 
 M space-separated integers, denoting the elements of array B.
 
 ## Output Format
 
-Print the elements that are repeated in both arrays A and B, in ascending order, separated by a space.
+Print the repeated elements from both arrays in ascending order, separated by a space.
 
 ## Sample Cases
 
@@ -27,33 +27,106 @@ Print the elements that are repeated in both arrays A and B, in ascending order,
 **Input**
 ```text
 6
-9 8 7 6 5 4
-5
-4 5 6 7 8
+2 4 5 5 7 8
+7
+2 3 5 5 6 7 8
 ```
 
 **Output**
 ```text
-4 5 6 7 8
+2 5 5 7 8
 ```
 
 ### Sample Case 2
 
 **Input**
 ```text
-7
-10 8 6 4 2 2 0
-6
-0 1 2 3 4 5
+5
+1 2 3 4 5
+5
+2 3 4 5 6
 ```
 
 **Output**
 ```text
-0 2 4
+2 3 4 5
 ```
 
-_5 sample case(s) omitted because the captured values were empty or looked like links/encoded data._
+### Sample Case 3
+
+**Input**
+```text
+6
+2 4 5 5 7 8
+7
+2 3 5 5 6 7 8
+```
+
+**Output**
+```text
+2 5 5 7 8
+```
+
+### Sample Case 4
+
+**Input**
+```text
+5
+1 2 3 4 5
+5
+2 3 4 5 6
+```
+
+**Output**
+```text
+2 3 4 5
+```
+
+### Sample Case 5
+
+**Input**
+```text
+3
+1 1 1
+4
+1 1 1 1
+```
+
+**Output**
+```text
+1 1 1
+```
+
+### Sample Case 6
+
+**Input**
+```text
+4
+10 20 30 40
+3
+20 30 40
+```
+
+**Output**
+```text
+20 30 40
+```
+
+### Sample Case 7
+
+**Input**
+```text
+2
+1 3
+3
+1 2 3
+```
+
+**Output**
+```text
+1 3
+```
 
 ---
 
-**Submitted at:** 2026-06-27 17:03:15Z
+**Submitted at:** 2026-06-27 17:02:44Z
