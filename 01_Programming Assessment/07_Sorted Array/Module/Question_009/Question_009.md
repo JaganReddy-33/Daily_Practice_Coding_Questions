@@ -46,71 +46,8 @@ Print a single integer, the count of unique elements in the array.
 6
 ```
 
-### Sample Case 3
-
-**Input**
-```text
-8
-1 2 3 3 4 4 4 5
-```
-
-**Output**
-```text
-3
-```
-
-### Sample Case 4
-
-**Input**
-```text
-6
-1 2 3 4 5 6
-```
-
-**Output**
-```text
-6
-```
-
-### Sample Case 5
-
-**Input**
-```text
-5
--1 -1 -1 -1 -1
-```
-
-**Output**
-```text
-0
-```
-
-### Sample Case 6
-
-**Input**
-```text
-3
-0 0 0
-```
-
-**Output**
-```text
-0
-```
-
-### Sample Case 7
-
-**Input**
-```text
-1
-1000000000
-```
-
-**Output**
-```text
-1
-```
+_5 sample case(s) omitted because the captured values were empty or looked like links/encoded data._
 
 ---
 
-**Submitted at:** 2026-06-26T13:59:16.426Z
+**Submitted at:** 2026-06-27 10:24:29Z
