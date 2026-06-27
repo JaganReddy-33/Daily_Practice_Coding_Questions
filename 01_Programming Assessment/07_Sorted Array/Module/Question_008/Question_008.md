@@ -50,8 +50,76 @@ Print a single integer, the number of times the integer k is repeated in the arr
 0
 ```
 
-_5 sample case(s) omitted because the captured values were empty or looked like links/encoded data._
+### Sample Case 3
+
+**Input**
+```text
+8
+1 2 3 3 4 4 4 5
+4
+```
+
+**Output**
+```text
+3
+```
+
+### Sample Case 4
+
+**Input**
+```text
+6
+1 2 3 4 5 6
+7
+```
+
+**Output**
+```text
+0
+```
+
+### Sample Case 5
+
+**Input**
+```text
+5
+-1 -1 -1 -1 -1
+-1
+```
+
+**Output**
+```text
+5
+```
+
+### Sample Case 6
+
+**Input**
+```text
+7
+50 40 30 30 30 20 10
+30
+```
+
+**Output**
+```text
+3
+```
+
+### Sample Case 7
+
+**Input**
+```text
+4
+1 1 1 2
+2
+```
+
+**Output**
+```text
+1
+```
 
 ---
 
-**Submitted at:** 2026-06-26T13:32:51.211Z
+**Submitted at:** 2026-06-27 10:24:14Z
