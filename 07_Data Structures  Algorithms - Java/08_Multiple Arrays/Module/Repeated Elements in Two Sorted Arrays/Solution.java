@@ -1,22 +1,20 @@
 import java.util.Scanner;
-import java.util.ArrayList;
-import java.util.Collections;
 
 public class Main {
 
     public static void repeatingEle(int[] arr1, int[] arr2, int n, int m){
-        int i=0;
-        int j=m-1;
+        int i=n-1;
+        int j=0;
 
         while(i<n && j<m){
-            if(arr1[i]<arr2[j]){
-                i++;
-            } else if(arr1[i]>arr2[j]){
-                j--;
+            if(arr1[i] < arr2[j]){
+                i--;
+            } else if(arr1[i] > arr2[j]) {
+                j++;
             } else {
                 System.out.print(arr1[i]+" ");
-                i++;
-                j--;
+                i--;
+                j++;
             }
         }
     }
@@ -29,7 +27,7 @@ public class Main {
             arr1[i]=scanner.nextInt();
         }
 
-        int m =scanner.nextInt();
+        int m=scanner.nextInt();
         int[] arr2 = new int[m];
         for(int i=0; i<m; i++){
             arr2[i]=scanner.nextInt();
