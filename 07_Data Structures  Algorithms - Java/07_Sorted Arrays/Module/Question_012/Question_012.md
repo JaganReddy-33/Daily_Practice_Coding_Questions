@@ -1,0 +1,53 @@
+# Smallest Repeating Element (Descending)
+
+**Question ID:** `648bf39f1b7101653b732b08`
+
+## Description
+
+Find the smallest repeating element in a sorted array in descending order.
+
+## Input Format
+
+The input consists of two lines: -
+
+The first line contains a single integer, N, representing the size of the array (1 ≤ N ≤ 10^5).
+
+The second line contains N space-separated integers, A[1], A[2], ..., A[N], representing the elements of the sorted array (-10^9 ≤ A[i] ≤ 10^9).
+
+## Output Format
+
+Print a single integer, the smallest repeating element in the array. If there are no repeating elements, print -1.
+
+## Sample Cases
+
+### Sample Case 1
+
+**Input**
+```text
+8
+5 4 4 4 3 3 2 1
+```
+
+**Output**
+```text
+3
+```
+
+### Sample Case 2
+
+**Input**
+```text
+6
+6 5 4 3 2 1
+```
+
+**Output**
+```text
+-1
+```
+
+_5 sample case(s) omitted because the captured values were empty or looked like links/encoded data._
+
+---
+
+**Submitted at:** 2026-06-30 12:08:19Z
