@@ -10,9 +10,9 @@ The input consists of four lines:
 
 An integer N (1 ≤ N ≤ 10^5), representing the number of elements in array A.
 
-N space-separated integers, denoting the elements of array A in Ascending order.
+N space-separated integers, denoting the elements of array A in descending order.
 
-An integer M (1 ≤ M ≤ 10^5), representing the number of elements in array B in descending order.
+An integer M (1 ≤ M ≤ 10^5), representing the number of elements in array B in ascending order.
 
 M space-separated integers, denoting the elements of array B.
 
@@ -27,33 +27,33 @@ Print the elements that are repeated in both arrays A and B, in ascending order,
 **Input**
 ```text
 6
-1 2 3 4 5 6
+9 8 7 6 5 4
 5
-6 5 4 3 2
+4 5 6 7 8
 ```
 
 **Output**
 ```text
-2 3 4 5 6
+4 5 6 7 8
 ```
 
 ### Sample Case 2
 
 **Input**
 ```text
-8
-1 3 5 7 9 11 13 15
+7
+10 8 6 4 2 2 0
 6
-15 11 9 7 5 3
+0 1 2 3 4 5
 ```
 
 **Output**
 ```text
-3 5 7 9 11 15
+0 2 4
 ```
 
 _5 sample case(s) omitted because the captured values were empty or looked like links/encoded data._
 
 ---
 
-**Submitted at:** 2026-06-30 12:06:20Z
+**Submitted at:** 2026-06-30 12:06:35Z
