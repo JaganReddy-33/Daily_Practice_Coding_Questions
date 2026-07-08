@@ -1,0 +1,37 @@
+import java.util.Scanner;
+
+public class Main {
+
+    static void evenSubarrayLen(int[] arr, int n) {
+
+        boolean found = false;
+        for (int len = 1; len <= n; len++) {
+            for (int start = 0; start <= n - len; start++) {
+                int end = start + len - 1;
+
+                if(len %2 == 0){
+                    found = true;
+                    for (int i = start; i <= end; i++) {
+                        System.out.print(arr[i] + " ");
+                    }
+                    System.out.println();
+                }
+            }
+        }
+        if(!found){
+            System.out.print("None");
+        }
+    }
+
+    public static void main(String[] args) {
+
+        Scanner scanner = new Scanner(System.in);
+        int N = scanner.nextInt();
+        int[] arr = new int[N];
+        for (int i = 0; i < N; i++) {
+            arr[i] = scanner.nextInt();
+        }
+
+        evenSubarrayLen(arr, N);
+    }
+}
