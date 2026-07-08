@@ -2,14 +2,18 @@ import java.util.Scanner;
 
 public class Main {
 
-    static void evenSubarrayLen(int[] arr, int n) {
+    static void evenSubarray(int[] arr, int n) {
 
         boolean found = false;
         for (int len = 1; len <= n; len++) {
             for (int start = 0; start <= n - len; start++) {
+                int sum = 0;
                 int end = start + len - 1;
-
-                if(len %2 == 0){
+                for (int i = start; i <= end; i++) {
+                    sum += arr[i];
+                }
+                
+                if (sum % 2 == 0) {
                     found = true;
                     for (int i = start; i <= end; i++) {
                         System.out.print(arr[i] + " ");
@@ -18,7 +22,8 @@ public class Main {
                 }
             }
         }
-        if(!found){
+
+        if (!found) {
             System.out.print("None");
         }
     }
@@ -32,6 +37,6 @@ public class Main {
             arr[i] = scanner.nextInt();
         }
 
-        evenSubarrayLen(arr, N);
+        evenSubarray(arr, N);
     }
 }
