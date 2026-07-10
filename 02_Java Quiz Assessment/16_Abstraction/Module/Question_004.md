@@ -1,0 +1,26 @@
+# Creating Objects from Abstract Class in Java
+
+**Question ID:** `64be00b485bb200adbc25d02`
+
+**Question ID:** `64be00b485bb200adbc25d02`
+
+> ✅ Solved
+
+## Question
+
+Can you create an object from an abstract class in Java?
+
+## Answer choices
+
+- ⬜ **A.** Yes
+- ✅ **B. No** — Correct answer
+
+## Submission
+
+- **Correct answer:** No
+- **Submitted at:** 2026-07-10T16:31:30.642Z
+- **Correct submission:** True
+
+## Explanation
+
+_Not available._
