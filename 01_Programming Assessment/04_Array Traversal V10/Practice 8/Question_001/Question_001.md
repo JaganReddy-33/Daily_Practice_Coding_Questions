@@ -1,0 +1,49 @@
+# Product of Odd Elements
+
+**Question ID:** `661d6902f51c6d596ba5bd84`
+
+## Description
+
+Given an array of integers of size N, print the product of all odd elements of the array.
+
+## Input Format
+
+The first line contains an integer N, the size of the array. The second line contains N space-separated integers representing the array elements.
+
+## Output Format
+
+Print the product of all odd elements of the array.
+
+## Sample Cases
+
+### Sample Case 1
+
+**Input**
+```text
+5
+1 2 3 4 5
+```
+
+**Output**
+```text
+15
+```
+
+### Sample Case 2
+
+**Input**
+```text
+7
+2 3 4 5 6 7 8
+```
+
+**Output**
+```text
+105
+```
+
+_5 sample case(s) omitted because the captured values were empty or looked like links/encoded data._
+
+---
+
+**Submitted at:** 2026-07-13 16:30:17Z
