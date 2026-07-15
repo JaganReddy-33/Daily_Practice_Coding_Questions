@@ -1,18 +1,18 @@
-# Reverse String
+# Even Index Character Printer
 
-**Question ID:** `649068d11b7101653bce6a12`
+**Question ID:** `6490656b1b7101653bcdb262`
 
 ## Description
 
-Reverses a given string.
+Extracts and prints all the characters present at even indices in a given string in the order of their occurrence.
 
 ## Input Format
 
-The input consists of a single line containing a string.
+The program takes a single line of input containing a string.
 
 ## Output Format
 
-Output the reversed string.
+Print the characters at even indices in the order of their occurrence. If no characters are found at even indices, output 'No characters found at even indices.'
 
 ## Sample Cases
 
@@ -20,28 +20,28 @@ Output the reversed string.
 
 **Input**
 ```text
-TapAcademy
+TapAcad
 ```
 
 **Output**
 ```text
-ymedacApaT
+T p c d
 ```
 
 ### Sample Case 2
 
 **Input**
 ```text
-Racecar
+12345
 ```
 
 **Output**
 ```text
-racecaR
+1 3 5
 ```
 
 _5 sample case(s) omitted because the captured values were empty or looked like links/encoded data._
 
 ---
 
-**Submitted at:** 2026-07-15 17:26:57Z
+**Submitted at:** 2026-07-15 13:54:11Z
