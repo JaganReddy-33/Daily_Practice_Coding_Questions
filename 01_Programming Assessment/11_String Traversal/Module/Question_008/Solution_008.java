@@ -1,25 +1,24 @@
 import java.util.Scanner;
 
 public class Main {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        String input = scanner.nextLine();
 
+    private static String reverseString(String s){
+        char[] arr = s.toCharArray();
         int i=0;
-        int j=input.length()-1;
-        boolean isPalindrome = true;
+        int j=arr.length-1;
         while(i<j){
-            if(input.charAt(i) != input.charAt(j)){
-                isPalindrome = false;
-                break;
-            }
+            char temp = arr[i];
+            arr[i] = arr[j];
+            arr[j] = temp;
             i++;
             j--;
         }
+        return new String(arr);
+    }
 
-        System.out.print(isPalindrome ? "Yes" : "No");
-
-
-
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        String input = scanner.nextLine();
+        System.out.println(reverseString(input));
     }
 }
