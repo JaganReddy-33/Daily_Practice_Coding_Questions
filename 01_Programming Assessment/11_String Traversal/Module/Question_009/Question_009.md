@@ -1,18 +1,18 @@
-# Character Printer
+# Palindrome Checker
 
-**Question ID:** `6490604a4cb94752716ebed2`
+**Question ID:** `649069104cb947527170b4a0`
 
 ## Description
 
-Prints all the alphabetic characters present in a given string in the order of their occurrence.
+Checks whether a given string is a palindrome or not.
 
 ## Input Format
 
-The program takes a single line of input containing a string. The string can contain alphabets (both uppercase and lowercase), whitespaces, and special characters.
+The input consists of a single line containing a string.
 
 ## Output Format
 
-Print the characters in the order of their occurrence. If no valid characters are found, output 'No valid characters found.'
+Output 'Yes' if the string is a palindrome, 'No' otherwise.
 
 ## Sample Cases
 
@@ -20,28 +20,86 @@ Print the characters in the order of their occurrence. If no valid characters ar
 
 **Input**
 ```text
-Hello World!
+radar
 ```
 
 **Output**
 ```text
-H e l l o W o r l d
+Yes
 ```
 
 ### Sample Case 2
 
 **Input**
 ```text
-12345
+TapAcademy
 ```
 
 **Output**
 ```text
-No valid characters found.
+No
 ```
 
-_5 sample case(s) omitted because the captured values were empty or looked like links/encoded data._
+### Sample Case 3
+
+**Input**
+```text
+radar
+```
+
+**Output**
+```text
+Yes
+```
+
+### Sample Case 4
+
+**Input**
+```text
+hello
+```
+
+**Output**
+```text
+No
+```
+
+### Sample Case 5
+
+**Input**
+```text
+level
+```
+
+**Output**
+```text
+Yes
+```
+
+### Sample Case 6
+
+**Input**
+```text
+deed
+```
+
+**Output**
+```text
+Yes
+```
+
+### Sample Case 7
+
+**Input**
+```text
+programming
+```
+
+**Output**
+```text
+No
+```
 
 ---
 
-**Submitted at:** 2026-07-17 17:27:28Z
+**Submitted at:** 2026-07-16 17:27:13Z
