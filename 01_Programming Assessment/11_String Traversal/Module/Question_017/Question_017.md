@@ -1,18 +1,18 @@
-# Special Character Count in String
+# Uppercase Character Count
 
-**Question ID:** `649075484cb947527172b459`
+**Question ID:** `64afa4378bb483aa7cb96c6e`
 
 ## Description
 
-Counts the number of special characters in a given string. Do not consider space as special character for this problem.
+Given a string, count the number of uppercase characters in it.
 
 ## Input Format
 
-The program takes a single line of input containing a string.
+The input consists of a single line containing a string, S.
 
 ## Output Format
 
-The program outputs a single line containing the count of special characters in the input string. If no special characters found return 0 in those cases.
+Print a single integer representing the number of uppercase characters in the given string.
 
 ## Sample Cases
 
@@ -20,28 +20,28 @@ The program outputs a single line containing the count of special characters in 
 
 **Input**
 ```text
-T@p A(adE%m&y Banglore
+Hello
 ```
 
 **Output**
 ```text
-4
+1
 ```
 
 ### Sample Case 2
 
 **Input**
 ```text
-[Not captured]
+World
 ```
 
 **Output**
 ```text
-7
+1
 ```
 
-_4 sample case(s) omitted because the captured values were empty or looked like links/encoded data._
+_5 sample case(s) omitted because the captured values were empty or looked like links/encoded data._
 
 ---
 
-**Submitted at:** 2026-07-17 17:30:00Z
+**Submitted at:** 2026-07-17 17:29:30Z
