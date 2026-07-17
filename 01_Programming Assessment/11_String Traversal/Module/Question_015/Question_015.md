@@ -1,10 +1,10 @@
-# Uppercase Character Count
+# Character Count
 
-**Question ID:** `64afa4378bb483aa7cb96c6e`
+**Question ID:** `64afa0d88bb483aa7cb88116`
 
 ## Description
 
-Given a string, count the number of uppercase characters in it.
+Given a string, count the number of characters in it.
 
 ## Input Format
 
@@ -12,7 +12,7 @@ The input consists of a single line containing a string, S.
 
 ## Output Format
 
-Print a single integer representing the number of uppercase characters in the given string.
+Print a single integer representing the number of characters in the given string.
 
 ## Sample Cases
 
@@ -20,28 +20,28 @@ Print a single integer representing the number of uppercase characters in the gi
 
 **Input**
 ```text
-Hello
+computer
 ```
 
 **Output**
 ```text
-1
+8
 ```
 
 ### Sample Case 2
 
 **Input**
 ```text
-World
+programming
 ```
 
 **Output**
 ```text
-1
+11
 ```
 
 _5 sample case(s) omitted because the captured values were empty or looked like links/encoded data._
 
 ---
 
-**Submitted at:** 2026-07-17 17:29:30Z
+**Submitted at:** 2026-07-17 17:29:00Z
