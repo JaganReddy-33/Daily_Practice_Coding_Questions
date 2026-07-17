@@ -1,18 +1,18 @@
-# Count Vowels, Consonants, and Special Characters in a String
+# Special Character Count in String
 
-**Question ID:** `649074794cb94752717286d5`
+**Question ID:** `649075484cb947527172b459`
 
 ## Description
 
-Counts the number of vowels, consonants, and special characters in a given string.
+Counts the number of special characters in a given string. Do not consider space as special character for this problem.
 
 ## Input Format
 
-The input consists of a single line containing the input string.
+The program takes a single line of input containing a string.
 
 ## Output Format
 
-Output three lines, each containing the count of vowels, consonants, and special characters in the given string, respectively.
+The program outputs a single line containing the count of special characters in the input string. If no special characters found return 0 in those cases.
 
 ## Sample Cases
 
@@ -20,32 +20,28 @@ Output three lines, each containing the count of vowels, consonants, and special
 
 **Input**
 ```text
-Hello, World!
+T@p A(adE%m&y Banglore
 ```
 
 **Output**
 ```text
-Vowels: 3
-Consonants: 7
-Special Characters: 3
+4
 ```
 
 ### Sample Case 2
 
 **Input**
 ```text
-Programming is fun!
+[Not captured]
 ```
 
 **Output**
 ```text
-Vowels: 5
-Consonants: 11
-Special Characters: 3
+7
 ```
 
-_5 sample case(s) omitted because the captured values were empty or looked like links/encoded data._
+_4 sample case(s) omitted because the captured values were empty or looked like links/encoded data._
 
 ---
 
-**Submitted at:** 2026-07-17 17:30:34Z
+**Submitted at:** 2026-07-17 17:30:00Z
