@@ -1,10 +1,10 @@
-# Space Count in String
+# Consonant Count in String
 
-**Question ID:** `6490729d1b7101653bd0042b`
+**Question ID:** `649073581b7101653bd03086`
 
 ## Description
 
-Count the number of spaces in a given string.
+Count the number of consonants in a given string.
 
 ## Input Format
 
@@ -12,7 +12,7 @@ The input consists of a single line containing the input string.
 
 ## Output Format
 
-Output the count of spaces in the given string.
+Output the count of consonants in the given string.
 
 ## Sample Cases
 
@@ -20,28 +20,28 @@ Output the count of spaces in the given string.
 
 **Input**
 ```text
-Tap Academy.
+Hello, World!
 ```
 
 **Output**
 ```text
-1
+7
 ```
 
 ### Sample Case 2
 
 **Input**
 ```text
-Programming is fun
+TapAcademy
 ```
 
 **Output**
 ```text
-2
+6
 ```
 
 _5 sample case(s) omitted because the captured values were empty or looked like links/encoded data._
 
 ---
 
-**Submitted at:** 2026-07-18T05:56:37.305Z
+**Submitted at:** 2026-07-17 17:30:16Z
