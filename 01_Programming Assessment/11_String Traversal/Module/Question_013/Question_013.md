@@ -1,18 +1,18 @@
-# Character Count
+# Vowel Count in String
 
-**Question ID:** `64afa0d88bb483aa7cb88116`
+**Question ID:** `649072f31b7101653bd01fe7`
 
 ## Description
 
-Given a string, count the number of characters in it.
+Count the number of vowels in a given string.
 
 ## Input Format
 
-The input consists of a single line containing a string, S.
+The input consists of a single line containing the input string.
 
 ## Output Format
 
-Print a single integer representing the number of characters in the given string.
+Output the count of vowels in the given string.
 
 ## Sample Cases
 
@@ -20,28 +20,28 @@ Print a single integer representing the number of characters in the given string
 
 **Input**
 ```text
-computer
+Hello, World!
 ```
 
 **Output**
 ```text
-8
+3
 ```
 
 ### Sample Case 2
 
 **Input**
 ```text
-programming
+TapAcademy
 ```
 
 **Output**
 ```text
-11
+4
 ```
 
 _5 sample case(s) omitted because the captured values were empty or looked like links/encoded data._
 
 ---
 
-**Submitted at:** 2026-07-17 17:29:00Z
+**Submitted at:** 2026-07-17 17:28:30Z
