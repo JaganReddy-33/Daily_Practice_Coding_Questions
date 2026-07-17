@@ -4,15 +4,18 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String input = scanner.nextLine();
-        String vowels = "AEIOUaeiou";
-        int count = 0;
-        
+        boolean isSpChar = false;
+
         for(int i=0; i<input.length(); i++){
             char ch = input.charAt(i);
-            if(vowels.indexOf(ch) != -1){
-                count++;
+            if(!Character.isLetterOrDigit(ch)){
+                System.out.print(ch+" ");
+                isSpChar = true;
             }
         }
-        System.out.print(count);
+        if(!isSpChar){
+            System.out.print("No special characters found.");
+        }
+       
     }
 }

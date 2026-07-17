@@ -1,18 +1,20 @@
-# Vowel Count in String
+# Special Character Printer
 
-**Question ID:** `649072f31b7101653bd01fe7`
+**Question ID:** `649064634cb94752716fbef3`
 
 ## Description
 
-Count the number of vowels in a given string.
+Extracts and prints all the special characters present in a given string in the order of their occurrence.
 
 ## Input Format
 
-The input consists of a single line containing the input string.
+The program takes a single line of input containing a string.
 
 ## Output Format
 
-Output the count of vowels in the given string.
+Print the special characters in the order of their occurrence separated by spaces.
+
+If no special characters are found, output 'No special characters found.'
 
 ## Sample Cases
 
@@ -20,28 +22,28 @@ Output the count of vowels in the given string.
 
 **Input**
 ```text
-Hello, World!
+[Not captured]
 ```
 
 **Output**
 ```text
-3
+@ # $ % ^ & *
 ```
 
 ### Sample Case 2
 
 **Input**
 ```text
-TapAcademy
+1234567890
 ```
 
 **Output**
 ```text
-4
+No special characters found.
 ```
 
 _5 sample case(s) omitted because the captured values were empty or looked like links/encoded data._
 
 ---
 
-**Submitted at:** 2026-07-17 17:28:30Z
+**Submitted at:** 2026-07-17 13:54:26Z
