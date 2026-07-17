@@ -1,28 +1,21 @@
 import java.util.Scanner;
 
 public class Main {
-
-    public static void countAlphanumeric(String s){
-        int count = 0;
-        for(int i=0; i<s.length(); i++){
-            char ch = s.charAt(i);
-            // if((ch>='a' && ch<='z') || (ch>='A' && ch<='Z') || (ch>='0' && ch<='9')){
-            //     count++;
-            // }
-
-            if(Character.isLetterOrDigit(ch)){
-                count++;
-            }
-        }
-        System.out.print(count);
-    }
-
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        String s = scanner.nextLine();
+        String input = scanner.nextLine();
+        boolean isFound = false;
 
-        countAlphanumeric(s);
-        
+        for(int i=0; i<input.length(); i++){
+            char ch = input.charAt(i);
+            if(ch>='0' && ch<='9'){
+                System.out.print(ch+" ");
+                isFound = true;
+            }
+        }
+        if(!isFound){
+            System.out.print("No numbers found.");
+        }
+     
     }
-
 }

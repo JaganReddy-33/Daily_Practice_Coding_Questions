@@ -1,18 +1,18 @@
-# Alphanumeric Character Count
+# Number Printer
 
-**Question ID:** `64afa82d3194660f032e8eaf`
+**Question ID:** `649062bc1b7101653bcd1beb`
 
 ## Description
 
-Given a string, count the number of alphanumeric characters in it.
+Extracts and prints all the numerical values present in a given string in the order of their occurrence.
 
 ## Input Format
 
-The input consists of a single line containing a string, S.
+The program takes a single line of input containing a string.
 
 ## Output Format
 
-Print a single integer representing the number of alphanumeric characters in the given string.
+Print the distinct numbers in the order of their occurrence. If no numbers are found, output 'No numbers found.'
 
 ## Sample Cases
 
@@ -20,28 +20,28 @@ Print a single integer representing the number of alphanumeric characters in the
 
 **Input**
 ```text
-H33LL0
+TAPacademy2021
 ```
 
 **Output**
 ```text
-6
+2 0 2 1
 ```
 
 ### Sample Case 2
 
 **Input**
 ```text
-AbCdEf123456
+Hello World!
 ```
 
 **Output**
 ```text
-12
+No numbers found.
 ```
 
 _5 sample case(s) omitted because the captured values were empty or looked like links/encoded data._
 
 ---
 
-**Submitted at:** 2026-07-17 17:28:45Z
+**Submitted at:** 2026-07-17 13:54:41Z
