@@ -2,17 +2,16 @@ import java.util.Scanner;
 
 public class Main {
 
-    public static void countLowerCaseChar(String input){
+    public static void countNumericChar(String input){
         int count = 0;
         for(int i=0; i<input.length(); i++){
             char ch = input.charAt(i);
-
-            // if(ch>='a' && ch<='z'){
+            // if(ch>='0' && ch<='9'){
             //     count++;
             // }
 
-            if(Character.isLowerCase(ch)){
-                count++;
+            if(Character.isDigit(ch)){
+                count
             }
         }
         System.out.print(count);
@@ -21,8 +20,9 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String input = scanner.nextLine();
-
-        countLowerCaseChar(input);
+        
+        countNumericChar(input);
+        
     }
 
 }
