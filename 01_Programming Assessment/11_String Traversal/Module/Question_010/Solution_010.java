@@ -8,14 +8,13 @@ public class Main {
 
         for(int i=0; i<input.length(); i++){
             char ch = input.charAt(i);
-            if(ch>='0' && ch<='9'){
+            if(Character.isLetter(ch)){
                 System.out.print(ch+" ");
                 isFound = true;
             }
         }
         if(!isFound){
-            System.out.print("No numbers found.");
-        }
-     
+            System.out.print("No valid characters found.");
+        }      
     }
 }
