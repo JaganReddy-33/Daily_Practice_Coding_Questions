@@ -1,18 +1,18 @@
-# Consonant Count in String
+# Lowercase Character Count
 
-**Question ID:** `649073581b7101653bd03086`
+**Question ID:** `64afa5d38bb483aa7cbb1599`
 
 ## Description
 
-Count the number of consonants in a given string.
+Given a string, count the number of lowercase characters in it.
 
 ## Input Format
 
-The input consists of a single line containing the input string.
+The input consists of a single line containing a string, S.
 
 ## Output Format
 
-Output the count of consonants in the given string.
+Print a single integer representing the number of lowercase characters in the given string.
 
 ## Sample Cases
 
@@ -20,28 +20,28 @@ Output the count of consonants in the given string.
 
 **Input**
 ```text
-Hello, World!
+hello
 ```
 
 **Output**
 ```text
-7
+5
 ```
 
 ### Sample Case 2
 
 **Input**
 ```text
-TapAcademy
+world
 ```
 
 **Output**
 ```text
-6
+5
 ```
 
 _5 sample case(s) omitted because the captured values were empty or looked like links/encoded data._
 
 ---
 
-**Submitted at:** 2026-07-17 17:30:16Z
+**Submitted at:** 2026-07-17 17:29:45Z
