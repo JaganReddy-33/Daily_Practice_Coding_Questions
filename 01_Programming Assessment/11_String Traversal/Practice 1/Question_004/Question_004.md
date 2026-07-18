@@ -1,10 +1,10 @@
-# String Contains Consonants
+# String Contains Vowels
 
-**Question ID:** `662f3273ae2286cdf8f1b50f`
+**Question ID:** `662f3263c74ee9cf9f4dceba`
 
 ## Description
 
-Determine whether a given string contains only consonants or not.
+Determine whether a given string contains only vowels or not.
 
 ## Input Format
 
@@ -12,7 +12,7 @@ The input consists of a single string.
 
 ## Output Format
 
-Print "Yes" if the string contains only consonants, otherwise print "No".
+Print "Yes" if the string contains only vowels, otherwise print "No".
 
 ## Sample Cases
 
@@ -32,7 +32,7 @@ No
 
 **Input**
 ```text
-xyz
+aeiou
 ```
 
 **Output**
@@ -44,4 +44,4 @@ _5 sample case(s) omitted because the captured values were empty or looked like 
 
 ---
 
-**Submitted at:** 2026-07-18T06:29:42.233Z
+**Submitted at:** 2026-07-18 13:55:26Z
