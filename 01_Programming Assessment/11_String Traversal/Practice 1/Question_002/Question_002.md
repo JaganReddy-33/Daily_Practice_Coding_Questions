@@ -1,0 +1,23 @@
+# String of Characters
+
+**Question ID:** `662f3250c74ee9cf9f4dc843`
+
+## Description
+
+_Problem description was not captured from the portal._
+
+## Input Format
+
+_Input format was not captured from the portal._
+
+## Output Format
+
+_Output format was not captured from the portal._
+
+## Sample Cases
+
+_No readable sample cases were captured from the portal._
+
+---
+
+**Submitted at:** 2026-07-18T06:05:27.422Z
