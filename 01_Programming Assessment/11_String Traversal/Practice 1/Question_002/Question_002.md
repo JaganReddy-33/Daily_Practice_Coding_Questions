@@ -1,23 +1,49 @@
-# String of Characters
+# Get Char at Index
 
-**Question ID:** `662f3250c74ee9cf9f4dc843`
+**Question ID:** `662f2f93ae2286cdf8f0d4a4`
 
 ## Description
 
-_Problem description was not captured from the portal._
+Retrieve the character at the specified index within a given string.
 
 ## Input Format
 
-_Input format was not captured from the portal._
+The input consists of a string and an integer index separated by a space. The first line contains String s, and the second line contains an integer representing the index value.
 
 ## Output Format
 
-_Output format was not captured from the portal._
+Print the character at the given index within the string.
 
 ## Sample Cases
 
-_No readable sample cases were captured from the portal._
+### Sample Case 1
+
+**Input**
+```text
+hello
+2
+```
+
+**Output**
+```text
+l
+```
+
+### Sample Case 2
+
+**Input**
+```text
+world
+4
+```
+
+**Output**
+```text
+d
+```
+
+_5 sample case(s) omitted because the captured values were empty or looked like links/encoded data._
 
 ---
 
-**Submitted at:** 2026-07-18T06:05:27.422Z
+**Submitted at:** 2026-07-18 13:55:11Z

@@ -1,6 +1,11 @@
-public class Main {
+import java.util.Scanner;
+
+class Main {
     public static void main(String[] args) {
-        // Write your solution here
-        System.out.println("Hello World!");
+        Scanner scanner = new Scanner(System.in);
+        String input = scanner.nextLine();
+        int idx = scanner.nextInt();
+
+        System.out.print(input.charAt(idx));
     }
 }
