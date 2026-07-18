@@ -1,47 +1,23 @@
-# String Contains Vowels
+# String of Characters
 
-**Question ID:** `662f3263c74ee9cf9f4dceba`
+**Question ID:** `662f3250c74ee9cf9f4dc843`
 
 ## Description
 
-Determine whether a given string contains only vowels or not.
+_Problem description was not captured from the portal._
 
 ## Input Format
 
-The input consists of a single string.
+_Input format was not captured from the portal._
 
 ## Output Format
 
-Print "Yes" if the string contains only vowels, otherwise print "No".
+_Output format was not captured from the portal._
 
 ## Sample Cases
 
-### Sample Case 1
-
-**Input**
-```text
-hello
-```
-
-**Output**
-```text
-No
-```
-
-### Sample Case 2
-
-**Input**
-```text
-aeiou
-```
-
-**Output**
-```text
-Yes
-```
-
-_5 sample case(s) omitted because the captured values were empty or looked like links/encoded data._
+_No readable sample cases were captured from the portal._
 
 ---
 
-**Submitted at:** 2026-07-18T06:20:39.644Z
+**Submitted at:** 2026-07-18T06:05:27.422Z
