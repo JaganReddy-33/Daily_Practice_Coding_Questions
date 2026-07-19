@@ -1,0 +1,47 @@
+# String Contains Digits
+
+**Question ID:** `662f327cc74ee9cf9f4dd3db`
+
+## Description
+
+Determine whether a given string contains only digits or not.
+
+## Input Format
+
+The input consists of a single string.
+
+## Output Format
+
+Print "Yes" if the string contains only digits, otherwise print "No".
+
+## Sample Cases
+
+### Sample Case 1
+
+**Input**
+```text
+12345
+```
+
+**Output**
+```text
+Yes
+```
+
+### Sample Case 2
+
+**Input**
+```text
+hello123
+```
+
+**Output**
+```text
+No
+```
+
+_5 sample case(s) omitted because the captured values were empty or looked like links/encoded data._
+
+---
+
+**Submitted at:** 2026-07-19 17:33:54Z
