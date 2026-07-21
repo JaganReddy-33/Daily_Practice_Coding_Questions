@@ -1,18 +1,18 @@
-# Remove Lowercase Characters
+# Remove Spaces from a String
 
-**Question ID:** `64927e157a986ec71909287f`
+**Question ID:** `6495725a7a986ec719e61b88`
 
 ## Description
 
-Remove all lowercase characters from a given string.
+Write a Java program that removes all leading and trailing spaces from a given string.
 
 ## Input Format
 
-The input consists of a single line containing a string that may contain lowercase characters.
+A single line containing a string.
 
 ## Output Format
 
-Output a single line containing the modified string after removing all lowercase characters.
+Print the input string after removing any leading and trailing spaces.
 
 ## Sample Cases
 
@@ -20,28 +20,28 @@ Output a single line containing the modified string after removing all lowercase
 
 **Input**
 ```text
-TtAaPpAaCcAaDdEeMmYy
+Hello, World!
 ```
 
 **Output**
 ```text
-TAPACADEMY
+Hello, World!
 ```
 
 ### Sample Case 2
 
 **Input**
 ```text
-PpRrOoGgRrAaMmMmIiNnGg
+TAP ACADEMY
 ```
 
 **Output**
 ```text
-PROGRAMMING
+TAP ACADEMY
 ```
 
-_5 sample case(s) omitted because the captured values were empty or looked like links/encoded data._
+_4 sample case(s) omitted because the captured values were empty or looked like links/encoded data._
 
 ---
 
-**Submitted at:** 2026-07-21 17:45:27Z
+**Submitted at:** 2026-07-21 17:45:06Z
