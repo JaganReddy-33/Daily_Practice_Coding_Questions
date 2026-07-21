@@ -1,18 +1,18 @@
-# Remove Spaces from a String
+# Insert Asterisks Before Vowels
 
-**Question ID:** `6495725a7a986ec719e61b88`
+**Question ID:** `649285a62e0c7d2f45483859`
 
 ## Description
 
-Write a Java program that removes all leading and trailing spaces from a given string.
+Insert an asterisk (*) before each vowel (a, e, i, o, u) in a given string.
 
 ## Input Format
 
-A single line containing a string.
+The input consists of a single line containing a string.
 
 ## Output Format
 
-Print the input string after removing any leading and trailing spaces.
+Output a single line containing the modified string with asterisks inserted before vowels.
 
 ## Sample Cases
 
@@ -20,28 +20,28 @@ Print the input string after removing any leading and trailing spaces.
 
 **Input**
 ```text
-Hello, World!
+programming
 ```
 
 **Output**
 ```text
-Hello, World!
+pr*ogr*amm*ing
 ```
 
 ### Sample Case 2
 
 **Input**
 ```text
-TAP ACADEMY
+TapAcademy
 ```
 
 **Output**
 ```text
-TAP ACADEMY
+T*ap*Ac*ad*emy
 ```
 
-_4 sample case(s) omitted because the captured values were empty or looked like links/encoded data._
+_5 sample case(s) omitted because the captured values were empty or looked like links/encoded data._
 
 ---
 
-**Submitted at:** 2026-07-21 17:45:06Z
+**Submitted at:** 2026-07-21 17:44:47Z
