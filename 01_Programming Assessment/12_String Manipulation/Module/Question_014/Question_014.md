@@ -1,18 +1,18 @@
-# Remove Numeric Characters
+# Remove Consonants
 
-**Question ID:** `64927af17a986ec71908a9b1`
+**Question ID:** `64927d3b2e0c7d2f454602c6`
 
 ## Description
 
-Remove all numeric characters from a given string.
+Remove all consonants from a given string.
 
 ## Input Format
 
-The input consists of a single line containing a string that may contain numerical characters.
+The input consists of a single line containing a string that may contain consonants.
 
 ## Output Format
 
-Output a single line containing the modified string after removing all numerical characters.
+Output a single line containing the modified string after removing all consonants.
 
 ## Sample Cases
 
@@ -20,28 +20,28 @@ Output a single line containing the modified string after removing all numerical
 
 **Input**
 ```text
-Tap123Academy456
+TapAcademy123
 ```
 
 **Output**
 ```text
-TapAcademy
+aAae123
 ```
 
 ### Sample Case 2
 
 **Input**
 ```text
-P1r2o3g4r5a6m7m8i9n10g!
+I love coding in JAVA.
 ```
 
 **Output**
 ```text
-Programming!
+I oe oi i AA.
 ```
 
 _5 sample case(s) omitted because the captured values were empty or looked like links/encoded data._
 
 ---
 
-**Submitted at:** 2026-07-21 17:46:06Z
+**Submitted at:** 2026-07-21 17:45:47Z
