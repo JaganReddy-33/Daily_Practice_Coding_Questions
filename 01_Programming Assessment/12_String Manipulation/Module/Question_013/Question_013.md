@@ -1,18 +1,18 @@
-# Remove Consonants
+# Remove Lowercase Characters
 
-**Question ID:** `64927d3b2e0c7d2f454602c6`
+**Question ID:** `64927e157a986ec71909287f`
 
 ## Description
 
-Remove all consonants from a given string.
+Remove all lowercase characters from a given string.
 
 ## Input Format
 
-The input consists of a single line containing a string that may contain consonants.
+The input consists of a single line containing a string that may contain lowercase characters.
 
 ## Output Format
 
-Output a single line containing the modified string after removing all consonants.
+Output a single line containing the modified string after removing all lowercase characters.
 
 ## Sample Cases
 
@@ -20,28 +20,28 @@ Output a single line containing the modified string after removing all consonant
 
 **Input**
 ```text
-TapAcademy123
+TtAaPpAaCcAaDdEeMmYy
 ```
 
 **Output**
 ```text
-aAae123
+TAPACADEMY
 ```
 
 ### Sample Case 2
 
 **Input**
 ```text
-I love coding in JAVA.
+PpRrOoGgRrAaMmMmIiNnGg
 ```
 
 **Output**
 ```text
-I oe oi i AA.
+PROGRAMMING
 ```
 
 _5 sample case(s) omitted because the captured values were empty or looked like links/encoded data._
 
 ---
 
-**Submitted at:** 2026-07-21 17:45:47Z
+**Submitted at:** 2026-07-21 17:45:27Z
