@@ -1,18 +1,18 @@
-# String to ASCII Converter
+# Remove Uppercase Characters
 
-**Question ID:** `64906fcb1b7101653bcf7156`
+**Question ID:** `649280107a986ec719099ba7`
 
 ## Description
 
-Converts a given string to its corresponding ASCII values.
+Remove all uppercase characters from a given string.
 
 ## Input Format
 
-The input consists of a single line containing a string.
+The input consists of a single line containing a string that may contain uppercase characters.
 
 ## Output Format
 
-Output the ASCII values separated by spaces.
+Output a single line containing the modified string after removing all uppercase characters.
 
 ## Sample Cases
 
@@ -20,28 +20,28 @@ Output the ASCII values separated by spaces.
 
 **Input**
 ```text
-Hello, World!
+TtAaPpAaCcAaDdEeMmYy
 ```
 
 **Output**
 ```text
-72 101 108 108 111 44 32 87 111 114 108 100 33
+tapacademy
 ```
 
 ### Sample Case 2
 
 **Input**
 ```text
-TapAcademy
+PpRrOoGgRrAaMmMmIiNnGg
 ```
 
 **Output**
 ```text
-84 97 112 65 99 97 100 101 109 121
+programming
 ```
 
 _5 sample case(s) omitted because the captured values were empty or looked like links/encoded data._
 
 ---
 
-**Submitted at:** 2026-07-22T05:22:02.882Z
+**Submitted at:** 2026-07-22 17:48:27Z
