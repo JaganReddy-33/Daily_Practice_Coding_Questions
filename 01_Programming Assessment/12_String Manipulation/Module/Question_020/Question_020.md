@@ -1,10 +1,10 @@
-# String Sort
+# Replace Uppercase Letters
 
-**Question ID:** `64b0e2848bb483aa7c0e5d43`
+**Question ID:** `64afe9238bb483aa7cd71fb2`
 
 ## Description
 
-Given a string, sort it in ascending order.
+Given a string, replace all uppercase letters with '#' characters.
 
 ## Input Format
 
@@ -12,7 +12,7 @@ The input consists of a single line containing a string, S.
 
 ## Output Format
 
-Print a single string representing the sorted characters of the given string.
+Print a single string with all uppercase letters replaced by '#'.
 
 ## Sample Cases
 
@@ -20,28 +20,28 @@ Print a single string representing the sorted characters of the given string.
 
 **Input**
 ```text
-TAPACADEMY
+I lOve CODING
 ```
 
 **Output**
 ```text
-AAACDEMPTY
+# l#ve ######
 ```
 
 ### Sample Case 2
 
 **Input**
 ```text
-HelloWorld
+Hello World
 ```
 
 **Output**
 ```text
-HWdellloor
+#ello #orld
 ```
 
 _5 sample case(s) omitted because the captured values were empty or looked like links/encoded data._
 
 ---
 
-**Submitted at:** 2026-07-22 17:48:05Z
+**Submitted at:** 2026-07-22 17:47:23Z
