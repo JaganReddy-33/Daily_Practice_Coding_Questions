@@ -1,10 +1,10 @@
-# Trim Whitespaces
+# String Sort
 
-**Question ID:** `64b0c9598bb483aa7c091883`
+**Question ID:** `64b0e2848bb483aa7c0e5d43`
 
 ## Description
 
-Given a string, trim the leading and trailing whitespaces.
+Given a string, sort it in ascending order.
 
 ## Input Format
 
@@ -12,7 +12,7 @@ The input consists of a single line containing a string, S.
 
 ## Output Format
 
-Print a single string with no leading and trailing whitespaces.
+Print a single string representing the sorted characters of the given string.
 
 ## Sample Cases
 
@@ -20,28 +20,28 @@ Print a single string with no leading and trailing whitespaces.
 
 **Input**
 ```text
-Hello
+TAPACADEMY
 ```
 
 **Output**
 ```text
-Hello
+AAACDEMPTY
 ```
 
 ### Sample Case 2
 
 **Input**
 ```text
-Trim
+HelloWorld
 ```
 
 **Output**
 ```text
-Trim
+HWdellloor
 ```
 
 _5 sample case(s) omitted because the captured values were empty or looked like links/encoded data._
 
 ---
 
-**Submitted at:** 2026-07-22T05:58:40.893Z
+**Submitted at:** 2026-07-22 17:48:05Z
