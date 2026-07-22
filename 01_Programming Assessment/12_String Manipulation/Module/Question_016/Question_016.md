@@ -1,18 +1,18 @@
-# Remove Alphanumeric
+# Remove Special Characters
 
-**Question ID:** `64afe0098bb483aa7cd3713b`
+**Question ID:** `64927a712e0c7d2f4545bb93`
 
 ## Description
 
-Given a string, remove all alphanumeric characters and return the modified string.
+Remove all special characters from a given string.
 
 ## Input Format
 
-The input consists of a single line containing a string, S.
+The input consists of a single line containing a string that may contain special characters.
 
 ## Output Format
 
-Output a single string after removing all the alphanumeric characters.
+Output a single line containing the modified string after removing all the special characters.
 
 ## Sample Cases
 
@@ -20,28 +20,28 @@ Output a single string after removing all the alphanumeric characters.
 
 **Input**
 ```text
-tap@123#
+Tap$@Acad123
 ```
 
 **Output**
 ```text
-@#
+TapAcad123
 ```
 
 ### Sample Case 2
 
 **Input**
 ```text
-H3ll0 W0rld!
+[Not captured]
 ```
 
 **Output**
 ```text
-!
+Programming
 ```
 
 _5 sample case(s) omitted because the captured values were empty or looked like links/encoded data._
 
 ---
 
-**Submitted at:** 2026-07-22 17:46:47Z
+**Submitted at:** 2026-07-22 17:46:23Z
