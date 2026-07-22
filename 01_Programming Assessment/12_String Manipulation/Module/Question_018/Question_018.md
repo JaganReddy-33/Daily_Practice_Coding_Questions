@@ -1,10 +1,10 @@
-# Replace Uppercase Letters
+# Remove Alphanumeric
 
-**Question ID:** `64afe9238bb483aa7cd71fb2`
+**Question ID:** `64afe0098bb483aa7cd3713b`
 
 ## Description
 
-Given a string, replace all uppercase letters with '#' characters.
+Given a string, remove all alphanumeric characters and return the modified string.
 
 ## Input Format
 
@@ -12,7 +12,7 @@ The input consists of a single line containing a string, S.
 
 ## Output Format
 
-Print a single string with all uppercase letters replaced by '#'.
+Output a single string after removing all the alphanumeric characters.
 
 ## Sample Cases
 
@@ -20,28 +20,28 @@ Print a single string with all uppercase letters replaced by '#'.
 
 **Input**
 ```text
-I lOve CODING
+tap@123#
 ```
 
 **Output**
 ```text
-# l#ve ######
+@#
 ```
 
 ### Sample Case 2
 
 **Input**
 ```text
-Hello World
+H3ll0 W0rld!
 ```
 
 **Output**
 ```text
-#ello #orld
+!
 ```
 
 _5 sample case(s) omitted because the captured values were empty or looked like links/encoded data._
 
 ---
 
-**Submitted at:** 2026-07-22 17:47:23Z
+**Submitted at:** 2026-07-22 17:46:47Z
