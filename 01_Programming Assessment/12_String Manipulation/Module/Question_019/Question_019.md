@@ -1,18 +1,18 @@
-# Sum of Digits and Concatenate
+# String to ASCII Converter
 
-**Question ID:** `64b0cb888bb483aa7c0957f4`
+**Question ID:** `64906fcb1b7101653bcf7156`
 
 ## Description
 
-Given a string, calculate the sum of all the digits in the string and concatenate the sum at the end.
+Converts a given string to its corresponding ASCII values.
 
 ## Input Format
 
-The input consists of a single line containing a string, S.
+The input consists of a single line containing a string.
 
 ## Output Format
 
-Print a single string with the sum of digits concatenated at the end.
+Output the ASCII values separated by spaces.
 
 ## Sample Cases
 
@@ -20,28 +20,28 @@ Print a single string with the sum of digits concatenated at the end.
 
 **Input**
 ```text
-1One 2Two 3Three
+Hello, World!
 ```
 
 **Output**
 ```text
-One Two Three6
+72 101 108 108 111 44 32 87 111 114 108 100 33
 ```
 
 ### Sample Case 2
 
 **Input**
 ```text
-Hello123World
+TapAcademy
 ```
 
 **Output**
 ```text
-HelloWorld6
+84 97 112 65 99 97 100 101 109 121
 ```
 
 _5 sample case(s) omitted because the captured values were empty or looked like links/encoded data._
 
 ---
 
-**Submitted at:** 2026-07-22 17:47:44Z
+**Submitted at:** 2026-07-22T05:22:02.882Z
