@@ -1,18 +1,18 @@
-# Lexicographical Deduplication
+# Unique Character Filter
 
-**Question ID:** `66155d585028dc4e9dfb77f5`
+**Question ID:** `66155944f51c6d596bed3f37`
 
 ## Description
 
-Remove duplicate characters from a given string and output the remaining characters in lexicographical order.
+Remove duplicate characters from a given string, preserving the original order.
 
 ## Input Format
 
-A single line of input containing the string from which duplicates need to be removed.
+A single line containing the string from which duplicates need to be removed.
 
 ## Output Format
 
-A single line outputting space separated characters of the string in lexicographical order after removing duplicates.
+A single line containing the string after all duplicate characters have been removed, maintaining the original order of characters.
 
 ## Sample Cases
 
@@ -25,7 +25,7 @@ hello world
 
 **Output**
 ```text
-d e h l o r w
+helo wrd
 ```
 
 ### Sample Case 2
@@ -37,11 +37,11 @@ Programming is fun!
 
 **Output**
 ```text
-! P a f g i m n o r s u
+Progamin sfu!
 ```
 
 _5 sample case(s) omitted because the captured values were empty or looked like links/encoded data._
 
 ---
 
-**Submitted at:** 2026-07-31 18:04:35Z
+**Submitted at:** 2026-07-25 16:38:51Z

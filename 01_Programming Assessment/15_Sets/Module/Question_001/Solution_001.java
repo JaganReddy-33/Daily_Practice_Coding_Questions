@@ -1,25 +1,24 @@
-import java.util.LinkedHashSet;
-import java.util.ArrayList;
-import java.util.Collections;
 import java.util.*;
 
 public class Main {
+
+    public static void uniqueChars(String str){
+        Set<Character> set = new LinkedHashSet<>();
+        for(int i=0; i<str.length(); i++){
+            char ch = str.charAt(i);
+            set.add(ch);
+        }
+        StringBuilder sb = new StringBuilder();
+        for(char c: set){
+            sb.append(c);
+        }
+        System.out.print(sb.toString());
+    }
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String str = sc.nextLine();
 
-        Set<Character> set = new LinkedHashSet<>();
-        for(char ch : str.toCharArray()){
-            if(ch != ' '){
-                set.add(ch);
-            }
-        }
-
-        List<Character> list = new ArrayList<>(set);
-        Collections.sort(list);
-
-        for(int i=0; i<list.size(); i++){
-            System.out.print(list.get(i)+ (i == list.size()-1 ? "" : " "));
-        }
+        uniqueChars(str);
     }
 }
