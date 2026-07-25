@@ -1,0 +1,23 @@
+# Largest Word
+
+**Question ID:** `64b0cdda3194660f037c481d`
+
+## Description
+
+_Problem description was not captured from the portal._
+
+## Input Format
+
+_Input format was not captured from the portal._
+
+## Output Format
+
+_Output format was not captured from the portal._
+
+## Sample Cases
+
+_No readable sample cases were captured from the portal._
+
+---
+
+**Submitted at:** 2026-07-25T09:35:25.935Z
