@@ -1,10 +1,10 @@
-# Count of Characters after Each Word
+# Print Words by Odd and Even Indices
 
-**Question ID:** `649d6021ce7bf5aeb30778e4`
+**Question ID:** `649d60d6ce7bf5aeb3079cf0`
 
 ## Description
 
-Find the count of characters after each word in a given string.
+Write a program to swap the words present at odd indexes with the words present at even indexes.
 
 ## Input Format
 
@@ -12,23 +12,11 @@ A single line containing a string of words.
 
 ## Output Format
 
-A single line containing the count of characters after each word, separated by a space.
+A single line of text with the words at odd indexes and even indexes swapped.
 
 ## Sample Cases
 
 ### Sample Case 1
-
-**Input**
-```text
-Tap academy
-```
-
-**Output**
-```text
-Tap3 academy7
-```
-
-### Sample Case 2
 
 **Input**
 ```text
@@ -37,11 +25,69 @@ India is my country
 
 **Output**
 ```text
-India5 is2 my2 country7
+is India country my
 ```
 
-_3 sample case(s) omitted because the captured values were empty or looked like links/encoded data._
+### Sample Case 2
+
+**Input**
+```text
+Tap academy
+```
+
+**Output**
+```text
+academy Tap
+```
+
+### Sample Case 3
+
+**Input**
+```text
+India is my country
+```
+
+**Output**
+```text
+is India country my
+```
+
+### Sample Case 4
+
+**Input**
+```text
+Tap academy
+```
+
+**Output**
+```text
+academy Tap
+```
+
+### Sample Case 5
+
+**Input**
+```text
+Tap student
+```
+
+**Output**
+```text
+student Tap
+```
+
+### Sample Case 6
+
+**Input**
+```text
+I am a student of TAP
+```
+
+**Output**
+```text
+am I student a TAP of
+```
 
 ---
 
-**Submitted at:** 2026-07-25 18:03:30Z
+**Submitted at:** 2026-07-25 18:03:00Z
