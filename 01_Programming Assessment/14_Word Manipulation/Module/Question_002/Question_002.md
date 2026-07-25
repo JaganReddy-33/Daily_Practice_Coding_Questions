@@ -1,93 +1,23 @@
-# Print Words by Odd and Even Indices
+# Largest Word
 
-**Question ID:** `649d60d6ce7bf5aeb3079cf0`
+**Question ID:** `64b0cdda3194660f037c481d`
 
 ## Description
 
-Write a program to swap the words present at odd indexes with the words present at even indexes.
+_Problem description was not captured from the portal._
 
 ## Input Format
 
-A single line containing a string of words.
+_Input format was not captured from the portal._
 
 ## Output Format
 
-A single line of text with the words at odd indexes and even indexes swapped.
+_Output format was not captured from the portal._
 
 ## Sample Cases
 
-### Sample Case 1
-
-**Input**
-```text
-India is my country
-```
-
-**Output**
-```text
-is India country my
-```
-
-### Sample Case 2
-
-**Input**
-```text
-Tap academy
-```
-
-**Output**
-```text
-academy Tap
-```
-
-### Sample Case 3
-
-**Input**
-```text
-India is my country
-```
-
-**Output**
-```text
-is India country my
-```
-
-### Sample Case 4
-
-**Input**
-```text
-Tap academy
-```
-
-**Output**
-```text
-academy Tap
-```
-
-### Sample Case 5
-
-**Input**
-```text
-Tap student
-```
-
-**Output**
-```text
-student Tap
-```
-
-### Sample Case 6
-
-**Input**
-```text
-I am a student of TAP
-```
-
-**Output**
-```text
-am I student a TAP of
-```
+_No readable sample cases were captured from the portal._
 
 ---
 
-**Submitted at:** 2026-07-25 18:03:00Z
+**Submitted at:** 2026-07-25T09:35:25.935Z
