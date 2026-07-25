@@ -1,10 +1,10 @@
-# Reverse Words in a String
+# Count of Characters after Each Word
 
-**Question ID:** `649d5f7bce7bf5aeb307430b`
+**Question ID:** `649d6021ce7bf5aeb30778e4`
 
 ## Description
 
-Reverse all the words in a given string while maintaining the order of the words.
+Find the count of characters after each word in a given string.
 
 ## Input Format
 
@@ -12,7 +12,7 @@ A single line containing a string of words.
 
 ## Output Format
 
-Print each word of the reversed string on the same line separated by space.
+A single line containing the count of characters after each word, separated by a space.
 
 ## Sample Cases
 
@@ -25,7 +25,7 @@ Tap academy
 
 **Output**
 ```text
-paT ymedaca
+Tap3 academy7
 ```
 
 ### Sample Case 2
@@ -37,11 +37,11 @@ India is my country
 
 **Output**
 ```text
-aidnI si ym yrtnuoc
+India5 is2 my2 country7
 ```
 
-_5 sample case(s) omitted because the captured values were empty or looked like links/encoded data._
+_3 sample case(s) omitted because the captured values were empty or looked like links/encoded data._
 
 ---
 
-**Submitted at:** 2026-07-25T10:15:24.433Z
+**Submitted at:** 2026-07-25 18:03:30Z
