@@ -1,0 +1,28 @@
+# FLOAT Data Type in MySQL
+
+**Question ID:** `64ca2f485adfae65a4ca7a4e`
+
+**Question ID:** `64ca2f485adfae65a4ca7a4e`
+
+> ✅ Solved
+
+## Question
+
+What is the size of the FLOAT data type in MySQL?
+
+## Answer choices
+
+- ✅ **A. 4 Bytes** — Correct answer
+- ⬜ **B.** 6 Bytes
+- ⬜ **C.** 8 Bytes
+- ⬜ **D.** None of the above
+
+## Submission
+
+- **Correct answer:** 4 Bytes
+- **Submitted at:** 2026-07-28T06:27:38.759Z
+- **Correct submission:** True
+
+## Explanation
+
+_Not available._
