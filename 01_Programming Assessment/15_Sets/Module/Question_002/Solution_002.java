@@ -1,28 +1,25 @@
 import java.util.LinkedHashSet;
-import java.util.Scanner;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        
-        int n = sc.nextInt();
-        int[] arr = new int[n];
-        for (int i = 0; i < n; i++) {
-            arr[i] = sc.nextInt();
-        }
-        removeDuplicatesAndPrint(arr);
-    }
+        String str = sc.nextLine();
 
-    public static void removeDuplicatesAndPrint(int[] arr) {
-        LinkedHashSet<Integer> set = new LinkedHashSet<>();
-        for (int num : arr) {
-            set.add(num);
+        Set<Character> set = new LinkedHashSet<>();
+        for(char ch : str.toCharArray()){
+            if(ch != ' '){
+                set.add(ch);
+            }
         }
-        
-        StringBuilder sb = new StringBuilder();
-        for (int num : set) {
-            sb.append(num).append(" ");
+
+        List<Character> list = new ArrayList<>(set);
+        Collections.sort(list);
+
+        for(int i=0; i<list.size(); i++){
+            System.out.print(list.get(i)+ (i == list.size()-1 ? "" : " "));
         }
-        System.out.println(sb.toString().trim());
     }
 }

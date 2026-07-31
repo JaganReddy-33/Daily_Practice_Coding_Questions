@@ -1,18 +1,18 @@
-# Unique Integer Filter
+# Lexicographical Deduplication
 
-**Question ID:** `661575b75028dc4e9dffb5c1`
+**Question ID:** `66155d585028dc4e9dfb77f5`
 
 ## Description
 
-Remove duplicate integers from a given array, preserving the original order of elements.
+Remove duplicate characters from a given string and output the remaining characters in lexicographical order.
 
 ## Input Format
 
-The first line contains a single integer n, representing the number of elements in the array. The second line contains n space-separated integers representing the elements of the array.
+A single line of input containing the string from which duplicates need to be removed.
 
 ## Output Format
 
-A single line containing the elements of the array after all duplicate integers have been removed, maintaining the original order, separated by space.
+A single line outputting space separated characters of the string in lexicographical order after removing duplicates.
 
 ## Sample Cases
 
@@ -20,30 +20,28 @@ A single line containing the elements of the array after all duplicate integers 
 
 **Input**
 ```text
-7
-1 2 3 2 4 3 5
+hello world
 ```
 
 **Output**
 ```text
-1 2 3 4 5
+d e h l o r w
 ```
 
 ### Sample Case 2
 
 **Input**
 ```text
-10
-4 5 9 11 9 4 8 15 8 6
+Programming is fun!
 ```
 
 **Output**
 ```text
-4 5 9 11 8 15 6
+! P a f g i m n o r s u
 ```
 
 _5 sample case(s) omitted because the captured values were empty or looked like links/encoded data._
 
 ---
 
-**Submitted at:** 2026-08-29 18:04:51Z
+**Submitted at:** 2026-07-31 18:04:35Z
