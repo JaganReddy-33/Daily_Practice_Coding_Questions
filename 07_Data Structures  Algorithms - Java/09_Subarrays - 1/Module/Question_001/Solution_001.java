@@ -1,49 +1,44 @@
 import java.util.Scanner;
 
-class Main {
-
-    public static void evenSubarray(int n, int[] arr){
-
+public class Main {
+    static void subarrayOfSize(int[] arr, int k) {
         boolean found = false;
-        for(int len=1; len<=n; len++){
-            for(int i=0; i<=n-len; i++){
-                int j = i+len-1;
+
+        for (int len = 1; len <= arr.length; len++) {
+            for (int i = 0; i <= arr.length - len; i++) {
+                int j = i + len - 1;
                 
                 int sum = 0;
-                for(int k=i; k<=j; k++){
-                    sum += arr[k];
+                for (int m = i; m <= j; m++) {
+                    sum += arr[m];
                 }
-                if(isEven(sum)){
+
+                if (sum == k) {
                     found = true;
-                    for(int k=i; k<=j; k++){
-                        System.out.print(arr[k]+" ");
+                    for (int m = i; m <= j; m++) {
+                        System.out.print(arr[m] + " ");
                     }
                     System.out.println();
                 }
             }
         }
-        if(!found){
-            System.out.print("None");
-        }
-    }
 
-    private static boolean isEven(int n){
-        if(n%2 == 0){
-            return true; 
-        } else {
-            return false;
+        if (!found) {
+            System.out.print("None");
         }
     }
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int n=scanner.nextInt();
-        int[] arr= new int[n];
+        if (!scanner.hasNextInt()) return;
 
-        for(int i=0; i<n; i++){
-            arr[i]=scanner.nextInt();
+        int n = scanner.nextInt();
+        int[] arr = new int[n];
+        for (int i = 0; i < n; i++) {
+            arr[i] = scanner.nextInt();
         }
+        int k = scanner.nextInt();
 
-        evenSubarray(n, arr);
+        subarrayOfSize(arr, k);
     }
 }

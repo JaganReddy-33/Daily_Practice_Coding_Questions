@@ -1,18 +1,22 @@
-# Even Subarrays
+# Subarray Sum
 
-**Question ID:** `6619f5615028dc4e9db63a73`
+**Question ID:** `6619f53cf51c6d596ba8aca3`
 
 ## Description
 
-Print all possible subarrays whose sum is even.
+Print all possible subarrays whose sum is equal to K.
 
 ## Input Format
 
-The first line contains a single integer n, representing the number of elements in the array. The second line contains n space-separated integers, representing the elements of the array.
+The first line contains a single integer n, representing the number of elements in the array.
+
+The second line contains n space-separated integers, representing the elements of the array.
+
+The third line contains a single integer K, representing the target sum.
 
 ## Output Format
 
-Print all the possible subarrays whose sum is even, separated by a space. If no such subarrays exist, print "None".
+Print all the possible subarrays whose sum is equal to K, separated by a space. If no such subarrays exist, print "None".
 
 ## Sample Cases
 
@@ -22,16 +26,13 @@ Print all the possible subarrays whose sum is even, separated by a space. If no 
 ```text
 5
 1 2 3 4 5
+9
 ```
 
 **Output**
 ```text
-2
-4
-1 2 3
-3 4 5
-1 2 3 4
-2 3 4 5
+4 5
+2 3 4
 ```
 
 ### Sample Case 2
@@ -40,18 +41,16 @@ Print all the possible subarrays whose sum is even, separated by a space. If no 
 ```text
 4
 -1 -2 -3 -4
+-7
 ```
 
 **Output**
 ```text
--2
--4
--1 -2 -3
--1 -2 -3 -4
+-3 -4
 ```
 
 _5 sample case(s) omitted because the captured values were empty or looked like links/encoded data._
 
 ---
 
-**Submitted at:** 2026-08-08 12:22:37Z
+**Submitted at:** 2026-08-03 15:17:01Z
