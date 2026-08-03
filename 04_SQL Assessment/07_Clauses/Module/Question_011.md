@@ -1,0 +1,28 @@
+# Grouping Data in SQL
+
+**Question ID:** `64df059483584221bda8caf5`
+
+**Question ID:** `64df059483584221bda8caf5`
+
+> ✅ Solved
+
+## Question
+
+<p>Which of the following clause is used to group the data?</p>
+
+## Answer choices
+
+- ⬜ **A.** <p>Order by</p>
+- ⬜ **B.** <p>Having</p>
+- ⬜ **C.** <p>Update</p>
+- ✅ **D. <p>None of the above</p>** — Correct answer
+
+## Submission
+
+- **Correct answer:** <p>None of the above</p>
+- **Submitted at:** 2026-08-03T05:01:18.152Z
+- **Correct submission:** True
+
+## Explanation
+
+_Not available._
