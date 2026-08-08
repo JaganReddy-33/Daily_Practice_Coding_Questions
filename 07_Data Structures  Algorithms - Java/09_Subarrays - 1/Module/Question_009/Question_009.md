@@ -1,10 +1,10 @@
-# Smallest Subarray with Sum Equal to K
+# Longest Subarray with Sum Equal to K
 
-**Question ID:** `648c57de1b7101653b783fbb`
+**Question ID:** `648c52fa1b7101653b77ec8b`
 
 ## Description
 
-Find the smallest subarray in a given array whose sum is equal to a specified value K.
+Find the longest subarray in a given array whose sum is equal to a specified value K.
 
 ## Input Format
 
@@ -18,11 +18,11 @@ The program takes the following inputs:
 
 ## Output Format
 
-The program outputs the smallest subarray whose sum is equal to K.
+The program outputs the longest subarray whose sum is equal to K.
 
-If multiple subarrays with the same minimum length exist, it displays the first one found.
+If multiple subarrays with the same maximum length exist, it displays the first one found.
 
-If no subarray with sum K exists, it outputs 'No subarray found.'
+If no subarray with sum K exists, it outputs "No subarray found."
 
 ## Sample Cases
 
@@ -30,32 +30,32 @@ If no subarray with sum K exists, it outputs 'No subarray found.'
 
 **Input**
 ```text
-5
-6
-2 3 1 4 2 5
+7
+8
+3 4 7 2 -3 1 4 2
 ```
 
 **Output**
 ```text
-5
+7 2 -3 1
 ```
 
 ### Sample Case 2
 
 **Input**
 ```text
-15
-5
-10 2 4 8 7
+10
+6
+1 2 3 4 5 6
 ```
 
 **Output**
 ```text
-8 7
+1 2 3 4
 ```
 
-_5 sample case(s) omitted because the captured values were empty or looked like links/encoded data._
+_4 sample case(s) omitted because the captured values were empty or looked like links/encoded data._
 
 ---
 
-**Submitted at:** 2026-08-08 12:29:02Z
+**Submitted at:** 2026-08-08 12:24:21Z
