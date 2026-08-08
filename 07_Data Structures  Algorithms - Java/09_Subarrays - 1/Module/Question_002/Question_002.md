@@ -1,10 +1,10 @@
-# Prime Subarrays
+# Even Subarrays
 
-**Question ID:** `6619f551f51c6d596ba8acca`
+**Question ID:** `6619f5615028dc4e9db63a73`
 
 ## Description
 
-Print all possible subarrays whose sum is prime.
+Print all possible subarrays whose sum is even.
 
 ## Input Format
 
@@ -12,7 +12,7 @@ The first line contains a single integer n, representing the number of elements 
 
 ## Output Format
 
-Print all the possible subarrays whose sum is prime, separated by a space. If no such subarrays exist, print "None".
+Print all the possible subarrays whose sum is even, separated by a space. If no such subarrays exist, print "None".
 
 ## Sample Cases
 
@@ -27,11 +27,11 @@ Print all the possible subarrays whose sum is prime, separated by a space. If no
 **Output**
 ```text
 2
-3
-5
-1 2
-2 3
-3 4
+4
+1 2 3
+3 4 5
+1 2 3 4
+2 3 4 5
 ```
 
 ### Sample Case 2
@@ -44,11 +44,14 @@ Print all the possible subarrays whose sum is prime, separated by a space. If no
 
 **Output**
 ```text
-None
+-2
+-4
+-1 -2 -3
+-1 -2 -3 -4
 ```
 
 _5 sample case(s) omitted because the captured values were empty or looked like links/encoded data._
 
 ---
 
-**Submitted at:** 2026-08-08 12:22:52Z
+**Submitted at:** 2026-08-08 12:22:37Z
