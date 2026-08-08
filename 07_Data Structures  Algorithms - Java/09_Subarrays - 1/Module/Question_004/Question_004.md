@@ -1,10 +1,10 @@
-# Even Subarrays
+# Odd Subarrays
 
-**Question ID:** `6619f44af51c6d596ba87da4`
+**Question ID:** `6619f4be5028dc4e9db60f48`
 
 ## Description
 
-Print all possible subarrays of even size.
+Print all possible subarrays of odd size.
 
 ## Input Format
 
@@ -12,7 +12,7 @@ The first line contains a single integer n, representing the number of elements 
 
 ## Output Format
 
-Print all the possible subarrays of size even, separated by a space. If no such subarrays exist, print "None".
+Print all the possible subarrays of size odd, separated by a space.
 
 ## Sample Cases
 
@@ -26,12 +26,15 @@ Print all the possible subarrays of size even, separated by a space. If no such 
 
 **Output**
 ```text
-1 2
-2 3
-3 4
-4 5
-1 2 3 4
-2 3 4 5
+1
+2
+3
+4
+5
+1 2 3
+2 3 4
+3 4 5
+1 2 3 4 5
 ```
 
 ### Sample Case 2
@@ -44,14 +47,16 @@ Print all the possible subarrays of size even, separated by a space. If no such 
 
 **Output**
 ```text
--1 -2
--2 -3
--3 -4
--1 -2 -3 -4
+-1
+-2
+-3
+-4
+-1 -2 -3
+-2 -3 -4
 ```
 
 _5 sample case(s) omitted because the captured values were empty or looked like links/encoded data._
 
 ---
 
-**Submitted at:** 2026-08-08 12:23:22Z
+**Submitted at:** 2026-08-08 12:23:07Z

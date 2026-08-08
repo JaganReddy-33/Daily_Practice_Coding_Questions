@@ -1,12 +1,9 @@
 import java.util.Scanner;
 
 class Main {
-    
-    public static void evenSubarray(int[] arr, int n){
-        boolean found = false;
-        for(int len=2; len<=n; len+=2){
+    public static void oddSubarray(int[] arr, int n){
+        for(int len=1; len<=n; len+=2){
             for(int i=0; i<=n-len; i++){
-                found = true;
                 StringBuilder sb = new StringBuilder();
                 for(int j=i; j<i+len; j++){
                     sb.append(arr[j]).append(" ");
@@ -14,8 +11,6 @@ class Main {
                 System.out.println(sb.toString().trim());
             }
         }
-
-        if(!found)
     }
 
 
@@ -27,6 +22,6 @@ class Main {
             arr[i]=scanner.nextInt();
         }
 
-        evenSubarray(arr, n);
+        oddSubarray(arr, n);
     }
 }
