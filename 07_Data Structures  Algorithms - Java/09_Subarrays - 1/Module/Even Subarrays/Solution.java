@@ -1,49 +1,32 @@
 import java.util.Scanner;
 
 class Main {
-
-    public static void evenSubarray(int n, int[] arr){
-
+    
+    public static void evenSubarray(int[] arr, int n){
         boolean found = false;
-        for(int len=1; len<=n; len++){
+        for(int len=2; len<=n; len+=2){
             for(int i=0; i<=n-len; i++){
-                int j = i+len-1;
-                
-                int sum = 0;
-                for(int k=i; k<=j; k++){
-                    sum += arr[k];
+                found = true;
+                StringBuilder sb = new StringBuilder();
+                for(int j=i; j<i+len; j++){
+                    sb.append(arr[j]).append(" ");
                 }
-                if(isEven(sum)){
-                    found = true;
-                    for(int k=i; k<=j; k++){
-                        System.out.print(arr[k]+" ");
-                    }
-                    System.out.println();
-                }
+                System.out.println(sb.toString().trim());
             }
         }
-        if(!found){
-            System.out.print("None");
-        }
+
+        if(!found)
     }
 
-    private static boolean isEven(int n){
-        if(n%2 == 0){
-            return true; 
-        } else {
-            return false;
-        }
-    }
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int n=scanner.nextInt();
-        int[] arr= new int[n];
-
+        int[] arr = new int[n];
         for(int i=0; i<n; i++){
             arr[i]=scanner.nextInt();
         }
 
-        evenSubarray(n, arr);
+        evenSubarray(arr, n);
     }
 }
