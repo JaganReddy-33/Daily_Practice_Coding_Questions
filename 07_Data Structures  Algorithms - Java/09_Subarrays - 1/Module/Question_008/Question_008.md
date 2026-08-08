@@ -1,28 +1,22 @@
-# Longest Subarray with Sum Equal to K
+# Sum of Subarrays of Size K
 
-**Question ID:** `648c52fa1b7101653b77ec8b`
+**Question ID:** `648c52131b7101653b77dc76`
 
 ## Description
 
-Find the longest subarray in a given array whose sum is equal to a specified value K.
+Calculate the sum of all subarrays of given size from a given array.
 
 ## Input Format
 
-The program takes the following inputs:
+First line contain an integer size, representing size of the subarray
 
-- First line contain an integer k, represents the number the sum of subarray must be equal to.
+Second line contains the size of the array (integer) n
 
-- The size of the array (integer)
-
-- The elements of the array (space-separated integers)
+Third line contains elements of the array (space-separated integers)
 
 ## Output Format
 
-The program outputs the longest subarray whose sum is equal to K.
-
-If multiple subarrays with the same maximum length exist, it displays the first one found.
-
-If no subarray with sum K exists, it outputs "No subarray found."
+The program should output the sum of all subarrays of given size, separated by spaces.
 
 ## Sample Cases
 
@@ -30,32 +24,32 @@ If no subarray with sum K exists, it outputs "No subarray found."
 
 **Input**
 ```text
-7
-8
-3 4 7 2 -3 1 4 2
+3
+5
+1 2 3 4 5
 ```
 
 **Output**
 ```text
-7 2 -3 1
+6 9 12
 ```
 
 ### Sample Case 2
 
 **Input**
 ```text
-10
-6
-1 2 3 4 5 6
+2
+4
+10 20 30 40
 ```
 
 **Output**
 ```text
-1 2 3 4
+30 50 70
 ```
 
-_4 sample case(s) omitted because the captured values were empty or looked like links/encoded data._
+_3 sample case(s) omitted because the captured values were empty or looked like links/encoded data._
 
 ---
 
-**Submitted at:** 2026-08-08 12:24:21Z
+**Submitted at:** 2026-08-08 12:24:06Z
