@@ -1,10 +1,10 @@
-# Odd Subarrays
+# Prime Subarrays
 
-**Question ID:** `6619f4be5028dc4e9db60f48`
+**Question ID:** `6619f551f51c6d596ba8acca`
 
 ## Description
 
-Print all possible subarrays of odd size.
+Print all possible subarrays whose sum is prime.
 
 ## Input Format
 
@@ -12,7 +12,7 @@ The first line contains a single integer n, representing the number of elements 
 
 ## Output Format
 
-Print all the possible subarrays of size odd, separated by a space.
+Print all the possible subarrays whose sum is prime, separated by a space. If no such subarrays exist, print "None".
 
 ## Sample Cases
 
@@ -26,15 +26,12 @@ Print all the possible subarrays of size odd, separated by a space.
 
 **Output**
 ```text
-1
 2
 3
-4
 5
-1 2 3
-2 3 4
-3 4 5
-1 2 3 4 5
+1 2
+2 3
+3 4
 ```
 
 ### Sample Case 2
@@ -47,16 +44,11 @@ Print all the possible subarrays of size odd, separated by a space.
 
 **Output**
 ```text
--1
--2
--3
--4
--1 -2 -3
--2 -3 -4
+None
 ```
 
 _5 sample case(s) omitted because the captured values were empty or looked like links/encoded data._
 
 ---
 
-**Submitted at:** 2026-08-08 12:23:07Z
+**Submitted at:** 2026-08-08 12:22:52Z
