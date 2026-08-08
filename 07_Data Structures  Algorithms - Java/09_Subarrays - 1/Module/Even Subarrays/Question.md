@@ -2,7 +2,7 @@
 
 ## Description
 
-Print all possible subarrays of even size.
+Print all possible subarrays whose sum is even.
 
 ## Input Format
 
@@ -10,7 +10,7 @@ The first line contains a single integer n, representing the number of elements 
 
 ## Output Format
 
-Print all the possible subarrays of size even, separated by a space. If no such subarrays exist, print "None".
+Print all the possible subarrays whose sum is even, separated by a space. If no such subarrays exist, print "None".
 
 ## Sample Cases
 
@@ -24,10 +24,10 @@ Print all the possible subarrays of size even, separated by a space. If no such 
 
 **Output**
 ```text
-1 2
-2 3
-3 4
-4 5
+2
+4
+1 2 3
+3 4 5
 1 2 3 4
 2 3 4 5
 ```
@@ -42,9 +42,9 @@ Print all the possible subarrays of size even, separated by a space. If no such 
 
 **Output**
 ```text
--1 -2
--2 -3
--3 -4
+-2
+-4
+-1 -2 -3
 -1 -2 -3 -4
 ```
 
@@ -52,4 +52,4 @@ _5 sample case(s) omitted because the captured values were empty or looked like 
 
 ---
 
-**Submitted at:** 2026-08-08 12:23:22Z
+**Submitted at:** 2026-08-08 12:22:37Z
