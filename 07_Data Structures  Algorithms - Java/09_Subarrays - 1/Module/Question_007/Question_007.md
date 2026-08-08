@@ -1,22 +1,24 @@
-# Sum of Subarrays of Size K
+# All Subarrays of Size K
 
-**Question ID:** `648c52131b7101653b77dc76`
+**Question ID:** `648c51a31b7101653b77d4c4`
 
 ## Description
 
-Calculate the sum of all subarrays of given size from a given array.
+Print all possible subarrays of size K from a given array.
 
 ## Input Format
 
-First line contain an integer size, representing size of the subarray
+First line contain an integer k, represents the number the subarray length.
 
-Second line contains the size of the array (integer) n
+The second line contains size of the array (integer)
 
 Third line contains elements of the array (space-separated integers)
 
 ## Output Format
 
-The program should output the sum of all subarrays of given size, separated by spaces.
+The program should output each subarray of size K on a new line.
+
+Each subarray should be displayed as a space-separated sequence of elements.
 
 ## Sample Cases
 
@@ -31,7 +33,9 @@ The program should output the sum of all subarrays of given size, separated by s
 
 **Output**
 ```text
-6 9 12
+1 2 3
+2 3 4
+3 4 5
 ```
 
 ### Sample Case 2
@@ -45,11 +49,13 @@ The program should output the sum of all subarrays of given size, separated by s
 
 **Output**
 ```text
-30 50 70
+10 20
+20 30
+30 40
 ```
 
 _3 sample case(s) omitted because the captured values were empty or looked like links/encoded data._
 
 ---
 
-**Submitted at:** 2026-08-08 12:24:06Z
+**Submitted at:** 2026-08-08 12:23:51Z

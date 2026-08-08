@@ -2,26 +2,24 @@ import java.util.Scanner;
 
 public class Main {
 
-    static void sumOfSubarrays(int[] arr,int k, int n){
-        int sum = 0;
-        for(int i=0; i<k; i++){
-            sum += arr[i];
+    static void subarrayOfSize(int[]arr, int k, int n) {
+        for(int i=0; i<=n-k; i++){
+            for(int j=i; j<i+k; j++){
+                System.out.print(arr[j]+" ");
+            }
+            System.out.println();
         }
-        System.out.print(sum+" ");
-        for(int i=k; i<n; i++){
-            sum = sum - arr[i-k] + arr[i];
-            System.out.print(sum+" ");
-        }
+
     }
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int k = scanner.nextInt();
-        int n = scanner.nextInt();
-        int[] arr = new int[n];
-        for(int i=0;i<n;i++){
-            arr[i] = scanner.nextInt();
-        }
-        sumOfSubarrays(arr, k, n);
+		int N = scanner.nextInt();
+		int[] arr = new int[N];
+		for (int i = 0; i < arr.length; i++) {
+			arr[i] = scanner.nextInt();
+		}
+		subarrayOfSize(arr,k, N);
     }
 }
