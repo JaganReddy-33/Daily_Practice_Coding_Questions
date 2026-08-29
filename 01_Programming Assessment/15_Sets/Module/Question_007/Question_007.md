@@ -1,105 +1,25 @@
-# Consonant Alphabetizer
+# URL Lexicographical Sorter
 
-**Question ID:** `661577d0f51c6d596bf24818`
+**Question ID:** `661577bd5028dc4e9dffe51c`
 
 ## Description
 
-Extract and sort unique consonants from a given string.
+Sort and print unique URLs in lexicographical order.
 
 ## Input Format
 
-A single line containing the string from which consonants need to be extracted and sorted.
+A single line containing multiple URLs separated by commas.
 
 ## Output Format
 
-A single line containing the sorted consonants in alphabetical order, with duplicates removed in lowercase. If no consonants are present print -1.
+Print the unique URLs in lexicographical order, each on a new line.
 
 ## Sample Cases
 
-### Sample Case 1
+_No readable sample cases were captured from the portal._
 
-**Input**
-```text
-Hello World!
-```
-
-**Output**
-```text
-dhlrw
-```
-
-### Sample Case 2
-
-**Input**
-```text
-Programming is fun!
-```
-
-**Output**
-```text
-fgmnprs
-```
-
-### Sample Case 3
-
-**Input**
-```text
-banana
-```
-
-**Output**
-```text
-bn
-```
-
-### Sample Case 4
-
-**Input**
-```text
-OpenAI ChatGPT
-```
-
-**Output**
-```text
-cghnpt
-```
-
-### Sample Case 5
-
-**Input**
-```text
-123123123
-```
-
-**Output**
-```text
--1
-```
-
-### Sample Case 6
-
-**Input**
-```text
-!!@@##$$%%
-```
-
-**Output**
-```text
--1
-```
-
-### Sample Case 7
-
-**Input**
-```text
-Frameworks@2024
-```
-
-**Output**
-```text
-fkmrsw
-```
+_7 sample case(s) omitted because the captured values were empty or looked like links/encoded data._
 
 ---
 
-**Submitted at:** 2026-08-29 18:06:26Z
+**Submitted at:** 2026-08-29 18:06:07Z
