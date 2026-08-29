@@ -1,6 +1,6 @@
 # URL Lexicographical Sorter
 
-**Question ID:** `661577bd5028dc4e9dffe51c`
+**Question ID:** `661577b1f51c6d596bf2437b`
 
 ## Description
 
@@ -22,4 +22,4 @@ _7 sample case(s) omitted because the captured values were empty or looked like 
 
 ---
 
-**Submitted at:** 2026-08-29 18:06:07Z
+**Submitted at:** 2026-08-29 18:05:50Z
