@@ -1,19 +1,18 @@
-# Alphabetic Names Sorter
+# Ascending Deduplication
 
-**Question ID:** `661577a4f51c6d596bf240fe`
+**Question ID:** `661575e0f51c6d596bf21b4f`
 
 ## Description
 
-Sort and print unique names in alphabetical order.
+Remove duplicate integers from a given array and output the remaining integers in ascending order.
 
 ## Input Format
 
-The first line contains a single integer N, representing the number of names.
-The next N lines each contain a name.
+The first line contains a single integer n, indicating the number of elements in the array. The second line contains n space-separated integers, representing the elements of the array.
 
 ## Output Format
 
-Print the unique names in alphabetical order, each on a new line.
+A single line outputting the integers of the array in ascending order after removing duplicates, separated by space.
 
 ## Sample Cases
 
@@ -21,40 +20,30 @@ Print the unique names in alphabetical order, each on a new line.
 
 **Input**
 ```text
-5
-Alice
-Charlie
-Bob
-Alice
-Charlie
+7
+1 2 3 2 4 3 5
 ```
 
 **Output**
 ```text
-Alice
-Bob
-Charlie
+1 2 3 4 5
 ```
 
 ### Sample Case 2
 
 **Input**
 ```text
-3
-Zara
-Olivia
-Anna
+10
+4 5 9 11 9 4 8 15 8 6
 ```
 
 **Output**
 ```text
-Anna
-Olivia
-Zara
+4 5 6 8 9 11 15
 ```
 
 _5 sample case(s) omitted because the captured values were empty or looked like links/encoded data._
 
 ---
 
-**Submitted at:** 2026-08-29 18:05:32Z
+**Submitted at:** 2026-08-29 18:05:13Z
