@@ -1,10 +1,10 @@
-# Unique Domain Extractor
+# URL Company Extractor
 
-**Question ID:** `6615791af51c6d596bf269f6`
+**Question ID:** `66157904f51c6d596bf264ce`
 
 ## Description
 
-Develop a program that reads a single line of input containing multiple URLs in CSV (Comma Separated Values) format, extracts the domain names from these URLs, and prints each domain name once, removing duplicates.
+Extract and sort unique company names from a given list of URLs.
 
 ## Input Format
 
@@ -12,7 +12,7 @@ A single line containing multiple URLs separated by commas. There are no spaces 
 
 ## Output Format
 
-Print the unique domain names extracted from the URLs, each on a new line.
+Print the unique company names extracted from the URLs in alphabetical order, each on a new line.
 
 ## Sample Cases
 
@@ -22,4 +22,4 @@ _7 sample case(s) omitted because the captured values were empty or looked like 
 
 ---
 
-**Submitted at:** 2026-08-29 18:07:00Z
+**Submitted at:** 2026-08-29 18:06:43Z
