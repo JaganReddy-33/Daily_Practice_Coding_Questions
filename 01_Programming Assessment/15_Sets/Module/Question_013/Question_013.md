@@ -1,10 +1,10 @@
-# Max Disjoint Triple Groups
+# Pair Formation Count
 
-**Question ID:** `66157a5cf51c6d596bf278a0`
+**Question ID:** `66157a525028dc4e9d001df7`
 
 ## Description
 
-Write a program that reads an array of N integers and calculates the maximum number of disjoint groups that can be formed.
+Develop a program that takes an array of N integer values and calculates how many pairs of the same element can be formed.
 
 ## Input Format
 
@@ -13,7 +13,7 @@ The second line contains N space-separated integers, the elements of the array.
 
 ## Output Format
 
-Print a single integer, the maximum number of disjoint groups with at least one element repeating three times that can be formed from the array.
+Print a single integer, the total number of pairs that can be formed with the elements in the array. Each element can only be used in one pair.
 
 ## Sample Cases
 
@@ -21,8 +21,8 @@ Print a single integer, the maximum number of disjoint groups with at least one 
 
 **Input**
 ```text
-10
-1 2 2 2 3 4 4 4 4 5
+6
+1 2 1 2 1 2
 ```
 
 **Output**
@@ -34,47 +34,8 @@ Print a single integer, the maximum number of disjoint groups with at least one 
 
 **Input**
 ```text
-7
-1 2 3 3 4 3 5
-```
-
-**Output**
-```text
-1
-```
-
-### Sample Case 3
-
-**Input**
-```text
 5
-1 1 1 2 2
-```
-
-**Output**
-```text
-1
-```
-
-### Sample Case 4
-
-**Input**
-```text
-8
-3 1 2 4 4 3 3 5
-```
-
-**Output**
-```text
-1
-```
-
-### Sample Case 5
-
-**Input**
-```text
-12
-1 2 3 2 3 3 4 4 5 4 5 4
+3 3 3 3 3
 ```
 
 **Output**
@@ -82,32 +43,8 @@ Print a single integer, the maximum number of disjoint groups with at least one 
 2
 ```
 
-### Sample Case 6
-
-**Input**
-```text
-6
-1 2 3 4 5 6
-```
-
-**Output**
-```text
-0
-```
-
-### Sample Case 7
-
-**Input**
-```text
-9
-1 1 1 2 2 2 3 2 3
-```
-
-**Output**
-```text
-2
-```
+_5 sample case(s) omitted because the captured values were empty or looked like links/encoded data._
 
 ---
 
-**Submitted at:** 2026-08-29 18:07:50Z
+**Submitted at:** 2026-08-29 18:07:34Z
