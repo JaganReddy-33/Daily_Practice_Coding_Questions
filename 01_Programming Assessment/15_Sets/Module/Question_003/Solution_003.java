@@ -1,23 +1,24 @@
+import java.util.LinkedHashSet;
 import java.util.Scanner;
-import java.util.TreeSet;
 
 public class Main {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         
-        int n = scanner.nextInt();
+        int n = sc.nextInt();
         int[] arr = new int[n];
         for (int i = 0; i < n; i++) {
-            arr[i] = scanner.nextInt();
+            arr[i] = sc.nextInt();
         }
-        processAndPrintUniqueSorted(arr);
+        removeDuplicatesAndPrint(arr);
     }
 
-    public static void processAndPrintUniqueSorted(int[] arr) {
-        TreeSet<Integer> set = new TreeSet<>();
+    public static void removeDuplicatesAndPrint(int[] arr) {
+        LinkedHashSet<Integer> set = new LinkedHashSet<>();
         for (int num : arr) {
             set.add(num);
         }
+        
         StringBuilder sb = new StringBuilder();
         for (int num : set) {
             sb.append(num).append(" ");
