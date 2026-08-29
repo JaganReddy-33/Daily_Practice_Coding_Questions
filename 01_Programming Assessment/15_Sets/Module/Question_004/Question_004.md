@@ -1,18 +1,19 @@
-# Ascending Deduplication
+# Unique Names Collector
 
-**Question ID:** `661575e0f51c6d596bf21b4f`
+**Question ID:** `66157795f51c6d596bf240f2`
 
 ## Description
 
-Remove duplicate integers from a given array and output the remaining integers in ascending order.
+Remove duplicate names from a list and print them in the order of their first occurrence.
 
 ## Input Format
 
-The first line contains a single integer n, indicating the number of elements in the array. The second line contains n space-separated integers, representing the elements of the array.
+The first line contains a single integer N, indicating the number of names.
+The following N lines each contain a single name.
 
 ## Output Format
 
-A single line outputting the integers of the array in ascending order after removing duplicates, separated by space.
+Print the unique names in the order they first appeared in the input, each on a new line.
 
 ## Sample Cases
 
@@ -20,30 +21,41 @@ A single line outputting the integers of the array in ascending order after remo
 
 **Input**
 ```text
-7
-1 2 3 2 4 3 5
+5
+Alice
+Bob
+Alice
+Charlie
+Bob
 ```
 
 **Output**
 ```text
-1 2 3 4 5
+Alice
+Bob
+Charlie
 ```
 
 ### Sample Case 2
 
 **Input**
 ```text
-10
-4 5 9 11 9 4 8 15 8 6
+4
+OpenAI
+GPT-4
+ChatGPT
+OpenAI
 ```
 
 **Output**
 ```text
-4 5 6 8 9 11 15
+OpenAI
+GPT-4
+ChatGPT
 ```
 
 _5 sample case(s) omitted because the captured values were empty or looked like links/encoded data._
 
 ---
 
-**Submitted at:** 2026-08-29 18:05:13Z
+**Submitted at:** 2026-08-29 13:58:44Z
