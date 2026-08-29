@@ -5,25 +5,18 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         
-        String input = scanner.nextLine().toLowerCase();
-        processAndPrintConsonants(input);
+        String line = scanner.nextLine();
+        processAndPrintUrls(line);
     }
 
-    public static void processAndPrintConsonants(String input) {
-        TreeSet<Character> set = new TreeSet<>();
-        for (char ch : input.toCharArray()) {
-            if (ch >= 'a' && ch <= 'z' && ch != 'a' && ch != 'e' && ch != 'i' && ch != 'o' && ch != 'u') {
-                set.add(ch);
-            }
+    public static void processAndPrintUrls(String line) {
+        String[] urls = line.split(",");
+        TreeSet<String> set = new TreeSet<>();
+        for (String url : urls) {
+            set.add(url);
         }
-        if (set.isEmpty()) {
-            System.out.println(-1);
-            return;
+        for (String url : set) {
+            System.out.println(url);
         }
-        StringBuilder sb = new StringBuilder();
-        for (char ch : set) {
-            sb.append(ch);
-        }
-        System.out.println(sb);
     }
 }
