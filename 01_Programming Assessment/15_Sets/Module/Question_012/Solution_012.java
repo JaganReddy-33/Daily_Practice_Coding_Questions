@@ -11,26 +11,23 @@ public class Main {
         for (int i = 0; i < n; i++) {
             arr[i] = scanner.nextInt();
         }
-        processAndPrintTripleGroups(arr);
+        processAndPrintPairs(arr);
     }
 
-    private static void processAndPrintTripleGroups(int[] arr) {
-        int groups = countMaxDisjointTripleGroups(arr);
-        System.out.println(groups);
+    private static void processAndPrintPairs(int[] arr) {
+        int pairs = countPairs(arr);
+        System.out.println(pairs);
     }
 
-    private static int countMaxDisjointTripleGroups(int[] arr) {
+    private static int countPairs(int[] arr) {
         Map<Integer, Integer> freqMap = new HashMap<>();
-        int count = 0;
         for (int num : arr) {
-            int freq = freqMap.getOrDefault(num, 0) + 1;
-            if (freq == 3) {
-                count++;
-                freqMap.clear();
-            } else {
-                freqMap.put(num, freq);
-            }
+            freqMap.put(num, freqMap.getOrDefault(num, 0) + 1);
         }
-        return count;
+        int totalPairs = 0;
+        for (int count : freqMap.values()) {
+            totalPairs += count / 2;
+        }
+        return totalPairs;
     }
 }
