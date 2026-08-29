@@ -1,25 +1,60 @@
-# URL Lexicographical Sorter
+# Alphabetic Names Sorter
 
-**Question ID:** `661577b1f51c6d596bf2437b`
+**Question ID:** `661577a4f51c6d596bf240fe`
 
 ## Description
 
-Sort and print unique URLs in lexicographical order.
+Sort and print unique names in alphabetical order.
 
 ## Input Format
 
-A single line containing multiple URLs separated by commas.
+The first line contains a single integer N, representing the number of names.
+The next N lines each contain a name.
 
 ## Output Format
 
-Print the unique URLs in lexicographical order, each on a new line.
+Print the unique names in alphabetical order, each on a new line.
 
 ## Sample Cases
 
-_No readable sample cases were captured from the portal._
+### Sample Case 1
 
-_7 sample case(s) omitted because the captured values were empty or looked like links/encoded data._
+**Input**
+```text
+5
+Alice
+Charlie
+Bob
+Alice
+Charlie
+```
+
+**Output**
+```text
+Alice
+Bob
+Charlie
+```
+
+### Sample Case 2
+
+**Input**
+```text
+3
+Zara
+Olivia
+Anna
+```
+
+**Output**
+```text
+Anna
+Olivia
+Zara
+```
+
+_5 sample case(s) omitted because the captured values were empty or looked like links/encoded data._
 
 ---
 
-**Submitted at:** 2026-08-29 18:05:50Z
+**Submitted at:** 2026-08-29 18:05:32Z
