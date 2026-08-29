@@ -1,6 +1,6 @@
 import java.util.Scanner;
-import java.util.HashMap;
-import java.util.Map;
+import java.util.HashSet;
+import java.util.Set;
 
 public class Main {
     public static void main(String[] args) {
@@ -11,23 +11,25 @@ public class Main {
         for (int i = 0; i < n; i++) {
             arr[i] = scanner.nextInt();
         }
-        processAndPrintPairs(arr);
+        processAndPrintGroups(arr);
     }
 
-    private static void processAndPrintPairs(int[] arr) {
-        int pairs = countPairs(arr);
-        System.out.println(pairs);
+    private static void processAndPrintGroups(int[] arr) {
+        int count = countMaxDisjointGroups(arr);
+        System.out.println(count);
     }
 
-    private static int countPairs(int[] arr) {
-        Map<Integer, Integer> freqMap = new HashMap<>();
+    private static int countMaxDisjointGroups(int[] arr) {
+        int count = 0;
+        Set<Integer> seen = new HashSet<>();
         for (int num : arr) {
-            freqMap.put(num, freqMap.getOrDefault(num, 0) + 1);
+            if (seen.contains(num)) {
+                count++;
+                seen.clear();
+            } else {
+                seen.add(num);
+            }
         }
-        int totalPairs = 0;
-        for (int count : freqMap.values()) {
-            totalPairs += count / 2;
-        }
-        return totalPairs;
+        return count;
     }
 }
