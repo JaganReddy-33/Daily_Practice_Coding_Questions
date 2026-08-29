@@ -1,39 +1,49 @@
 import java.util.Scanner;
-import java.util.LinkedHashSet;
-import java.util.Set;
+import java.util.TreeSet;
 
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        if (!scanner.hasNextLine()) return;
+        
         String input = scanner.nextLine();
-        processAndPrintDomains(input);
+        processAndPrintCompanies(input);
     }
 
-    private static void processAndPrintDomains(String input) {
-        Set<String> domains = extractDomains(input);
-        for (String domain : domains) {
-            System.out.println(domain);
+    private static void processAndPrintCompanies(String input) {
+        TreeSet<String> companies = extractCompanies(input);
+        for (String company : companies) {
+            System.out.println(company);
         }
     }
 
-    private static Set<String> extractDomains(String input) {
-        Set<String> domains = new LinkedHashSet<>();
+    private static TreeSet<String> extractCompanies(String input) {
+        TreeSet<String> companies = new TreeSet<>();
         String[] urls = input.split(",");
         for (String url : urls) {
-            String domain = parseDomain(url);
-            if (!domain.isEmpty()) {
-                domains.add(domain);
+            String company = parseCompany(url);
+            if (!company.isEmpty()) {
+                companies.add(company);
             }
         }
-        return domains;
+        return companies;
     }
 
-    private static String parseDomain(String url) {
-        int idx = url.indexOf("://");
-        if (idx != -1) {
-            return url.substring(idx + 3);
+    private static String parseCompany(String url) {
+        int start = url.indexOf("www.");
+        if (start != -1) {
+            start += 4;
+        } else {
+            start = url.indexOf("://");
+            if (start != -1) {
+                start += 3;
+            } else {
+                start = 0;
+            }
         }
-        return url;
+        int end = url.indexOf(".", start);
+        if (end != -1) {
+            return url.substring(start, end);
+        }
+        return "";
     }
 }
