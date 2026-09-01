@@ -1,0 +1,47 @@
+# Even Multiples of N Descending
+
+**Question ID:** `661ad034f51c6d596b08a1d7`
+
+## Description
+
+Given two positive integers N and M, print all the even multiples of N from M to 1 in descending order.
+
+## Input Format
+
+Two integers N and M (1 <= N, M <= 10^5) representing the base number and the starting natural number.
+
+## Output Format
+
+Print all the even multiples of N from M to 1 in descending order, each separated by a space.
+
+## Sample Cases
+
+### Sample Case 1
+
+**Input**
+```text
+3 10
+```
+
+**Output**
+```text
+6
+```
+
+### Sample Case 2
+
+**Input**
+```text
+5 15
+```
+
+**Output**
+```text
+10
+```
+
+_5 sample case(s) omitted because the captured values were empty or looked like links/encoded data._
+
+---
+
+**Submitted at:** 2026-09-01 19:10:35Z
