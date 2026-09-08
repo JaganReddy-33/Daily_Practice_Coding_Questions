@@ -8,19 +8,19 @@ class Main {
         for (int i = 0; i < n; i++) {
             arr[i] = scanner.nextInt();
         }
-        System.out.println(countLargestOccurrence(arr, n));
+        System.out.println(countSmallestOccurrence(arr, n));
     }
 
-    public static int countLargestOccurrence(int[] arr, int n) {
-        int max = arr[0];
+    public static int countSmallestOccurrence(int[] arr, int n) {
+        int min = arr[0];
         for (int i = 1; i < n; i++) {
-            if (arr[i] > max) {
-                max = arr[i];
+            if (arr[i] < min) {
+                min = arr[i];
             }
         }
         int count = 0;
         for (int i = 0; i < n; i++) {
-            if (arr[i] == max) {
+            if (arr[i] == min) {
                 count++;
             }
         }
