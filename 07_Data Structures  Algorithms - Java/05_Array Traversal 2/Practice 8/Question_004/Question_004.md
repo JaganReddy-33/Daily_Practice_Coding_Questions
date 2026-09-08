@@ -1,10 +1,10 @@
-# Smallest Negative Integer
+# Occurrence of Largest Element
 
-**Question ID:** `661e079d5028dc4e9dc41b7b`
+**Question ID:** `661e07a95028dc4e9dc41b97`
 
 ## Description
 
-Given an array of integers of size N, find and display the smallest negative integer present in the array.
+Given an array of integers of size N, find and display the occurrence of the largest element present in the array.
 
 ## Input Format
 
@@ -12,7 +12,7 @@ The first line contains an integer N, the size of the array. The second line con
 
 ## Output Format
 
-Print the smallest negative integer present in the array. If there are no negative integers, print -1.
+Print the occurrence of the largest element present in the array.
 
 ## Sample Cases
 
@@ -26,7 +26,7 @@ Print the smallest negative integer present in the array. If there are no negati
 
 **Output**
 ```text
--1
+1
 ```
 
 ### Sample Case 2
@@ -34,16 +34,16 @@ Print the smallest negative integer present in the array. If there are no negati
 **Input**
 ```text
 7
-4 6 8 10 12 14 -16
+4 6 8 10 12 14 16
 ```
 
 **Output**
 ```text
--16
+1
 ```
 
 _5 sample case(s) omitted because the captured values were empty or looked like links/encoded data._
 
 ---
 
-**Submitted at:** 2026-09-08 11:53:16Z
+**Submitted at:** 2026-09-08 11:53:01Z

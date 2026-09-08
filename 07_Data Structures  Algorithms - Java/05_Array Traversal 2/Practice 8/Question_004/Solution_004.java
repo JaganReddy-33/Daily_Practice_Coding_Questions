@@ -8,16 +8,22 @@ class Main {
         for (int i = 0; i < n; i++) {
             arr[i] = scanner.nextInt();
         }
-        System.out.println(findSmallestNegative(arr, n));
+        System.out.println(countLargestOccurrence(arr, n));
     }
 
-    public static int findSmallestNegative(int[] arr, int n) {
-        int minNegative = Integer.MAX_VALUE;
-        for (int i = 0; i < n; i++) {
-            if (arr[i] < 0 && arr[i] < minNegative) {
-                minNegative = arr[i];
+    public static int countLargestOccurrence(int[] arr, int n) {
+        int max = arr[0];
+        for (int i = 1; i < n; i++) {
+            if (arr[i] > max) {
+                max = arr[i];
             }
         }
-        return minNegative == Integer.MAX_VALUE ? 0 : minNegative;
+        int count = 0;
+        for (int i = 0; i < n; i++) {
+            if (arr[i] == max) {
+                count++;
+            }
+        }
+        return count;
     }
 }
