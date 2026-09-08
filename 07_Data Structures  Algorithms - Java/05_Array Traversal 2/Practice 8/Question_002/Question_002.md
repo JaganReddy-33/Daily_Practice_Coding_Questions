@@ -1,10 +1,10 @@
-# Occurrence of Smallest Element
+# Second Largest Element
 
-**Question ID:** `661e07b65028dc4e9dc41e28`
+**Question ID:** `661e07c45028dc4e9dc41e49`
 
 ## Description
 
-Given an array of integers of size N, find and display the occurrence of the smallest element present in the array.
+Given an array of integers of size N, find and display the second largest element present in the array.
 
 ## Input Format
 
@@ -12,7 +12,7 @@ The first line contains an integer N, the size of the array. The second line con
 
 ## Output Format
 
-Print the occurrence of the smallest element present in the array.
+Print the second largest element present in the array.
 
 ## Sample Cases
 
@@ -26,7 +26,7 @@ Print the occurrence of the smallest element present in the array.
 
 **Output**
 ```text
-1
+4
 ```
 
 ### Sample Case 2
@@ -34,16 +34,16 @@ Print the occurrence of the smallest element present in the array.
 **Input**
 ```text
 7
-4 6 8 10 4 14 4
+4 6 8 10 12 14 16
 ```
 
 **Output**
 ```text
-3
+14
 ```
 
 _5 sample case(s) omitted because the captured values were empty or looked like links/encoded data._
 
 ---
 
-**Submitted at:** 2026-09-08 11:52:46Z
+**Submitted at:** 2026-09-08 11:52:31Z
