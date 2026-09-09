@@ -8,20 +8,22 @@ class Main {
         for (int i = 0; i < n; i++) {
             arr[i] = scanner.nextInt();
         }
-        System.out.println(findSecondLargest(arr, n));
+        System.out.println(findSecondLargestIndex(arr, n));
     }
 
-    public static int findSecondLargest(int[] arr, int n) {
-        int max = Integer.MIN_VALUE;
-        int secondMax = Integer.MIN_VALUE;
+    public static int findSecondLargestIndex(int[] arr, int n) {
+        int maxIndex = -1;
+        int secondMaxIndex = -1;
         for (int i = 0; i < n; i++) {
-            if (arr[i] > max) {
-                secondMax = max;
-                max = arr[i];
-            } else if (arr[i] > secondMax && arr[i] != max) {
-                secondMax = arr[i];
+            if (maxIndex == -1 || arr[i] > arr[maxIndex]) {
+                secondMaxIndex = maxIndex;
+                maxIndex = i;
+            } else if (arr[i] < arr[maxIndex]) {
+                if (secondMaxIndex == -1 || arr[i] > arr[secondMaxIndex]) {
+                    secondMaxIndex = i;
+                }
             }
         }
-        return secondMax;
+        return secondMaxIndex;
     }
 }

@@ -1,10 +1,10 @@
-# Second Largest Element
+# Index of Second-Largest Element
 
-**Question ID:** `661e07c45028dc4e9dc41e49`
+**Question ID:** `661e07cef51c6d596bb79300`
 
 ## Description
 
-Given an array of integers of size N, find and display the second largest element present in the array.
+Given an array of integers, find and display the index of the second-largest element in the array.
 
 ## Input Format
 
@@ -12,7 +12,7 @@ The first line contains an integer N, the size of the array. The second line con
 
 ## Output Format
 
-Print the second largest element present in the array.
+Print the index of the second-largest element present in the array. If multiple occurrences of the second-largest element exist, print the index of the first occurrence. If there is no second largest element print -1.
 
 ## Sample Cases
 
@@ -26,7 +26,7 @@ Print the second largest element present in the array.
 
 **Output**
 ```text
-4
+3
 ```
 
 ### Sample Case 2
@@ -39,11 +39,11 @@ Print the second largest element present in the array.
 
 **Output**
 ```text
-14
+5
 ```
 
 _5 sample case(s) omitted because the captured values were empty or looked like links/encoded data._
 
 ---
 
-**Submitted at:** 2026-09-08 11:52:31Z
+**Submitted at:** 2026-09-09 08:00:19Z
