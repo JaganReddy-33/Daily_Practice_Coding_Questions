@@ -4,19 +4,19 @@
 
 ## Question
 
-<p>What will be the output of the following Java code snippet? </p><p>int x = 10; </p><p>System.out.println(++x);</p>
+Operators
 
 ## Answer choices
 
-- ⬜ **A.** <p>10</p>
-- ✅ **B. <p>11</p>** — Correct answer
-- ⬜ **C.** <p>None of the mentioned</p>
-- ⬜ **D.** <p>Compilation Error</p>
+- ⬜ **A.** A11
+- ✅ **B. B10** — Correct answer
+- ⬜ **C.** C9
+- ⬜ **D.** DNone of the mentioned
 
 ## Submission
 
-- **Correct answer:** <p>11</p>
-- **Submitted at:** 2026-06-02T05:53:48.437Z
+- **Correct answer:** B10
+- **Submitted at:** Not available
 - **Correct submission:** True
 
 ## Explanation
