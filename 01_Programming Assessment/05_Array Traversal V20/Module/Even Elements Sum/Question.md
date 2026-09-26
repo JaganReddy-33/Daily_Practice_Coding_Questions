@@ -2,15 +2,15 @@
 
 ## Description
 
-<p>Write a program to find the sum of all even elements present in an array.</p>
+Write a program to find the sum of all even elements present in an array.
 
 ## Input Format
 
-<p>First line contains a single integer N. Next line contains N space separated integer values.</p>
+First line contains a single integer N. Next line contains N space separated integer values.
 
 ## Output Format
 
-<p>Print sum of all even elements in an array.</p>
+Print sum of all even elements in an array.
 
 ## Sample Cases
 
@@ -27,7 +27,6 @@
 20
 ```
 
-
 ### Sample Case 2
 
 **Input**
@@ -40,7 +39,6 @@
 ```text
 12
 ```
-
 
 ### Sample Case 3
 
@@ -55,7 +53,6 @@
 30
 ```
 
-
 ### Sample Case 4
 
 **Input**
@@ -68,7 +65,6 @@
 ```text
 0
 ```
-
 
 ### Sample Case 5
 
@@ -83,7 +79,6 @@
 -12
 ```
 
-
 ### Sample Case 6
 
 **Input**
@@ -96,7 +91,6 @@
 ```text
 20
 ```
-
 
 ### Sample Case 7
 
@@ -111,3 +105,6 @@
 100
 ```
 
+---
+
+**Submitted at:** 2026-06-11 16:36:59Z

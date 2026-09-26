@@ -26,7 +26,6 @@ Print all numbers from N2 to N1 which are multiples of both X and Y, each separa
 30 15
 ```
 
-
 ### Sample Case 2
 
 **Input**
@@ -39,68 +38,8 @@ Print all numbers from N2 to N1 which are multiples of both X and Y, each separa
 36 24 12
 ```
 
+_5 sample case(s) omitted because the captured values were empty or looked like links/encoded data._
 
-### Sample Case 3
+---
 
-**Input**
-```text
-f972a72ef8d7774d:63e177fa98bc084565f5470e9ddc1645:ab42f377ff8e82b38501af85bfa517bd
-```
-
-**Output**
-```text
-718320c12f:42c0884d376830aefac2f95afaa10fa5:70fd54eb75ab0995acc397ad2d034996
-```
-
-
-### Sample Case 4
-
-**Input**
-```text
-571dc4b00a14ea59:8792cd4546bd9c92ee9f1154b8ac853f:d199ac456f403a09a805cf9ceb2dc862
-```
-
-**Output**
-```text
-90aa:0c176cb6ed8df5919c6015e4f92cbfc5:977b23cdaedd4252a9765d96db22aabb
-```
-
-
-### Sample Case 5
-
-**Input**
-```text
-755513285d8a6e380a:57bf852f182c8dc03bd086fdf8fd0e25:20f5cebe70a62f3a2af6eb3edf79c512
-```
-
-**Output**
-```text
-0c413fae2a481aa392121dc4215b8f43c0b91283:b0c51825ad26ad840d28d647c7bbdf80:900ab432f5da51abafc0cab156e1eb2f
-```
-
-
-### Sample Case 6
-
-**Input**
-```text
-6d3b343a787fa83f14:0c7625faf48c99a1c2086b47b1b9d761:212e4e4efd23ef4caf03685ca41b9470
-```
-
-**Output**
-```text
-0a62558a57:f18a5cbad8dd0b9e63c2f446ff0fdc97:a5ba4b571443a791a8b4b9fadd1b059d
-```
-
-
-### Sample Case 7
-
-**Input**
-```text
-8730bafee393144fa251:942feeae57029465229e0d4d46d8cc4a:3e6ee282d6064658f9b3dd3b568d05ac
-```
-
-**Output**
-```text
-51a41f7ae1df6c829c51e01d201c:f4860bbfe9aef7709177bf4c5481bfe2:c732da222f5110b66a959fb12f36aec9
-```
-
+**Submitted at:** 2026-07-02 16:07:21Z

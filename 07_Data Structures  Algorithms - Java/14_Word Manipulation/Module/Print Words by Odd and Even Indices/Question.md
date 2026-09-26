@@ -2,15 +2,15 @@
 
 ## Description
 
-<p>Write a program to swap the words present at odd indexes with the words present at even indexes.&nbsp;</p>
+Write a program to swap the words present at odd indexes with the words present at even indexes.
 
 ## Input Format
 
-<p>A single line containing a string of words.</p>
+A single line containing a string of words.
 
 ## Output Format
 
-<p>A single line of text with the words at odd indexes and even indexes swapped.</p>
+A single line of text with the words at odd indexes and even indexes swapped.
 
 ## Sample Cases
 
@@ -26,7 +26,6 @@ India is my country
 is India country my
 ```
 
-
 ### Sample Case 2
 
 **Input**
@@ -38,7 +37,6 @@ Tap academy
 ```text
 academy Tap
 ```
-
 
 ### Sample Case 3
 
@@ -52,7 +50,6 @@ India is my country
 is India country my
 ```
 
-
 ### Sample Case 4
 
 **Input**
@@ -64,7 +61,6 @@ Tap academy
 ```text
 academy Tap
 ```
-
 
 ### Sample Case 5
 
@@ -78,7 +74,6 @@ Tap student
 student Tap
 ```
 
-
 ### Sample Case 6
 
 **Input**
@@ -91,3 +86,6 @@ I am a student of TAP
 am I student a TAP of
 ```
 
+---
+
+**Submitted at:** 2026-08-14 13:09:51Z

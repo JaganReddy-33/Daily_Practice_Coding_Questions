@@ -28,7 +28,6 @@ Print the required output
 1 0 3 0 5
 ```
 
-
 ### Sample Case 2
 
 **Input**
@@ -42,29 +41,8 @@ Print the required output
 0 7 0 9 0 11
 ```
 
+_2 sample case(s) omitted because the captured values were empty or looked like links/encoded data._
 
-### Sample Case 3
+---
 
-**Input**
-```text
-7f8e5fa20cd643bb59a593d31015:99b21b871e746f76469de5ca9809ff94:0cbbcf687f8fe26374b22c90c3a3f919
-```
-
-**Output**
-```text
-9429d8c39a7f2157689b2f:222c0acf51812fd7f274bb579d6da462:98c9cdf7156ab5a56dc9aa78d42c4159
-```
-
-
-### Sample Case 4
-
-**Input**
-```text
-5d4c297039236dc37643948aa6:2bfdc337175441a0751ed2b6ae5c24dc:ba8409d51652c9c76dbbf3e082c9260b
-```
-
-**Output**
-```text
-2470634d1d904e4013:8e5ebde821ddc40119934ae3baa441ee:ebb0e885afa9c0eb437b7db75e2b4fbc
-```
-
+**Submitted at:** 2026-06-23 11:39:45Z

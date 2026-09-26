@@ -2,15 +2,15 @@
 
 ## Description
 
-<p>Write a program to find the perimeter of the square. Formula: Perimeter = 4 * side</p>
+Write a program to find the perimeter of the square. Formula: Perimeter = 4 * side
 
 ## Input Format
 
-<p>First line contains an Integer, side of a square</p>
+First line contains an Integer, side of a square
 
 ## Output Format
 
-<p>Print the perimeter of the square</p>
+Print the perimeter of the square
 
 ## Sample Cases
 
@@ -26,7 +26,6 @@
 24
 ```
 
-
 ### Sample Case 2
 
 **Input**
@@ -38,7 +37,6 @@
 ```text
 40
 ```
-
 
 ### Sample Case 3
 
@@ -52,7 +50,6 @@
 4
 ```
 
-
 ### Sample Case 4
 
 **Input**
@@ -64,7 +61,6 @@
 ```text
 4000
 ```
-
 
 ### Sample Case 5
 
@@ -78,7 +74,6 @@
 80
 ```
 
-
 ### Sample Case 6
 
 **Input**
@@ -90,7 +85,6 @@
 ```text
 120
 ```
-
 
 ### Sample Case 7
 
@@ -104,3 +98,6 @@
 160
 ```
 
+---
+
+**Submitted at:** 2026-06-04 15:38:38Z

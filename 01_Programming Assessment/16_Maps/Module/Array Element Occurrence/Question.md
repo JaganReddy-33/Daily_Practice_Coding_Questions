@@ -2,15 +2,17 @@
 
 ## Description
 
-<p>Design a program that reads an array of N integer values and prints the occurrence of all elements in the array.</p>
+Design a program that reads an array of N integer values and prints the occurrence of all elements in the array.
 
 ## Input Format
 
-<p>The first line contains a single integer N, the number of elements in the array. </p><p>The second line contains N space-separated integers representing the elements of the array.</p>
+The first line contains a single integer N, the number of elements in the array.
+
+The second line contains N space-separated integers representing the elements of the array.
 
 ## Output Format
 
-<p>For each unique element in the array, print the element followed by a colon and the number of occurrences of that element in the array. Each element and its count should be printed on a new line in the order that element first appears in the array.</p>
+For each unique element in the array, print the element followed by a colon and the number of occurrences of that element in the array. Each element and its count should be printed on a new line in the order that element first appears in the array.
 
 ## Sample Cases
 
@@ -31,7 +33,6 @@
 5:1
 ```
 
-
 ### Sample Case 2
 
 **Input**
@@ -51,7 +52,6 @@
 6:1
 ```
 
-
 ### Sample Case 3
 
 **Input**
@@ -64,7 +64,6 @@
 ```text
 10:5
 ```
-
 
 ### Sample Case 4
 
@@ -83,7 +82,6 @@
 5:1
 ```
 
-
 ### Sample Case 5
 
 **Input**
@@ -100,7 +98,6 @@
 4000:1
 ```
 
-
 ### Sample Case 6
 
 **Input**
@@ -115,7 +112,6 @@
 2:2
 3:2
 ```
-
 
 ### Sample Case 7
 
@@ -135,3 +131,6 @@
 4:1
 ```
 
+---
+
+**Submitted at:** 2026-08-30 18:08:23Z

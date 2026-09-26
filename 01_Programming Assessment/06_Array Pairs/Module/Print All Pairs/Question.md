@@ -2,15 +2,17 @@
 
 ## Description
 
-<p>Print all possible pairs of numbers from a given array.</p>
+Print all possible pairs of numbers from a given array.
 
 ## Input Format
 
-<p>First line contains single integer N, representing size of the array</p><p>Second line containing space-separated integers.</p>
+First line contains single integer N, representing size of the array
+
+Second line containing space-separated integers.
 
 ## Output Format
 
-<p>Print each pair of numbers on a new line, separated by a space.</p>
+Print each pair of numbers on a new line, separated by a space.
 
 ## Sample Cases
 
@@ -32,7 +34,6 @@
 3 4
 ```
 
-
 ### Sample Case 2
 
 **Input**
@@ -47,7 +48,6 @@
 -1 1
 0 1
 ```
-
 
 ### Sample Case 3
 
@@ -67,7 +67,6 @@
 3 4
 ```
 
-
 ### Sample Case 4
 
 **Input**
@@ -82,7 +81,6 @@
 -1 1
 0 1
 ```
-
 
 ### Sample Case 5
 
@@ -106,7 +104,6 @@
 2 -3
 ```
 
-
 ### Sample Case 6
 
 **Input**
@@ -119,7 +116,6 @@
 ```text
 100 200
 ```
-
 
 ### Sample Case 7
 
@@ -136,3 +132,6 @@
 2 3
 ```
 
+---
+
+**Submitted at:** 2026-06-13 16:52:15Z

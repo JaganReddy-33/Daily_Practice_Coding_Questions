@@ -2,15 +2,15 @@
 
 ## Description
 
-<p>This program finds the minimum sum among all the pairs of elements in a given array of integers. Sorting is not allowed.</p>
+This program finds the minimum sum among all the pairs of elements in a given array of integers. Sorting is not allowed.
 
 ## Input Format
 
-<p>The first line contains a single integer, N, representing the size of the array. The second line contains N space-separated integers, representing the elements of the array.</p>
+The first line contains a single integer, N, representing the size of the array. The second line contains N space-separated integers, representing the elements of the array.
 
 ## Output Format
 
-<p>Print the minimum sum among all the pairs of elements in the array.</p>
+Print the minimum sum among all the pairs of elements in the array.
 
 ## Sample Cases
 
@@ -27,7 +27,6 @@
 5
 ```
 
-
 ### Sample Case 2
 
 **Input**
@@ -40,7 +39,6 @@
 ```text
 3
 ```
-
 
 ### Sample Case 3
 
@@ -55,7 +53,6 @@
 5
 ```
 
-
 ### Sample Case 4
 
 **Input**
@@ -68,7 +65,6 @@
 ```text
 3
 ```
-
 
 ### Sample Case 5
 
@@ -83,7 +79,6 @@
 -8
 ```
 
-
 ### Sample Case 6
 
 **Input**
@@ -96,7 +91,6 @@
 ```text
 3
 ```
-
 
 ### Sample Case 7
 
@@ -111,3 +105,6 @@
 3
 ```
 
+---
+
+**Submitted at:** 2026-06-25 11:35:01Z

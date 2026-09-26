@@ -2,15 +2,15 @@
 
 ## Description
 
-<p>Extracts and prints all the characters present at odd indices in a given string in the order of their occurrence.</p>
+Extracts and prints all the characters present at odd indices in a given string in the order of their occurrence.
 
 ## Input Format
 
-<p>The program takes a single line of input containing a string.</p>
+The program takes a single line of input containing a string.
 
 ## Output Format
 
-<p>Print the  characters at odd indices in the order of their occurrence. If no characters are found at odd indices, output 'No characters found at odd indices.'</p>
+Print the characters at odd indices in the order of their occurrence. If no characters are found at odd indices, output 'No characters found at odd indices.'
 
 ## Sample Cases
 
@@ -26,7 +26,6 @@ TapAcademy
 a A a e y
 ```
 
-
 ### Sample Case 2
 
 **Input**
@@ -39,7 +38,6 @@ Testing
 e t n
 ```
 
-
 ### Sample Case 3
 
 **Input**
@@ -49,9 +47,8 @@ Hello World!
 
 **Output**
 ```text
-e l   o l !
+e l o l !
 ```
-
 
 ### Sample Case 4
 
@@ -65,7 +62,6 @@ Testing
 e t n
 ```
 
-
 ### Sample Case 5
 
 **Input**
@@ -77,7 +73,6 @@ e t n
 ```text
 2 4
 ```
-
 
 ### Sample Case 6
 
@@ -91,7 +86,6 @@ ab
 b
 ```
 
-
 ### Sample Case 7
 
 **Input**
@@ -104,3 +98,6 @@ Programming
 r g a m n
 ```
 
+---
+
+**Submitted at:** 2026-07-15 17:26:35Z

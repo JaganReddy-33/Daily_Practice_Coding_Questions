@@ -2,15 +2,15 @@
 
 ## Description
 
-<p>Write a program to add three integer numbers.</p>
+Write a program to add three integer numbers.
 
 ## Input Format
 
-<p>First Line contain single integer m Second line contain single integer n Third line contain single integer k</p>
+First Line contain single integer m Second line contain single integer n Third line contain single integer k
 
 ## Output Format
 
-<p>Print sum of both the integers m, n, and k</p>
+Print sum of both the integers m, n, and k
 
 ## Sample Cases
 
@@ -28,7 +28,6 @@
 20
 ```
 
-
 ### Sample Case 2
 
 **Input**
@@ -42,7 +41,6 @@
 ```text
 100
 ```
-
 
 ### Sample Case 3
 
@@ -58,7 +56,6 @@
 1000
 ```
 
-
 ### Sample Case 4
 
 **Input**
@@ -72,7 +69,6 @@
 ```text
 1000
 ```
-
 
 ### Sample Case 5
 
@@ -88,7 +84,6 @@
 1000
 ```
 
-
 ### Sample Case 6
 
 **Input**
@@ -102,7 +97,6 @@
 ```text
 1000
 ```
-
 
 ### Sample Case 7
 
@@ -118,3 +112,6 @@
 1000
 ```
 
+---
+
+**Submitted at:** 2026-06-04 15:37:32Z

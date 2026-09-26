@@ -2,15 +2,15 @@
 
 ## Description
 
-<p>Checks whether a given string is a palindrome or not.</p>
+Checks whether a given string is a palindrome or not.
 
 ## Input Format
 
-<p>The input consists of a single line containing a string.</p>
+The input consists of a single line containing a string.
 
 ## Output Format
 
-<p>Output 'Yes' if the string is a palindrome, 'No' otherwise.</p>
+Output 'Yes' if the string is a palindrome, 'No' otherwise.
 
 ## Sample Cases
 
@@ -26,7 +26,6 @@ radar
 Yes
 ```
 
-
 ### Sample Case 2
 
 **Input**
@@ -38,7 +37,6 @@ TapAcademy
 ```text
 No
 ```
-
 
 ### Sample Case 3
 
@@ -52,7 +50,6 @@ radar
 Yes
 ```
 
-
 ### Sample Case 4
 
 **Input**
@@ -64,7 +61,6 @@ hello
 ```text
 No
 ```
-
 
 ### Sample Case 5
 
@@ -78,7 +74,6 @@ level
 Yes
 ```
 
-
 ### Sample Case 6
 
 **Input**
@@ -90,7 +85,6 @@ deed
 ```text
 Yes
 ```
-
 
 ### Sample Case 7
 
@@ -104,3 +98,6 @@ programming
 No
 ```
 
+---
+
+**Submitted at:** 2026-07-16 17:27:13Z

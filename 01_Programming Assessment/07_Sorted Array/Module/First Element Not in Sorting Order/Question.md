@@ -2,15 +2,19 @@
 
 ## Description
 
-<p>Find the first element in a sorted array that is not in sorting order.</p>
+Find the first element in a sorted array that is not in sorting order.
 
 ## Input Format
 
-<p>The input consists of two lines.</p><p>- The first line contains an integer 'n' (2 &lt;= n &lt;= 100), representing the size of the array.</p><p>- The second line contains 'n' space-separated integers, 'arr[0]' to 'arr[n-1]', representing the elements of the array.</p>
+The input consists of two lines.
+
+- The first line contains an integer 'n' (2 <= n <= 100), representing the size of the array.
+
+- The second line contains 'n' space-separated integers, 'arr[0]' to 'arr[n-1]', representing the elements of the array.
 
 ## Output Format
 
-<p>Print the first element that is not in sorting order. If all elements are in sorting order, print -1.</p>
+Print the first element that is not in sorting order. If all elements are in sorting order, print -1.
 
 ## Sample Cases
 
@@ -27,7 +31,6 @@
 4
 ```
 
-
 ### Sample Case 2
 
 **Input**
@@ -40,7 +43,6 @@
 ```text
 -1
 ```
-
 
 ### Sample Case 3
 
@@ -55,7 +57,6 @@
 4
 ```
 
-
 ### Sample Case 4
 
 **Input**
@@ -68,7 +69,6 @@
 ```text
 -1
 ```
-
 
 ### Sample Case 5
 
@@ -83,7 +83,6 @@
 2
 ```
 
-
 ### Sample Case 6
 
 **Input**
@@ -96,7 +95,6 @@
 ```text
 3
 ```
-
 
 ### Sample Case 7
 
@@ -111,3 +109,6 @@
 5
 ```
 
+---
+
+**Submitted at:** 2026-06-16 17:02:12Z

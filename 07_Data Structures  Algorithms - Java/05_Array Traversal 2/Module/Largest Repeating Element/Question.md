@@ -2,15 +2,17 @@
 
 ## Description
 
-<p>Find the largest repeating element in a sorted array. If there are multiple elements that appear the maximum number of times, return the last occurrence among them.</p>
+Find the largest repeating element in a sorted array. If there are multiple elements that appear the maximum number of times, return the last occurrence among them.
 
 ## Input Format
 
-<p>The first line contains an integer 'n' , representing the size of the array.</p><p>The second line contains 'n' space-separated integers, representing the elements of the array in ascending order.</p>
+The first line contains an integer 'n' , representing the size of the array.
+
+The second line contains 'n' space-separated integers, representing the elements of the array in ascending order.
 
 ## Output Format
 
-<p>Print the largest repeating element in the array.</p>
+Print the largest repeating element in the array.
 
 ## Sample Cases
 
@@ -27,7 +29,6 @@
 3
 ```
 
-
 ### Sample Case 2
 
 **Input**
@@ -40,7 +41,6 @@
 ```text
 5
 ```
-
 
 ### Sample Case 3
 
@@ -55,7 +55,6 @@
 3
 ```
 
-
 ### Sample Case 4
 
 **Input**
@@ -68,7 +67,6 @@
 ```text
 5
 ```
-
 
 ### Sample Case 5
 
@@ -83,7 +81,6 @@
 40
 ```
 
-
 ### Sample Case 6
 
 **Input**
@@ -96,7 +93,6 @@
 ```text
 30
 ```
-
 
 ### Sample Case 7
 
@@ -111,3 +107,6 @@
 1
 ```
 
+---
+
+**Submitted at:** 2026-06-29 11:42:02Z

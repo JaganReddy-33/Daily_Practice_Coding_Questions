@@ -2,15 +2,15 @@
 
 ## Description
 
-<p>Remove all uppercase characters from a given string.</p>
+Remove all uppercase characters from a given string.
 
 ## Input Format
 
-<p>The input consists of a single line containing a string that may contain uppercase characters.</p>
+The input consists of a single line containing a string that may contain uppercase characters.
 
 ## Output Format
 
-<p>Output a single line containing the modified string after removing all uppercase characters.</p>
+Output a single line containing the modified string after removing all uppercase characters.
 
 ## Sample Cases
 
@@ -26,7 +26,6 @@ TtAaPpAaCcAaDdEeMmYy
 tapacademy
 ```
 
-
 ### Sample Case 2
 
 **Input**
@@ -38,7 +37,6 @@ PpRrOoGgRrAaMmMmIiNnGg
 ```text
 programming
 ```
-
 
 ### Sample Case 3
 
@@ -52,7 +50,6 @@ TtAaPpAaCcAaDdEeMmYy
 tapacademy
 ```
 
-
 ### Sample Case 4
 
 **Input**
@@ -64,7 +61,6 @@ PpRrOoGgRrAaMmMmIiNnGg
 ```text
 programming
 ```
-
 
 ### Sample Case 5
 
@@ -78,7 +74,6 @@ NoUPPERCASEHERE
 o
 ```
 
-
 ### Sample Case 6
 
 **Input**
@@ -90,7 +85,6 @@ AaBbCcDdEFGHIJKLMNOPQRSTUVWXYZ
 ```text
 abcd
 ```
-
 
 ### Sample Case 7
 
@@ -104,3 +98,6 @@ AbcDefGhiJklMnoPqrStuVwxYz
 bcefhiklnoqrtuwxz
 ```
 
+---
+
+**Submitted at:** 2026-08-13 12:56:14Z

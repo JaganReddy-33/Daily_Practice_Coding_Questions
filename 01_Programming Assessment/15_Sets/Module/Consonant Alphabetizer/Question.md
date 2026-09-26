@@ -26,7 +26,6 @@ Hello World!
 dhlrw
 ```
 
-
 ### Sample Case 2
 
 **Input**
@@ -38,7 +37,6 @@ Programming is fun!
 ```text
 fgmnprs
 ```
-
 
 ### Sample Case 3
 
@@ -52,7 +50,6 @@ banana
 bn
 ```
 
-
 ### Sample Case 4
 
 **Input**
@@ -64,7 +61,6 @@ OpenAI ChatGPT
 ```text
 cghnpt
 ```
-
 
 ### Sample Case 5
 
@@ -78,7 +74,6 @@ cghnpt
 -1
 ```
 
-
 ### Sample Case 6
 
 **Input**
@@ -90,7 +85,6 @@ cghnpt
 ```text
 -1
 ```
-
 
 ### Sample Case 7
 
@@ -104,3 +98,6 @@ Frameworks@2024
 fkmrsw
 ```
 
+---
+
+**Submitted at:** 2026-08-29 18:06:26Z

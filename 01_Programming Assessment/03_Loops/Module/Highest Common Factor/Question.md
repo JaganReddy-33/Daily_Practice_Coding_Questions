@@ -2,15 +2,15 @@
 
 ## Description
 
-<p>Write a program to find the greatest common factor of given 2 integers.</p>
+Write a program to find the greatest common factor of given 2 integers.
 
 ## Input Format
 
-<p>First line contains space separated three integer input n, m.</p>
+First line contains space separated three integer input n, m.
 
 ## Output Format
 
-<p>Print greatest common factor of 2 numbers.</p>
+Print greatest common factor of 2 numbers.
 
 ## Sample Cases
 
@@ -26,7 +26,6 @@
 10
 ```
 
-
 ### Sample Case 2
 
 **Input**
@@ -38,7 +37,6 @@
 ```text
 15
 ```
-
 
 ### Sample Case 3
 
@@ -52,7 +50,6 @@
 6
 ```
 
-
 ### Sample Case 4
 
 **Input**
@@ -64,7 +61,6 @@
 ```text
 15
 ```
-
 
 ### Sample Case 5
 
@@ -78,7 +74,6 @@
 100
 ```
 
-
 ### Sample Case 6
 
 **Input**
@@ -90,7 +85,6 @@
 ```text
 27
 ```
-
 
 ### Sample Case 7
 
@@ -104,3 +98,6 @@
 5
 ```
 
+---
+
+**Submitted at:** 2026-06-07 16:00:03Z

@@ -2,15 +2,15 @@
 
 ## Description
 
-<p>Find the sum of all digits in a positive integer.</p>
+Find the sum of all digits in a positive integer.
 
 ## Input Format
 
-<p>A single positive integer num.</p>
+A single positive integer num.
 
 ## Output Format
 
-<p>A single integer representing the sum of digits.</p>
+A single integer representing the sum of digits.
 
 ## Sample Cases
 
@@ -26,7 +26,6 @@
 15
 ```
 
-
 ### Sample Case 2
 
 **Input**
@@ -38,7 +37,6 @@
 ```text
 1
 ```
-
 
 ### Sample Case 3
 
@@ -52,7 +50,6 @@
 39
 ```
 
-
 ### Sample Case 4
 
 **Input**
@@ -64,7 +61,6 @@
 ```text
 1
 ```
-
 
 ### Sample Case 5
 
@@ -78,7 +74,6 @@
 45
 ```
 
-
 ### Sample Case 6
 
 **Input**
@@ -90,7 +85,6 @@
 ```text
 15
 ```
-
 
 ### Sample Case 7
 
@@ -104,3 +98,6 @@
 6
 ```
 
+---
+
+**Submitted at:** 2026-06-05 15:58:00Z

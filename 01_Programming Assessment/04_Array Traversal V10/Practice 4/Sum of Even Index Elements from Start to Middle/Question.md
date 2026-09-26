@@ -2,15 +2,15 @@
 
 ## Description
 
-<p>Given an array of integers of size N, print the sum of all the elements present in the even indices of the array from the start to the middle of the array.</p>
+Given an array of integers of size N, print the sum of all the elements present in the even indices of the array from the start to the middle of the array.
 
 ## Input Format
 
-<p>The first line contains an integer N, the size of the array. The second line contains N space-separated integers representing the array elements.</p>
+The first line contains an integer N, the size of the array. The second line contains N space-separated integers representing the array elements.
 
 ## Output Format
 
-<p>Print the sum of all the elements present in the even indices of the array from the start to the middle of the array.</p>
+Print the sum of all the elements present in the even indices of the array from the start to the middle of the array.
 
 ## Sample Cases
 
@@ -27,7 +27,6 @@
 4
 ```
 
-
 ### Sample Case 2
 
 **Input**
@@ -40,7 +39,6 @@
 ```text
 1
 ```
-
 
 ### Sample Case 3
 
@@ -55,7 +53,6 @@
 -4
 ```
 
-
 ### Sample Case 4
 
 **Input**
@@ -68,7 +65,6 @@
 ```text
 2
 ```
-
 
 ### Sample Case 5
 
@@ -83,7 +79,6 @@
 1000000000
 ```
 
-
 ### Sample Case 6
 
 **Input**
@@ -96,7 +91,6 @@
 ```text
 -1000000000
 ```
-
 
 ### Sample Case 7
 
@@ -111,3 +105,6 @@
 -2000000000
 ```
 
+---
+
+**Submitted at:** 2026-07-04 16:25:16Z

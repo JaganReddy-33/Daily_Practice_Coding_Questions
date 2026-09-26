@@ -2,15 +2,15 @@
 
 ## Description
 
-<p>Write a program to print common multiples of 2 numbers.</p>
+Write a program to print common multiples of 2 numbers.
 
 ## Input Format
 
-<p>First line contains a single integer input n. Second line contains space separated 2 integer input a, b.</p>
+First line contains a single integer input n. Second line contains space separated 2 integer input a, b.
 
 ## Output Format
 
-<p>Print first n common multiples of a and b.</p>
+Print first n common multiples of a and b.
 
 ## Sample Cases
 
@@ -27,7 +27,6 @@
 12 24 36 48 60 72 84 96 108
 ```
 
-
 ### Sample Case 2
 
 **Input**
@@ -40,7 +39,6 @@
 ```text
 35 70 105 140 175
 ```
-
 
 ### Sample Case 3
 
@@ -55,7 +53,6 @@
 24 48 72 96 120 144 168
 ```
 
-
 ### Sample Case 4
 
 **Input**
@@ -68,7 +65,6 @@
 ```text
 10 20 30 40 50
 ```
-
 
 ### Sample Case 5
 
@@ -83,7 +79,6 @@
 63 126 189 252 315 378
 ```
 
-
 ### Sample Case 6
 
 **Input**
@@ -96,7 +91,6 @@
 ```text
 221 442 663 884
 ```
-
 
 ### Sample Case 7
 
@@ -111,3 +105,6 @@
 60 120 180 240 300 360 420 480
 ```
 
+---
+
+**Submitted at:** 2026-06-07 16:00:37Z

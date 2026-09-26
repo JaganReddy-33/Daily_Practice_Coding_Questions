@@ -2,15 +2,19 @@
 
 ## Description
 
-<p>Count the number of unique elements in an ascending sorted array.</p>
+Count the number of unique elements in an ascending sorted array.
 
 ## Input Format
 
-<p>The input consists of two lines:</p><p>The first line contains a single integer N, representing the size of the array (1 ≤ N ≤ 10^5).</p><p>The second line contains N space-separated integers, A[1], A[2], ..., A[N], representing the elements of the array (-10^9 ≤ A[i] ≤ 10^9).</p>
+The input consists of two lines:
+
+The first line contains a single integer N, representing the size of the array (1 ≤ N ≤ 10^5).
+
+The second line contains N space-separated integers, A[1], A[2], ..., A[N], representing the elements of the array (-10^9 ≤ A[i] ≤ 10^9).
 
 ## Output Format
 
-<p>Print a single integer, the count of unique elements in the array.</p>
+Print a single integer, the count of unique elements in the array.
 
 ## Sample Cases
 
@@ -27,7 +31,6 @@
 3
 ```
 
-
 ### Sample Case 2
 
 **Input**
@@ -40,7 +43,6 @@
 ```text
 6
 ```
-
 
 ### Sample Case 3
 
@@ -55,7 +57,6 @@
 3
 ```
 
-
 ### Sample Case 4
 
 **Input**
@@ -68,7 +69,6 @@
 ```text
 6
 ```
-
 
 ### Sample Case 5
 
@@ -83,7 +83,6 @@
 0
 ```
 
-
 ### Sample Case 6
 
 **Input**
@@ -96,7 +95,6 @@
 ```text
 0
 ```
-
 
 ### Sample Case 7
 
@@ -111,3 +109,6 @@
 1
 ```
 
+---
+
+**Submitted at:** 2026-06-26T13:59:16.426Z

@@ -2,15 +2,15 @@
 
 ## Description
 
-<p>Write a program that reads an array of N integer values and identifies the element that has occurred the most number of times.</p>
+Write a program that reads an array of N integer values and identifies the element that has occurred the most number of times.
 
 ## Input Format
 
-<p>The first line contains a single integer N, the number of elements in the array. The second line contains N space-separated integers, the elements of the array.</p>
+The first line contains a single integer N, the number of elements in the array. The second line contains N space-separated integers, the elements of the array.
 
 ## Output Format
 
-<p>Print a single integer, the most frequent element in the array. If there are multiple such elements, print the one that appeared first.</p>
+Print a single integer, the most frequent element in the array. If there are multiple such elements, print the one that appeared first.
 
 ## Sample Cases
 
@@ -27,7 +27,6 @@
 2
 ```
 
-
 ### Sample Case 2
 
 **Input**
@@ -40,7 +39,6 @@
 ```text
 4
 ```
-
 
 ### Sample Case 3
 
@@ -55,7 +53,6 @@
 10
 ```
 
-
 ### Sample Case 4
 
 **Input**
@@ -68,7 +65,6 @@
 ```text
 -1
 ```
-
 
 ### Sample Case 5
 
@@ -83,7 +79,6 @@
 1000
 ```
 
-
 ### Sample Case 6
 
 **Input**
@@ -96,7 +91,6 @@
 ```text
 1
 ```
-
 
 ### Sample Case 7
 
@@ -111,3 +105,6 @@
 9
 ```
 
+---
+
+**Submitted at:** 2026-08-30 18:08:36Z

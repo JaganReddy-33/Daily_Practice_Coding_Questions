@@ -2,15 +2,15 @@
 
 ## Description
 
-<p>Print elements of the array from the starting to the middle.</p>
+Print elements of the array from the starting to the middle.
 
 ## Input Format
 
-<p>The function should prompt the user to enter the size of the array and the array elements.</p>
+The function should prompt the user to enter the size of the array and the array elements.
 
 ## Output Format
 
-<p>Print the array elements on a single line, each element separated by a space.</p>
+Print the array elements on a single line, each element separated by a space.
 
 ## Sample Cases
 
@@ -27,7 +27,6 @@
 7
 ```
 
-
 ### Sample Case 2
 
 **Input**
@@ -40,7 +39,6 @@
 ```text
 10 20 30
 ```
-
 
 ### Sample Case 3
 
@@ -55,7 +53,6 @@
 10 20
 ```
 
-
 ### Sample Case 4
 
 **Input**
@@ -68,7 +65,6 @@
 ```text
 1 2 3
 ```
-
 
 ### Sample Case 5
 
@@ -83,7 +79,6 @@
 7
 ```
 
-
 ### Sample Case 6
 
 **Input**
@@ -96,7 +91,6 @@
 ```text
 -2 -4
 ```
-
 
 ### Sample Case 7
 
@@ -111,3 +105,6 @@
 -1
 ```
 
+---
+
+**Submitted at:** 2026-06-13 16:19:34Z

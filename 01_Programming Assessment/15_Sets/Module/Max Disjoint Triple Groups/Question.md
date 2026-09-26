@@ -28,7 +28,6 @@ Print a single integer, the maximum number of disjoint groups with at least one 
 2
 ```
 
-
 ### Sample Case 2
 
 **Input**
@@ -41,7 +40,6 @@ Print a single integer, the maximum number of disjoint groups with at least one 
 ```text
 1
 ```
-
 
 ### Sample Case 3
 
@@ -56,7 +54,6 @@ Print a single integer, the maximum number of disjoint groups with at least one 
 1
 ```
 
-
 ### Sample Case 4
 
 **Input**
@@ -69,7 +66,6 @@ Print a single integer, the maximum number of disjoint groups with at least one 
 ```text
 1
 ```
-
 
 ### Sample Case 5
 
@@ -84,7 +80,6 @@ Print a single integer, the maximum number of disjoint groups with at least one 
 2
 ```
 
-
 ### Sample Case 6
 
 **Input**
@@ -97,7 +92,6 @@ Print a single integer, the maximum number of disjoint groups with at least one 
 ```text
 0
 ```
-
 
 ### Sample Case 7
 
@@ -112,3 +106,6 @@ Print a single integer, the maximum number of disjoint groups with at least one 
 2
 ```
 
+---
+
+**Submitted at:** 2026-08-29 18:07:50Z

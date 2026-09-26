@@ -2,15 +2,15 @@
 
 ## Description
 
-<p>Print the largest palindromic substring of a given string.</p>
+Print the largest palindromic substring of a given string.
 
 ## Input Format
 
-<p>The input consists of a single line containing a string, `str`.</p>
+The input consists of a single line containing a string, `str`.
 
 ## Output Format
 
-<p>A single line containing the largest palindromic substring of the input string.</p>
+A single line containing the largest palindromic substring of the input string.
 
 ## Sample Cases
 
@@ -26,7 +26,6 @@ babad
 bab
 ```
 
-
 ### Sample Case 2
 
 **Input**
@@ -38,7 +37,6 @@ tapa
 ```text
 apa
 ```
-
 
 ### Sample Case 3
 
@@ -52,7 +50,6 @@ babad
 bab
 ```
 
-
 ### Sample Case 4
 
 **Input**
@@ -64,7 +61,6 @@ tapa
 ```text
 apa
 ```
-
 
 ### Sample Case 5
 
@@ -78,7 +74,6 @@ racecar
 racecar
 ```
 
-
 ### Sample Case 6
 
 **Input**
@@ -90,7 +85,6 @@ xyzzyx
 ```text
 xyzzyx
 ```
-
 
 ### Sample Case 7
 
@@ -104,3 +98,6 @@ level
 level
 ```
 
+---
+
+**Submitted at:** 2026-07-24 17:55:48Z
