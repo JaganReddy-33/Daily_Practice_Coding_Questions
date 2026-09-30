@@ -11,6 +11,51 @@ A premium, structured repository of coding practice, MCQ revision, and assessmen
 
 This archive organizes learning by topic, module, and assessment area so you can revise quickly, track your progress, and keep your practice material clean and searchable.
 
+## Clone and use on your laptop
+
+You only need Git to browse and study the questions and solutions. In a
+terminal, clone the archive and enter its folder:
+
+```bash
+git clone https://github.com/JaganReddy-33/Daily_Practice_Coding_Questions.git Academy_Daily_Practice_Solutions
+cd Academy_Daily_Practice_Solutions
+```
+
+Open the folder in VS Code, or browse it directly on GitHub. Navigate to an
+assessment, then a module and question folder. Read `Question.md` before
+opening the solution file if you want to try the problem yourself.
+
+To get question pages and solutions added later, update your local copy:
+
+```bash
+git pull origin main
+```
+
+### Run solutions locally
+
+Install the runtime for the language used by that solution, then run it from
+its question folder. For example, with a Java JDK installed:
+
+```bash
+cd "01_Programming Assessment/01_Data Types/Add 2 Integers"
+javac Solution.java
+java Solution
+```
+
+For Python solutions, install Python 3 and run `python Solution.py`. For SQL,
+HTML, or CSS questions, use the corresponding database or browser/editor tools.
+Some coding solutions may rely on the input/output conventions described in
+their `Question.md`.
+
+## Automation is a separate repository
+
+This repository is the generated learning archive; it does not contain the
+portal extractor or require Playwright. To extract TAP Academy submissions and
+regenerate/sync these files, use the separate
+[migration automation repository](https://github.com/JaganReddy-33/Tap_Academy_Migration_Automation)
+and follow its setup instructions. Clone that project and this archive side by
+side when running the automation locally.
+
 ## Featured tracks
 
 <div align="center">
