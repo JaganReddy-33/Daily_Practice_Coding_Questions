@@ -4,7 +4,7 @@
 
 ## Question
 
-When targeting an <img> element with an alt attribute that starts with 'logo', which attribute selector type should be used?
+Which type of attribute selector targets elements based on specific conditions, such as starting, ending, or containing a specified value?
 
 ## Answer choices
 
@@ -16,7 +16,7 @@ When targeting an <img> element with an alt attribute that starts with 'logo', w
 ## Submission
 
 - **Correct answer:** Partial value attribute selector
-- **Submitted at:** 2026-10-02T11:32:07.800Z
+- **Submitted at:** 2026-10-02T11:31:03.789Z
 - **Correct submission:** True
 
 ## Explanation
