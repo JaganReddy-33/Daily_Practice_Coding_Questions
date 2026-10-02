@@ -4,23 +4,19 @@
 
 ## Question
 
-<p>What does this CSS rule do?</p><p>Assume the CSS rule is as follows:</p><pre class="ql-syntax" spellcheck="false">body &gt; h1 {
-&nbsp; &nbsp; background-color: powderblue;
-&nbsp; &nbsp; color: black;
-}
-</pre>
+What is the purpose of the attribute [id] in a CSS selector?
 
 ## Answer choices
 
-- ⬜ **A.** <p>Styles all <code>&lt;h1&gt;</code> elements within the body with a background color of powder blue and black text color.</p>
-- ✅ **B. <p>Styles all <code>&lt;h1&gt;</code> elements directly nested within the body with a background color of powder blue and black text color.</p>** — Correct answer
-- ⬜ **C.** <p>Incorrect! The <code>&gt;</code> symbol selects only immediate children, not elements following the body.</p>
-- ⬜ **D.** <p>Incorrect! The CSS rule specifies powder blue as the background color and black as the text color.</p>
+- ⬜ **A.** Selects elements with no ID
+- ✅ **B. Selects elements with a specific ID** — Correct answer
+- ⬜ **C.** Targets elements with a specific class
+- ⬜ **D.** Styles elements with a specific attribute
 
 ## Submission
 
-- **Correct answer:** <p>Styles all <code>&lt;h1&gt;</code> elements directly nested within the body with a background color of powder blue and black text color.</p>
-- **Submitted at:** 2026-10-02T11:23:02.453Z
+- **Correct answer:** Selects elements with a specific ID
+- **Submitted at:** 2026-10-02T11:23:34.531Z
 - **Correct submission:** True
 
 ## Explanation
