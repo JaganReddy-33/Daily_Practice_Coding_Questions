@@ -4,19 +4,19 @@
 
 ## Question
 
-The separated attribute selector (|) is commonly used for:
+Which attribute selector targets elements with attributes that start with a specified value?
 
 ## Answer choices
 
-- ⬜ **A.** Exact value matching
-- ✅ **B. Language subcode matching** — Correct answer
-- ⬜ **C.** Matching values within a specific range
-- ⬜ **D.** Attribute value that starts with a specified string
+- ✅ **A. (^)** — Correct answer
+- ⬜ **B.** (*)
+- ⬜ **C.** ($)
+- ⬜ **D.** (=)
 
 ## Submission
 
-- **Correct answer:** Language subcode matching
-- **Submitted at:** 2026-10-02T11:33:50.178Z
+- **Correct answer:** (^)
+- **Submitted at:** 2026-10-02T11:32:33.047Z
 - **Correct submission:** True
 
 ## Explanation
