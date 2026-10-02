@@ -4,19 +4,19 @@
 
 ## Question
 
-Which CSS selector is used to select an element with a specific ID and a specific class?
+How do you select an element with the ID 'sidebar' that is a direct sibling of an element with the class 'content'?
 
 ## Answer choices
 
-- ⬜ **A.** #id.class
-- ⬜ **B.** .class#id
-- ✅ **C. #id .class** — Correct answer
-- ⬜ **D.** #id+.class
+- ✅ **A. .content > #sidebar** — Correct answer
+- ⬜ **B.** #content + #sidebar
+- ⬜ **C.** #content ~ #sidebar
+- ⬜ **D.** #content #sidebar
 
 ## Submission
 
-- **Correct answer:** #id .class
-- **Submitted at:** 2026-10-02T11:25:30.965Z
+- **Correct answer:** .content > #sidebar
+- **Submitted at:** 2026-10-02T11:28:33.751Z
 - **Correct submission:** True
 
 ## Explanation
