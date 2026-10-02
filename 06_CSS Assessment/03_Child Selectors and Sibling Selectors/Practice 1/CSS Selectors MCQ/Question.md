@@ -4,19 +4,23 @@
 
 ## Question
 
-<p>Which CSS selector would you use to style all <code>&lt;h2&gt;</code> elements that are children of the <code>&lt;div class="container"&gt;</code> element?</p>
+<p>What does this CSS rule do?</p><p>Assume the CSS rule is as follows:</p><pre class="ql-syntax" spellcheck="false">body &gt; h1 {
+&nbsp; &nbsp; background-color: powderblue;
+&nbsp; &nbsp; color: black;
+}
+</pre>
 
 ## Answer choices
 
-- ✅ **A. <p>.container &gt; h2</p>** — Correct answer
-- ⬜ **B.** <p>.container h2</p>
-- ⬜ **C.** <p>.container + h2</p>
-- ⬜ **D.** <p>.container ~ h2</p>
+- ⬜ **A.** <p>Styles all <code>&lt;h1&gt;</code> elements within the body with a background color of powder blue and black text color.</p>
+- ✅ **B. <p>Styles all <code>&lt;h1&gt;</code> elements directly nested within the body with a background color of powder blue and black text color.</p>** — Correct answer
+- ⬜ **C.** <p>Incorrect! The <code>&gt;</code> symbol selects only immediate children, not elements following the body.</p>
+- ⬜ **D.** <p>Incorrect! The CSS rule specifies powder blue as the background color and black as the text color.</p>
 
 ## Submission
 
-- **Correct answer:** <p>.container &gt; h2</p>
-- **Submitted at:** 2026-10-02T11:20:43.560Z
+- **Correct answer:** <p>Styles all <code>&lt;h1&gt;</code> elements directly nested within the body with a background color of powder blue and black text color.</p>
+- **Submitted at:** 2026-10-02T11:23:02.453Z
 - **Correct submission:** True
 
 ## Explanation
