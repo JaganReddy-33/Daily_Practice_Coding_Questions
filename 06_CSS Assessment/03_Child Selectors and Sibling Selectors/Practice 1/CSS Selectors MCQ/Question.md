@@ -4,19 +4,19 @@
 
 ## Question
 
-What is the purpose of the attribute [id] in a CSS selector?
+Which CSS selector is used to select an element with a specific ID and a specific class?
 
 ## Answer choices
 
-- ⬜ **A.** Selects elements with no ID
-- ✅ **B. Selects elements with a specific ID** — Correct answer
-- ⬜ **C.** Targets elements with a specific class
-- ⬜ **D.** Styles elements with a specific attribute
+- ⬜ **A.** #id.class
+- ⬜ **B.** .class#id
+- ✅ **C. #id .class** — Correct answer
+- ⬜ **D.** #id+.class
 
 ## Submission
 
-- **Correct answer:** Selects elements with a specific ID
-- **Submitted at:** 2026-10-02T11:23:34.531Z
+- **Correct answer:** #id .class
+- **Submitted at:** 2026-10-02T11:25:30.965Z
 - **Correct submission:** True
 
 ## Explanation
