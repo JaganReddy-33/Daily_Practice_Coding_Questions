@@ -4,19 +4,19 @@
 
 ## Question
 
-The space-separated attribute selector (~) targets elements with attributes that have values containing the specified word:
+The separated attribute selector (|) is commonly used for:
 
 ## Answer choices
 
-- ⬜ **A.** As a prefix
-- ⬜ **B.** As a suffix
-- ✅ **C. As a separate word in a space-separated list** — Correct answer
-- ⬜ **D.** As a language subcode
+- ⬜ **A.** Exact value matching
+- ✅ **B. Language subcode matching** — Correct answer
+- ⬜ **C.** Matching values within a specific range
+- ⬜ **D.** Attribute value that starts with a specified string
 
 ## Submission
 
-- **Correct answer:** As a separate word in a space-separated list
-- **Submitted at:** 2026-10-02T11:33:35.933Z
+- **Correct answer:** Language subcode matching
+- **Submitted at:** 2026-10-02T11:33:50.178Z
 - **Correct submission:** True
 
 ## Explanation
