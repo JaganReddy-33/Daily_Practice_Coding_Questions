@@ -4,19 +4,19 @@
 
 ## Question
 
-What does the opacity property control in internal CSS?
+How do you set the cursor to a pointer when hovering over an element using internal CSS?
 
 ## Answer choices
 
-- ✅ **A. Sets the element's transparency level** — Correct answer
-- ⬜ **B.** Defines the element's width
-- ⬜ **C.** Adjusts the element's font size
-- ⬜ **D.** Adds a border to an element
+- ⬜ **A.** cursor: hand;
+- ⬜ **B.** pointer-cursor: true;
+- ✅ **C. style="cursor: pointer;"** — Correct answer
+- ⬜ **D.** hover: cursor-pointer;
 
 ## Submission
 
-- **Correct answer:** Sets the element's transparency level
-- **Submitted at:** 2026-10-03T15:53:26.806Z
+- **Correct answer:** style="cursor: pointer;"
+- **Submitted at:** 2026-10-03T15:53:44.970Z
 - **Correct submission:** True
 
 ## Explanation
