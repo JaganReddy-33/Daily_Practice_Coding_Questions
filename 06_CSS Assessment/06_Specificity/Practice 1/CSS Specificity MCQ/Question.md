@@ -4,19 +4,19 @@
 
 ## Question
 
-What is the specificity of inherited CSS values?
+Find the specificity of the CSS selector 'ul ol+li'.
 
 ## Answer choices
 
-- ⬜ **A.** Inherited values have the same specificity as the parent element.
-- ⬜ **B.** Inherited values have higher specificity than explicitly declared values.
-- ✅ **C. Inherited values have lower specificity and do not contribute to specificity calculations.** — Correct answer
-- ⬜ **D.** Inherited values have variable specificity depending on the property.
+- ⬜ **A.** specificity = 0,0,2,1
+- ⬜ **B.** specificity = 0,2,1,1
+- ⬜ **C.** specificity = 0,1,1,1
+- ✅ **D. specificity = 0,0,0,3** — Correct answer
 
 ## Submission
 
-- **Correct answer:** Inherited values have lower specificity and do not contribute to specificity calculations.
-- **Submitted at:** 2026-10-03T15:47:37.037Z
+- **Correct answer:** specificity = 0,0,0,3
+- **Submitted at:** 2026-10-03T15:43:36.491Z
 - **Correct submission:** True
 
 ## Explanation
