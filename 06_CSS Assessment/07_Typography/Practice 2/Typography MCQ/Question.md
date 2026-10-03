@@ -4,19 +4,19 @@
 
 ## Question
 
-What happens if you set the font-size to a negative value in CSS?
+How can you ensure that only 60 characters are displayed in a paragraph before wrapping to the next line using CSS?
 
 ## Answer choices
 
-- ⬜ **A.** The text becomes smaller
-- ⬜ **B.** The text becomes larger
-- ✅ **C. The font-size property is ignored** — Correct answer
-- ⬜ **D.** It causes a CSS validation error
+- ⬜ **A.** Use the max-characters property
+- ⬜ **B.** Set max-line-width to 60
+- ✅ **C. Apply max-width: 60ch; to the paragraph** — Correct answer
+- ⬜ **D.** Utilize the character-limit attribute
 
 ## Submission
 
-- **Correct answer:** The font-size property is ignored
-- **Submitted at:** 2026-10-03T15:55:31.256Z
+- **Correct answer:** Apply max-width: 60ch; to the paragraph
+- **Submitted at:** 2026-10-03T15:56:26.627Z
 - **Correct submission:** True
 
 ## Explanation
