@@ -4,19 +4,19 @@
 
 ## Question
 
-When does CSS specificity become crucial in web development?
+Which of the following selector combinations has the highest specificity?
 
 ## Answer choices
 
-- ⬜ **A.** When dealing with responsive design
-- ⬜ **B.** When working with CSS frameworks
-- ✅ **C. When resolving conflicting CSS rules** — Correct answer
-- ⬜ **D.** When optimizing website performance
+- ⬜ **A.** ID + class
+- ⬜ **B.** Element + ID
+- ⬜ **C.** Class + class
+- ✅ **D. Element + class + ID** — Correct answer
 
 ## Submission
 
-- **Correct answer:** When resolving conflicting CSS rules
-- **Submitted at:** 2026-10-03T15:45:22.196Z
+- **Correct answer:** Element + class + ID
+- **Submitted at:** 2026-10-03T15:46:01.634Z
 - **Correct submission:** True
 
 ## Explanation
