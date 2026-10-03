@@ -4,19 +4,19 @@
 
 ## Question
 
-Which CSS property can you use to add a shadow effect behind text?
+What happens if you set the font-size to a negative value in CSS?
 
 ## Answer choices
 
-- ✅ **A. text-shadow** — Correct answer
-- ⬜ **B.** box-shadow
-- ⬜ **C.** font-shadow
-- ⬜ **D.** text-effect
+- ⬜ **A.** The text becomes smaller
+- ⬜ **B.** The text becomes larger
+- ✅ **C. The font-size property is ignored** — Correct answer
+- ⬜ **D.** It causes a CSS validation error
 
 ## Submission
 
-- **Correct answer:** text-shadow
-- **Submitted at:** 2026-10-03T15:55:12.512Z
+- **Correct answer:** The font-size property is ignored
+- **Submitted at:** 2026-10-03T15:55:31.256Z
 - **Correct submission:** True
 
 ## Explanation
