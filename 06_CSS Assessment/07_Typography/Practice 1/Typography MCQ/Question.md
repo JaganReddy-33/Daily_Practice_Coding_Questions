@@ -4,19 +4,19 @@
 
 ## Question
 
-Which property is used to set the space between words in inline CSS?
+How do you apply a border radius of 5 pixels to all corners of an element using internal CSS?
 
 ## Answer choices
 
-- ✅ **A. word-spacing** — Correct answer
-- ⬜ **B.** space-between
-- ⬜ **C.** text-spacing
-- ⬜ **D.** style="word-spacing: ...;"
+- ✅ **A. border-radius: 5px;** — Correct answer
+- ⬜ **B.** corner-radius: 5px;
+- ⬜ **C.** style="radius: 5px;"
+- ⬜ **D.** rounded: 5px;
 
 ## Submission
 
-- **Correct answer:** word-spacing
-- **Submitted at:** 2026-10-03T15:51:32.785Z
+- **Correct answer:** border-radius: 5px;
+- **Submitted at:** 2026-10-03T15:51:43.788Z
 - **Correct submission:** True
 
 ## Explanation
