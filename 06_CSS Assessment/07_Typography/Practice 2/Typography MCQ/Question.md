@@ -4,19 +4,19 @@
 
 ## Question
 
-How do you set the cursor to a pointer when hovering over an element using internal CSS?
+What happens if you set both font-weight: bold; and font-weight: normal; on the same text element?
 
 ## Answer choices
 
-- ⬜ **A.** cursor: hand;
-- ⬜ **B.** pointer-cursor: true;
-- ✅ **C. style="cursor: pointer;"** — Correct answer
-- ⬜ **D.** hover: cursor-pointer;
+- ✅ **A. The text becomes bold** — Correct answer
+- ⬜ **B.** The text becomes normal
+- ⬜ **C.** The browser applies font-weight: normal;
+- ⬜ **D.** It causes a CSS validation error
 
 ## Submission
 
-- **Correct answer:** style="cursor: pointer;"
-- **Submitted at:** 2026-10-03T15:53:44.970Z
+- **Correct answer:** The text becomes bold
+- **Submitted at:** 2026-10-03T15:54:42.529Z
 - **Correct submission:** True
 
 ## Explanation
