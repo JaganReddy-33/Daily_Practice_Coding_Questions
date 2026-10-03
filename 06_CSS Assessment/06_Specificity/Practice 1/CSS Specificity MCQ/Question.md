@@ -4,19 +4,19 @@
 
 ## Question
 
-Which of the following statements best describes CSS inheritance?
+Which of the following CSS properties are typically inherited by child elements?
 
 ## Answer choices
 
-- ✅ **A. CSS inheritance refers to the process by which properties are passed from a parent element to its child elements.** — Correct answer
-- ⬜ **B.** CSS inheritance refers to the process by which properties are shared among sibling elements.
-- ⬜ **C.** CSS inheritance refers to the process by which properties are applied only to the parent element.
-- ⬜ **D.** CSS inheritance refers to the process by which properties are applied randomly to different elements.
+- ✅ **A. font-size** — Correct answer
+- ⬜ **B.** margin
+- ⬜ **C.** padding
+- ⬜ **D.** border
 
 ## Submission
 
-- **Correct answer:** CSS inheritance refers to the process by which properties are passed from a parent element to its child elements.
-- **Submitted at:** 2026-10-03T15:46:15.116Z
+- **Correct answer:** font-size
+- **Submitted at:** 2026-10-03T15:46:27.637Z
 - **Correct submission:** True
 
 ## Explanation
