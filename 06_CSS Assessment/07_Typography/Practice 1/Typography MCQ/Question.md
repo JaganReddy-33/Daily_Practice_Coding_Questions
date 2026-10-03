@@ -4,19 +4,19 @@
 
 ## Question
 
-Which property is used to control the alignment of text in inline CSS?
+What is the purpose of the border property in inline CSS?
 
 ## Answer choices
 
-- ✅ **A. text-align** — Correct answer
-- ⬜ **B.** align-text
-- ⬜ **C.** alignment
-- ⬜ **D.** style="text-align: ...;"
+- ⬜ **A.** Adds a border inside an element
+- ✅ **B. Adds a border outside an element** — Correct answer
+- ⬜ **C.** Sets the margin
+- ⬜ **D.** Defines the element width
 
 ## Submission
 
-- **Correct answer:** text-align
-- **Submitted at:** 2026-10-03T15:48:54.639Z
+- **Correct answer:** Adds a border outside an element
+- **Submitted at:** 2026-10-03T15:49:09.713Z
 - **Correct submission:** True
 
 ## Explanation
