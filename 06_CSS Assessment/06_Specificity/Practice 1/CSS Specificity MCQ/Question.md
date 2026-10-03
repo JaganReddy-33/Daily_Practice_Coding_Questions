@@ -4,19 +4,19 @@
 
 ## Question
 
-Find the specificity of the inline style attribute.
+When does CSS specificity become crucial in web development?
 
 ## Answer choices
 
-- ⬜ **A.** specificity = 0,0,0,1
-- ⬜ **B.** specificity = 0,0,1,0
-- ⬜ **C.** specificity = 0,1,0,0
-- ✅ **D. specificity = 1,0,0,0** — Correct answer
+- ⬜ **A.** When dealing with responsive design
+- ⬜ **B.** When working with CSS frameworks
+- ✅ **C. When resolving conflicting CSS rules** — Correct answer
+- ⬜ **D.** When optimizing website performance
 
 ## Submission
 
-- **Correct answer:** specificity = 1,0,0,0
-- **Submitted at:** 2026-10-03T15:45:01.945Z
+- **Correct answer:** When resolving conflicting CSS rules
+- **Submitted at:** 2026-10-03T15:45:22.196Z
 - **Correct submission:** True
 
 ## Explanation
