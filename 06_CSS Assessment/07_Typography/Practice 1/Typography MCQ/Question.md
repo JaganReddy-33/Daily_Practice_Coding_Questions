@@ -4,19 +4,19 @@
 
 ## Question
 
-How can you hide an element using inline CSS?
+How do you set the font weight to bold using inline CSS?
 
 ## Answer choices
 
-- ⬜ **A.** visibility: hidden;
-- ✅ **B. display: none;** — Correct answer
-- ⬜ **C.** hidden: true;
-- ⬜ **D.** style="display: none;"
+- ⬜ **A.** weight: bold;
+- ⬜ **B.** font-style: bold;
+- ⬜ **C.** bold: true;
+- ✅ **D. style="font-weight: bold;"** — Correct answer
 
 ## Submission
 
-- **Correct answer:** display: none;
-- **Submitted at:** 2026-10-03T15:48:23.408Z
+- **Correct answer:** style="font-weight: bold;"
+- **Submitted at:** 2026-10-03T15:48:37.095Z
 - **Correct submission:** True
 
 ## Explanation
