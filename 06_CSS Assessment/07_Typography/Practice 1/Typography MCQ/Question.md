@@ -4,19 +4,19 @@
 
 ## Question
 
-How do you apply a border radius of 5 pixels to all corners of an element using internal CSS?
+Which property is used to create a shadow effect for an element in internal CSS?
 
 ## Answer choices
 
-- ✅ **A. border-radius: 5px;** — Correct answer
-- ⬜ **B.** corner-radius: 5px;
-- ⬜ **C.** style="radius: 5px;"
-- ⬜ **D.** rounded: 5px;
+- ⬜ **A.** shadow: 2px 2px 2px #888;
+- ✅ **B. box-shadow: 2px 2px 2px #888;** — Correct answer
+- ⬜ **C.** element-shadow: 2px 2px 2px #888;
+- ⬜ **D.** style="shadow: 2px 2px 2px #888;"
 
 ## Submission
 
-- **Correct answer:** border-radius: 5px;
-- **Submitted at:** 2026-10-03T15:51:43.788Z
+- **Correct answer:** box-shadow: 2px 2px 2px #888;
+- **Submitted at:** 2026-10-03T15:51:59.186Z
 - **Correct submission:** True
 
 ## Explanation
