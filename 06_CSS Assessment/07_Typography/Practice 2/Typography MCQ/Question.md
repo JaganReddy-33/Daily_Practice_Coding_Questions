@@ -4,19 +4,19 @@
 
 ## Question
 
-What happens if you set both font-weight: bold; and font-weight: normal; on the same text element?
+Which CSS property can you use to add a shadow effect behind text?
 
 ## Answer choices
 
-- ✅ **A. The text becomes bold** — Correct answer
-- ⬜ **B.** The text becomes normal
-- ⬜ **C.** The browser applies font-weight: normal;
-- ⬜ **D.** It causes a CSS validation error
+- ✅ **A. text-shadow** — Correct answer
+- ⬜ **B.** box-shadow
+- ⬜ **C.** font-shadow
+- ⬜ **D.** text-effect
 
 ## Submission
 
-- **Correct answer:** The text becomes bold
-- **Submitted at:** 2026-10-03T15:54:42.529Z
+- **Correct answer:** text-shadow
+- **Submitted at:** 2026-10-03T15:55:12.512Z
 - **Correct submission:** True
 
 ## Explanation
