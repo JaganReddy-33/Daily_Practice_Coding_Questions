@@ -4,19 +4,19 @@
 
 ## Question
 
-Which property is used to set the width of an element in inline CSS?
+How can you hide an element using inline CSS?
 
 ## Answer choices
 
-- ✅ **A. width** — Correct answer
-- ⬜ **B.** size
-- ⬜ **C.** element-width
-- ⬜ **D.** style="width: ...;"
+- ⬜ **A.** visibility: hidden;
+- ✅ **B. display: none;** — Correct answer
+- ⬜ **C.** hidden: true;
+- ⬜ **D.** style="display: none;"
 
 ## Submission
 
-- **Correct answer:** width
-- **Submitted at:** 2026-10-03T15:48:06.152Z
+- **Correct answer:** display: none;
+- **Submitted at:** 2026-10-03T15:48:23.408Z
 - **Correct submission:** True
 
 ## Explanation
