@@ -4,19 +4,19 @@
 
 ## Question
 
-Which of the following CSS properties are typically inherited by child elements?
+Which CSS property explicitly prevents inheritance?
 
 ## Answer choices
 
-- ✅ **A. font-size** — Correct answer
-- ⬜ **B.** margin
-- ⬜ **C.** padding
-- ⬜ **D.** border
+- ✅ **A. color** — Correct answer
+- ⬜ **B.** font-weight
+- ⬜ **C.** border-style
+- ⬜ **D.** margin
 
 ## Submission
 
-- **Correct answer:** font-size
-- **Submitted at:** 2026-10-03T15:46:27.637Z
+- **Correct answer:** color
+- **Submitted at:** 2026-10-03T15:47:20.555Z
 - **Correct submission:** True
 
 ## Explanation
