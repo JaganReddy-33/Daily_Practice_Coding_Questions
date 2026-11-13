@@ -9,23 +9,26 @@ class Main {
         for(int i=0; i<n; i++){
             ar1[i] = scanner.nextInt();
         }
+
         int[] ar2 = new int[m];
         for(int i=0; i<m; i++){
             ar2[i] = scanner.nextInt();
         }
+
         printMergeSortedArrays(ar1, ar2, n, m);
     }
 
     public static void printMergeSortedArrays(int[] ar1, int[] ar2, int n, int m) {
-        int i=0, j=m-1;
+        int i=0;
+        int j=0;
 
-        while(i<n && j >=0){
-            if(ar1[i] <= ar2[j]) {
+        while(i<n && j<m) {
+            if(ar1[i] <= ar2[j]){
                 System.out.print(ar1[i] + " ");
                 i++;
             } else {
                 System.out.print(ar2[j] + " ");
-                j--;
+                j++;
             }
         }
 
@@ -34,9 +37,9 @@ class Main {
             i++;
         }
 
-        while(j >= 0) {
+        while(j < m) {
             System.out.print(ar2[j] + " ");
-            j--;
+            j++;
         }
     }
 }

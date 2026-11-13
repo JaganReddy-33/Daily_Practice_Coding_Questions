@@ -1,10 +1,10 @@
 # Merge Sorted Arrays
 
-**Question ID:** `662a0529c74ee9cf9f377171`
+**Question ID:** `662a050ec74ee9cf9f374e0a`
 
 ## Description
 
-Given two sorted arrays, one in ascending order and the other in descending order, merge them into a single sorted array in ascending order.
+Given two sorted arrays, merge them into a single sorted array in ascending order.
 
 ## Input Format
 
@@ -22,7 +22,7 @@ Print space-separated integers representing the merged sorted array.
 ```text
 3 3
 1 3 5
-6 4 2
+2 4 6
 ```
 
 **Output**
@@ -36,7 +36,7 @@ Print space-separated integers representing the merged sorted array.
 ```text
 3 3
 -5 -3 0
-7 4 1
+1 4 7
 ```
 
 **Output**
@@ -48,4 +48,4 @@ _5 sample case(s) omitted because the captured values were empty or looked like 
 
 ---
 
-**Submitted at:** 2026-11-13 13:01:35Z
+**Submitted at:** 2026-11-13 20:05:09Z
