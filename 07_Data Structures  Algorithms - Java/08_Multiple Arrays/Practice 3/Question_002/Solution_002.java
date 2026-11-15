@@ -6,42 +6,29 @@ class Main {
         int n = scanner.nextInt();
         int m = scanner.nextInt();
         int[] a = new int[n];
-        for(int i=0; i<n; i++){
+        for(int i=0; i<n; i++) {
             a[i] = scanner.nextInt();
         }
         int[] b = new int[m];
-        for(int i=0; i<m; i++){
+        for(int i=0; i<m; i++) {
             b[i] = scanner.nextInt();
         }
 
-        printMergeOddInxEle(a, b, n, m);
+        printAbsoluteDiff(a, b, n, m);
     }
 
-    public static void printMergeOddInxEle(int[] a, int[] b, int n, int m) {
-        int i = 1;
-        int j = m-1;
-        if(j%2 == 0){
-            j--;
+    public static void printAbsoluteDiff(int[] a, int[] b, int n, int m) {
+        int sumA = 0;
+        for(int i=0; i<n; i++) {
+            sumA += a[i];
         }
 
-        while(i<n && j>=0){
-            if(a[i] <= b[j]){
-                System.out.print(a[i]+" ");
-                i += 2;
-            } else {
-                System.out.print(b[j] + " ");
-                j -= 2;
-            }
+        int sumB = 0;
+        for(int i=0; i<m; i++) {
+            sumB += b[i];
         }
 
-        while(i < n){
-            System.out.print(a[i] + " ");
-            i += 2;
-        }
-
-        while(j >= 0){
-            System.out.print(b[j] + " ");
-            j -= 2;
-        }
+        int diff = Math.abs(sumA - sumB);
+        System.out.print(diff);
     }
 }

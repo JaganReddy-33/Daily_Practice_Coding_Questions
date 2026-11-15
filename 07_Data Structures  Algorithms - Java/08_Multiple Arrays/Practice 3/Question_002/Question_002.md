@@ -1,22 +1,18 @@
-# Merge Odd Index Elements
+# Absolute Difference
 
-**Question ID:** `662a05acae2286cdf8dd73d9`
+**Question ID:** `662a065cae2286cdf8de1af3`
 
 ## Description
 
-Merge two sorted arrays such that the resultant array contains only elements at odd indices, in sorted order.
+Calculate the absolute difference between the sums of elements in two arrays.
 
 ## Input Format
 
-The first line contains two space-separated integers n and m, the size of both arrays A and B.
-
-The second line contains n space-separated integers representing the elements of the first array.
-
-The third line contains m space-separated integers representing the elements of the second array.
+The first line contains two space-separated integers n and m, the size of both arrays A and B. The second line contains n space-separated integers representing the elements of array A. The third line contains m space-separated integers representing the elements of array B.
 
 ## Output Format
 
-A single line containing space-separated integers representing the merged array with elements at odd indices in sorted order.
+A single integer representing the absolute difference.
 
 ## Sample Cases
 
@@ -24,32 +20,32 @@ A single line containing space-separated integers representing the merged array 
 
 **Input**
 ```text
-5 5
-1 3 5 7 9
-10 8 6 4 2
+3 3
+4 7 9
+5 2 10
 ```
 
 **Output**
 ```text
-3 4 7 8
+3
 ```
 
 ### Sample Case 2
 
 **Input**
 ```text
-5 5
-2 4 6 8 10
-9 7 5 3 1
+4 4
+3 8 12 15
+5 10 6 20
 ```
 
 **Output**
 ```text
-3 4 7 8
+3
 ```
 
 _5 sample case(s) omitted because the captured values were empty or looked like links/encoded data._
 
 ---
 
-**Submitted at:** 2026-11-15 09:29:44Z
+**Submitted at:** 2026-11-15 09:29:29Z
