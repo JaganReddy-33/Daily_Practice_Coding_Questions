@@ -18,30 +18,27 @@ class Main {
     }
 
     public static void printMergeEvenIdxEle(int[] a, int[] b, int n, int m) {
-        int i=0; 
-        int j=m-1;
-        if(j%2 != 0) {
-            j--;
-        }
+        int i=0;
+        int j=0;
 
-        while(i<n && j>=0) {
+        while(i<n && j<m) {
             if(a[i] < b[j]) {
                 System.out.print(a[i] + " ");
                 i+=2;
             } else {
                 System.out.print(b[j] + " ");
-                j-=2;
+                j+=2;
             }
         }
 
-        while(i<n) {
+        while(i < n) {
             System.out.print(a[i] + " ");
             i+=2;
         }
 
-        while(j >= 0) {
+        while(j < m) {
             System.out.print(b[j] + " ");
-            j-=2;
+            j+=2;
         }
     }
 }

@@ -1,6 +1,6 @@
 # Merge Even Index Elements
 
-**Question ID:** `662a05c7ae2286cdf8dda272`
+**Question ID:** `662a05b8c74ee9cf9f38322a`
 
 ## Description
 
@@ -21,13 +21,13 @@ A single line containing space-separated integers representing the merged array 
 **Input**
 ```text
 5 5
-1 3 5 7 9
-10 8 6 4 2
+1 2 3 4 5
+2 3 4 5 6
 ```
 
 **Output**
 ```text
-1 2 5 6 9 10
+1 2 3 4 5 6
 ```
 
 ### Sample Case 2
@@ -35,17 +35,17 @@ A single line containing space-separated integers representing the merged array 
 **Input**
 ```text
 5 5
-2 4 6 8 10
-9 7 5 3 1
+1 2 3 4 5
+3 4 5 6 7
 ```
 
 **Output**
 ```text
-1 2 5 6 9 10
+1 3 3 5 5 7
 ```
 
 _5 sample case(s) omitted because the captured values were empty or looked like links/encoded data._
 
 ---
 
-**Submitted at:** 2026-11-15 09:30:15Z
+**Submitted at:** 2026-11-15 09:29:59Z
