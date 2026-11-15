@@ -5,30 +5,47 @@ class Main {
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
         int m = scanner.nextInt();
+
         int[] a = new int[n];
-        for(int i=0; i<n; i++) {
+        for (int i = 0; i < n; i++) {
             a[i] = scanner.nextInt();
         }
+
         int[] b = new int[m];
-        for(int i=0; i<m; i++) {
+        for (int i = 0; i < m; i++) {
             b[i] = scanner.nextInt();
         }
-
-        printAbsoluteDiff(a, b, n, m);
+        printMergeUniqueEle(a, b, n, m);
     }
 
-    public static void printAbsoluteDiff(int[] a, int[] b, int n, int m) {
-        int sumA = 0;
-        for(int i=0; i<n; i++) {
-            sumA += a[i];
+    public static void printMergeUniqueEle(int[] a, int[] b, int n, int m) {
+        int i = 0;
+        int j = 0;
+        StringBuilder result = new StringBuilder();
+
+        while (i < n && j < m) {
+            if (a[i] < b[j]) {
+                result.append(a[i]).append(" ");
+                i++;
+            } else if (a[i] > b[j]) {
+                result.append(b[j]).append(" ");
+                j++;
+            } else {
+                i++;
+                j++;
+            }
         }
 
-        int sumB = 0;
-        for(int i=0; i<m; i++) {
-            sumB += b[i];
+        while (i < n) {
+            result.append(a[i]).append(" ");
+            i++;
         }
 
-        int diff = Math.abs(sumA - sumB);
-        System.out.print(diff);
+        while (j < m) {
+            result.append(b[j]).append(" ");
+            j++;
+        }
+
+        System.out.println(result.toString().trim());
     }
 }

@@ -1,18 +1,22 @@
-# Absolute Difference
+# Merge Unique Elements
 
-**Question ID:** `662a065cae2286cdf8de1af3`
+**Question ID:** `662a05d5ae2286cdf8ddb5ca`
 
 ## Description
 
-Calculate the absolute difference between the sums of elements in two arrays.
+Merge two sorted arrays by including only the unique elements present in both arrays.
 
 ## Input Format
 
-The first line contains two space-separated integers n and m, the size of both arrays A and B. The second line contains n space-separated integers representing the elements of array A. The third line contains m space-separated integers representing the elements of array B.
+The first line contains two space-separated integers n and m, the size of both arrays A and B.
+
+The second line contains n space-separated integers representing the elements of the first array.
+
+The third line contains m space-separated integers representing the elements of the second array.
 
 ## Output Format
 
-A single integer representing the absolute difference.
+A single line containing space-separated integers representing the merged array with unique elements.
 
 ## Sample Cases
 
@@ -20,14 +24,14 @@ A single integer representing the absolute difference.
 
 **Input**
 ```text
-3 3
-4 7 9
-5 2 10
+5 5
+1 2 3 4 5
+2 3 4 5 6
 ```
 
 **Output**
 ```text
-3
+1 6
 ```
 
 ### Sample Case 2
@@ -35,17 +39,17 @@ A single integer representing the absolute difference.
 **Input**
 ```text
 4 4
-3 8 12 15
-5 10 6 20
+2 3 5 7
+3 4 6 8
 ```
 
 **Output**
 ```text
-3
+2 4 5 6 7 8
 ```
 
 _5 sample case(s) omitted because the captured values were empty or looked like links/encoded data._
 
 ---
 
-**Submitted at:** 2026-11-15 09:29:29Z
+**Submitted at:** 2026-11-15 09:32:47Z
