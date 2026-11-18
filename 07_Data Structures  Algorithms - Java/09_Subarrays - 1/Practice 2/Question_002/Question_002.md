@@ -1,10 +1,10 @@
-# Longest Odd Sum Subarray
+# Smallest Even Sum Subarray
 
-**Question ID:** `6619f603f51c6d596ba8c40c`
+**Question ID:** `6619f5ec5028dc4e9db64d6a`
 
 ## Description
 
-Find the longest subarray with an odd sum.
+Find the smallest subarray with an even sum.
 
 ## Input Format
 
@@ -12,7 +12,7 @@ The first line contains a single integer N, the size of the array. The second li
 
 ## Output Format
 
-Print the longest subarray with an odd sum. The elements should be separated by space. If there are no such subarrays, print "None".
+Print the smallest subarray with an even sum. The elements should be separated by space. If there are no such subarrays, print "None".
 
 ## Sample Cases
 
@@ -20,13 +20,13 @@ Print the longest subarray with an odd sum. The elements should be separated by 
 
 **Input**
 ```text
-5
-1 2 3 4 5
+4
+1 2 3 4
 ```
 
 **Output**
 ```text
-1 2 3 4 5
+2
 ```
 
 ### Sample Case 2
@@ -34,16 +34,16 @@ Print the longest subarray with an odd sum. The elements should be separated by 
 **Input**
 ```text
 3
-2 4 6
+5 7 11
 ```
 
 **Output**
 ```text
-None
+5 7
 ```
 
 _5 sample case(s) omitted because the captured values were empty or looked like links/encoded data._
 
 ---
 
-**Submitted at:** 2026-11-18 12:30:34Z
+**Submitted at:** 2026-11-18 11:40:23Z
