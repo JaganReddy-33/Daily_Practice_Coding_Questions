@@ -4,41 +4,41 @@ class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
-        int k = scanner.nextInt();
         int[] arr = new int[n];
-        for (int i = 0; i < n; i++) {
+        for(int i=0; i<n; i++) {
             arr[i] = scanner.nextInt();
         }
-        
-        printSubarraysWithDiffK(arr, n, k);
+
+        printSmallestOddSumSubarrays(arr, n);
     }
 
-    public static void printSubarraysWithDiffK(int[] arr, int n, int k) {
-        boolean found = false;
+    public static void printSmallestOddSumSubarrays(int[] arr, int n) {
+        int minLen = Integer.MAX_VALUE;
+        int start = -1;
+        int end = -1;
 
-        for (int len = 1; len <= n; len++) {
-            for (int i = 0; i <= n - len; i++) {
-                int j = i + len - 1;
-                
-                int minVal = arr[i];
-                int maxVal = arr[i];
-                for (int m = i; m <= j; m++) {
-                    minVal = Math.min(minVal, arr[m]);
-                    maxVal = Math.max(maxVal, arr[m]);
-                }
-                
-                if ((maxVal - minVal) == k) {
-                    found = true;
-                    for (int m = i; m <= j; m++) {
-                        System.out.print(arr[m] + " ");
+        for(int i=0; i<n; i++) {
+            int sum = 0;
+            for(int j=i; j<n; j++) {
+                sum += arr[j];
+
+                if(sum % 2 != 0) {
+                    int currLen = j-i+1;
+                    if(currLen < minLen) {
+                        minLen = currLen;
+                        start = i;
+                        end = j;
                     }
-                    System.out.println();
                 }
             }
         }
 
-        if (!found) {
+        if(minLen == Integer.MAX_VALUE) {
             System.out.print("None");
+        } else {
+            for(int k=start; k<=end; k++) {
+                System.out.print(arr[k] + " ");
+            }
         }
     }
 }

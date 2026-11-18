@@ -1,18 +1,18 @@
-# Subarrays Difference K
+# smallest Odd Sum Subarray
 
-**Question ID:** `6619f6295028dc4e9db64f4a`
+**Question ID:** `6619f61a5028dc4e9db64f3f`
 
 ## Description
 
-Find all subarrays with difference K between maximum and minimum element.
+Find the smallest subarray with an odd sum.
 
 ## Input Format
 
-The first line contains two integers N and K, representing the size of the array and the required difference respectively. The second line contains N space-separated integers denoting the elements of the array.
+The first line contains a single integer N, the size of the array. The second line contains N space-separated integers denoting the elements of the array.
 
 ## Output Format
 
-Print each subarray where the difference between the maximum and minimum element is K, in a new line. Each element of the subarray should be separated by a space. If no such subarrays exist, print "None".
+Print the longest subarray with an odd sum. The elements should be separated by space. If there are no such subarrays, print "None".
 
 ## Sample Cases
 
@@ -20,36 +20,30 @@ Print each subarray where the difference between the maximum and minimum element
 
 **Input**
 ```text
-5 2
-1 3 5 7 9
+5
+1 2 3 4 5
 ```
 
 **Output**
 ```text
-1 3
-3 5
-5 7
-7 9
+1
 ```
 
 ### Sample Case 2
 
 **Input**
 ```text
-5 6
-2 8 5 11 14
+3
+2 4 6
 ```
 
 **Output**
 ```text
-2 8
-5 11
-2 8 5
-8 5 11
+None
 ```
 
 _5 sample case(s) omitted because the captured values were empty or looked like links/encoded data._
 
 ---
 
-**Submitted at:** 2026-11-18 12:31:03Z
+**Submitted at:** 2026-11-18 12:30:48Z
