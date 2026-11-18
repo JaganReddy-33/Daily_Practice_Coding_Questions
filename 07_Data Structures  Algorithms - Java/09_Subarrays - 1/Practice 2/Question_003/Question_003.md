@@ -1,10 +1,10 @@
-# smallest Odd Sum Subarray
+# Longest Odd Sum Subarray
 
-**Question ID:** `6619f61a5028dc4e9db64f3f`
+**Question ID:** `6619f603f51c6d596ba8c40c`
 
 ## Description
 
-Find the smallest subarray with an odd sum.
+Find the longest subarray with an odd sum.
 
 ## Input Format
 
@@ -26,7 +26,7 @@ Print the longest subarray with an odd sum. The elements should be separated by 
 
 **Output**
 ```text
-1
+1 2 3 4 5
 ```
 
 ### Sample Case 2
@@ -46,4 +46,4 @@ _5 sample case(s) omitted because the captured values were empty or looked like 
 
 ---
 
-**Submitted at:** 2026-11-18 12:30:48Z
+**Submitted at:** 2026-11-18 12:30:34Z

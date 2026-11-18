@@ -9,23 +9,22 @@ class Main {
             arr[i] = scanner.nextInt();
         }
 
-        printSmallestOddSumSubarrays(arr, n);
+        printLongestOddSumSubarrays(arr, n);
     }
 
-    public static void printSmallestOddSumSubarrays(int[] arr, int n) {
-        int minLen = Integer.MAX_VALUE;
+    public static void printLongestOddSumSubarrays(int[] arr, int n) {
+        int maxLen = -1;
         int start = -1;
         int end = -1;
-
+        
         for(int i=0; i<n; i++) {
             int sum = 0;
             for(int j=i; j<n; j++) {
                 sum += arr[j];
-
-                if(sum % 2 != 0) {
+                if(sum%2 != 0) {
                     int currLen = j-i+1;
-                    if(currLen < minLen) {
-                        minLen = currLen;
+                    if(currLen > maxLen) {
+                        maxLen = currLen;
                         start = i;
                         end = j;
                     }
@@ -33,7 +32,7 @@ class Main {
             }
         }
 
-        if(minLen == Integer.MAX_VALUE) {
+        if(maxLen == -1) {
             System.out.print("None");
         } else {
             for(int k=start; k<=end; k++) {
